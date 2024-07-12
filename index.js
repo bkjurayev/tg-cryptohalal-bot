@@ -176,9 +176,9 @@ bot.on('text', async (ctx) => {
 
         const message = coin
             ? {
-                'uz': `${date} holatiga ko'ra ${search.toUpperCase()}: ${statusText[coin.status]}`,
-                'ru': `По состоянию на ${date} монета ${search.toUpperCase()}: ${statusText[coin.status]}`,
-                'en': `${search.toUpperCase()} as of ${date}: ${statusText[coin.status]}`,
+                'uz': `🌐 ${coin.project_name != '' ? search.toUpperCase() + ' ' + coin.project_name : search.toUpperCase()} ${coin.describe != '' ? '\n\n' + coin.describe : ''} \n\n${statusText[coin.status]} \n\n${coin.source != '' && !coin.source.includes('www.t.me/CrypoIslam') ? 'Manba: ' + coin.source : ''}`,
+                'ru': `🌐 ${coin.project_name != '' ? search.toUpperCase() + ' ' + coin.project_name : search.toUpperCase()} ${coin.describe != '' ? '\n\n' + coin.describe : ''} \n\n${statusText[coin.status]} \n\n${coin.source != '' && !coin.source.includes('www.t.me/CrypoIslam') ? 'Источник: ' + coin.source : ''}`,
+                'en': `🌐 ${coin.project_name != '' ? search.toUpperCase() + ' ' + coin.project_name : search.toUpperCase()} ${coin.describe != '' ? '\n\n' + coin.describe : ''} \n\n${statusText[coin.status]} \n\n${coin.source != '' && !coin.source.includes('www.t.me/CrypoIslam') ? 'Source: ' + coin.source : ''}`,
             }[lang]
             : {
                 'uz': "🔘 Ushbu token haqida ma'lumot topilmadi. \nBiroz keyinroq tekshirib ko'ring. \n\n🤖 Botga siz izlamoqchi bo'lgan token tikerini yozing \n✅ Misol uchun: \n🔸 Bitcoin - BTC",
