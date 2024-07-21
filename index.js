@@ -6,6 +6,7 @@ const fs = require('fs');
 
 // Ваш токен бота здесь
 const TOKEN = '7499671537:AAGi8ILE5ywAEIZ_uSLrFBlfPNuF9WRDbdw';
+// const TOKEN = '5971034672:AAF1yrc_2IZjjOyqbfjalyD6wBlAsoF7RsA';
 
 const bot = new Telegraf(TOKEN, { polling: true });
 
@@ -17,6 +18,8 @@ bot.use(session({
 
 // Загрузка данных о монетах
 let coins = JSON.parse(fs.readFileSync('db.json', 'utf-8'));
+
+bot.command('start', (ctx) => researchMessageBuilder(ctx));
 
 // Начальная команда
 bot.start(async (ctx) => {
@@ -133,8 +136,6 @@ async function researchMessageBuilder(ctx) {
     //     ])
     // );
 }
-
-// bot.command('start', (ctx) => researchMessageBuilder(ctx));
 
 // Обработчик возврата домой
 bot.action('home', async (ctx) => {
