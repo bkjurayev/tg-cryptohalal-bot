@@ -19,10 +19,10 @@ bot.use(session({
 // Загрузка данных о монетах
 let coins = JSON.parse(fs.readFileSync('db.json', 'utf-8'));
 
-bot.setMyCommands([
+bot.telegram.setMyCommands([
     { command: '/start', description: 'Start' },
 ])
-bot.command('start', (ctx) => start(ctx));
+// bot.command('start', (ctx) => start(ctx));
 
 // Начальная команда
 bot.start(async (ctx) => {
