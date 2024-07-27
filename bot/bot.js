@@ -27,27 +27,27 @@ bot.telegram.setMyCommands([
 // Начальная команда
 bot.start(async (ctx) => {
     const chatId = ctx.chat.id;
-    let checkUser = await User.findOne({ chatId }).lean()
+    // let checkUser = await User.findOne({ chatId }).lean()
 
-    const data = {
-        name: ctx.chat.username ? ctx.chat.username : ctx.chat.first_name,
-        chatId,
-        action: 'start',
-        quanttityUsing: 1,
-        createdAt: date
-    }
-    // Register route
-    if (!checkUser) {
-        try {
-            const result = await authService.register(data);
+    // const data = {
+    //     name: ctx.chat.username ? ctx.chat.username : ctx.chat.first_name,
+    //     chatId,
+    //     action: 'start',
+    //     quanttityUsing: 1,
+    //     createdAt: date
+    // }
+    // // Register route
+    // if (!checkUser) {
+    //     try {
+    //         const result = await authService.register(data);
 
-            console.log('Response about save new User', result);
-        } catch (error) {
-            console.log('Error while starting (/start)', error.message);
-        }
-    } else {
-        console.log('Bu username allaqachon tizimda mavjud.');
-    }
+    //         console.log('Response about save new User', result);
+    //     } catch (error) {
+    //         console.log('Error while starting (/start)', error.message);
+    //     }
+    // } else {
+    //     console.log('Bu username allaqachon tizimda mavjud.');
+    // }
 
     ctx.session = {};
     ctx.session.route = 'lang';
@@ -147,48 +147,48 @@ bot.action('home', async (ctx) => {
 bot.on('text', async (ctx) => {
     const chatId = ctx.chat.id;
     const text = ctx.text;
-    let checkUser = await User.findOne({ chatId }).lean()
-    let users = await User.find().lean()
+    // let checkUser = await User.findOne({ chatId }).lean()
+    // let users = await User.find().lean()
 
-    if (text == 'send' && checkUser.admin) {
-        await ctx.reply("Hozir siz kiritadigan matn foydalanuvchilarga bir urinishda jo'natiladi. \nMazmuniga e'tiborli bo'ling \n\nText kiriting:");
-    }
-    if (text.length > 30 && checkUser.admin) {
-        await ctx.reply(`Xabar muvaffaqqiyatli jo'natildi! \n\n${text}`);
-        bot.telegram.sendMessage(383213241, text);
-    }
+    // if (text == 'send' && checkUser.admin) {
+    //     await ctx.reply("Hozir siz kiritadigan matn foydalanuvchilarga bir urinishda jo'natiladi. \nMazmuniga e'tiborli bo'ling \n\nText kiriting:");
+    // }
+    // if (text.length > 30 && checkUser.admin) {
+    //     await ctx.reply(`Xabar muvaffaqqiyatli jo'natildi! \n\n${text}`);
+    //     bot.telegram.sendMessage(383213241, text);
+    // }
 
-    // Show user list
-    if (text == 'Show users' && checkUser.admin) {
-        const userList = users.map((user, index) => {
-            return `\n${index + 1}. ${user.name}`
-        })
-        await ctx.reply(
-            `User list: \n${userList}`,
-        );
-    }
-    if (text == 'admin') {
-        await ctx.reply(
-            'Parolni kiriting:',
-        );
-    }
-    if (text == 'mybot2024') {
-        await ctx.reply(
-            'Parolni qabul qilindi ✅',
-        );
-        if (checkUser && checkUser.admin) {
-            await ctx.reply(
-                'Salom admin! \n\nKerakli tugmani bosing',
-                Markup.keyboard([
-                    [
-                        Markup.button.callback('Show users'),
-                    ],
-                ]).resize(true)
-            );
-        } else {
-            await ctx.reply('Siz admin statusida emassiz',);
-        }
-    }
+    // // Show user list
+    // if (text == 'Show users' && checkUser.admin) {
+    //     const userList = users.map((user, index) => {
+    //         return `\n${index + 1}. ${user.name}`
+    //     })
+    //     await ctx.reply(
+    //         `User list: \n${userList}`,
+    //     );
+    // }
+    // if (text == 'admin') {
+    //     await ctx.reply(
+    //         'Parolni kiriting:',
+    //     );
+    // }
+    // if (text == 'mybot2024') {
+    //     await ctx.reply(
+    //         'Parolni qabul qilindi ✅',
+    //     );
+    //     if (checkUser && checkUser.admin) {
+    //         await ctx.reply(
+    //             'Salom admin! \n\nKerakli tugmani bosing',
+    //             Markup.keyboard([
+    //                 [
+    //                     Markup.button.callback('Show users'),
+    //                 ],
+    //             ]).resize(true)
+    //         );
+    //     } else {
+    //         await ctx.reply('Siz admin statusida emassiz',);
+    //     }
+    // }
 
     if (ctx.session.route === 'research') {
         const lang = ctx.session.lang || 'uz';
