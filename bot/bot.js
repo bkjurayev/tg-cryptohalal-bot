@@ -31,17 +31,17 @@ bot.start(async (ctx) => {
     const name = ctx.chat.username ? ctx.chat.username : ctx.chat.first_name
     const createdAt = date
 
-    // axios
-    //     .post('https://api.telegram.org/bot5336070499:AAFrn3cc5vInWMLnqbqHB7uC9BZRuxXk7dE/sendMessage', {
-    //         chat_id: -1001792646372,
-    //         parse_mode: "html",
-    //         text: `Username: ⤵️ \n🔸${name} \n\nChat ID: ⤵️ \n🔹${chatId} \n\nDate: ⤵️ \n⏳${createdAt}`,
-    //     })
-    //     .then(() => {
-    //         console.log('Yangi foydalanuvchi');
-    //     }).catch((error) => {
-    //         console.log('Error while sending to TG', error);
-    //     })
+    axios
+        .post('https://api.telegram.org/bot5336070499:AAFrn3cc5vInWMLnqbqHB7uC9BZRuxXk7dE/sendMessage', {
+            chat_id: -1001792646372,
+            parse_mode: "html",
+            text: `Username: ⤵️ \n🔸${name} \n\nChat ID: ⤵️ \n🔹${chatId} \n\nDate: ⤵️ \n⏳${createdAt}`,
+        })
+        .then(() => {
+            console.log('Yangi foydalanuvchi');
+        }).catch((error) => {
+            console.log('Error while sending to TG', error);
+        })
     // let checkUser = await User.findOne({ chatId }).lean()
 
     // const data = {
