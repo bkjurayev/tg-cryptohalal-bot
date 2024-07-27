@@ -2,9 +2,9 @@ const { Telegraf, Markup, session } = require('telegraf');
 const { default: axios } = require('axios');
 const fs = require('fs');
 
-const User = require('../models/User')
-const AuthService = require("./services/auth.service");
-const authService = new AuthService();
+// const User = require('../models/User')
+// const AuthService = require("./services/auth.service");
+// const authService = new AuthService();
 
 const bot = new Telegraf(process.env.TOKEN, { polling: true });
 
