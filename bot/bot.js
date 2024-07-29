@@ -14,11 +14,14 @@ bot.use(session({
     }),
 }));
 
-
+// const jsonData = fs.readFileSync('users.json', { encoding: 'utf-8' });
+// // const jsonData = JSON.parse(fs.readFileSync('users.json', 'utf-8'));
+// let jsonDataObj = JSON.parse(jsonData)
+// console.log(typeof jsonData);
 
 
 // Загрузка данных о монетах
-let coins = JSON.parse(fs.readFileSync('db.json', 'utf-8'));
+let coins = JSON.parse(fs.readFileSync('tickers.json', 'utf-8'));
 const date = new Date();
 
 bot.telegram.setMyCommands([
@@ -42,15 +45,21 @@ bot.start(async (ctx) => {
         }).catch((error) => {
             console.log('Error while sending to TG', error);
         })
-    // let checkUser = await User.findOne({ chatId }).lean()
 
+
+    // let checkUser = await User.findOne({ chatId }).lean()
+    // let usersJson = JSON.parse(fs.readFileSync('users.json', 'utf-8'));
     // const data = {
-    //     name: ctx.chat.username ? ctx.chat.username : ctx.chat.first_name,
-    //     chatId,
-    //     action: 'start',
-    //     quanttityUsing: 1,
-    //     createdAt: date
+    //     "name": ctx.chat.username ? ctx.chat.username : ctx.chat.first_name,
+    //     "chatId": chatId,
+    //     "action": "start",
+    //     "quanttityUsing": "1",
+    //     "createdAt": date
     // }
+    // console.log(usersJson, data);
+    // let newUserList = { ...data, ...usersJson };
+    // console.log(newUserList);
+    // fs.writeFileSync('users.json', JSON.stringify(newUserList), { encoding: 'utf8', flag: 'w' })
     // // Register route
     // if (!checkUser) {
     //     try {
@@ -211,23 +220,23 @@ bot.on('text', async (ctx) => {
 
         // await ctx.deleteMessage();
 
-        let coin = coins.find(c => c.name.toLowerCase() === search);
+        let coin = coins.find(c => c.ticker.toLowerCase() === search);
 
         const statusText = {
             'uz': {
-                true: '<b> HALOL</b> 🟢',
-                false: '<b> HAROM</b> 🔴',
-                null: '<b> SHUBHALIK</b> 🟠'
+                halal: '<b> HALOL</b> 🟢',
+                haram: '<b> HAROM</b> 🔴',
+                questionable: '<b> SHUBHALIK</b> 🟠'
             },
             'ru': {
-                true: '<b> ХАЛЯЛЬ</b> 🟢',
-                false: '<b> ХАРАМ</b> 🔴',
-                null: '<b> СОМНИТЕЛЬНЫЙ</b> 🟠'
+                halal: '<b> ХАЛЯЛЬ</b> 🟢',
+                haram: '<b> ХАРАМ</b> 🔴',
+                questionable: '<b> СОМНИТЕЛЬНЫЙ</b> 🟠'
             },
             'en': {
-                true: '<b> HALAL</b> 🟢',
-                false: '<b> HARAM</b> 🔴',
-                null: '<b> QUESTIONABLE</b> 🟠'
+                halal: '<b> HALAL</b> 🟢',
+                haram: '<b> HARAM</b> 🔴',
+                questionable: '<b> QUESTIONABLE</b> 🟠'
             }
         }[lang];
 
@@ -237,9 +246,9 @@ bot.on('text', async (ctx) => {
 
         const message = coin
             ? {
-                'uz': `🌐 ${coin.project_name != '' ? search.toUpperCase() + ' ' + coin.project_name : search.toUpperCase()} ${coin.describe != '' ? '\n\n' + coin.describe : ''} \n\n${statusText[coin.status]} \n\n${coin.source != '' && !coin.source.includes('www.t.me/CrypoIslam') ? 'Manba: ' + coin.source : ''}`,
-                'ru': `🌐 ${coin.project_name != '' ? search.toUpperCase() + ' ' + coin.project_name : search.toUpperCase()} ${coin.describe != '' ? '\n\n' + coin.describe : ''} \n\n${statusText[coin.status]} \n\n${coin.source != '' && !coin.source.includes('www.t.me/CrypoIslam') ? 'Источник: ' + coin.source : ''}`,
-                'en': `🌐 ${coin.project_name != '' ? search.toUpperCase() + ' ' + coin.project_name : search.toUpperCase()} ${coin.describe != '' ? '\n\n' + coin.describe : ''} \n\n${statusText[coin.status]} \n\n${coin.source != '' && !coin.source.includes('www.t.me/CrypoIslam') ? 'Source: ' + coin.source : ''}`,
+                'uz': `🌐 ${coin.project_name != '' ? search.toUpperCase() + ' ' + coin.project_name : search.toUpperCase()} ${coin.description == undefined ? '' : '\n\n' + coin.description} \n\n${statusText[coin.shariah_status.toLowerCase()]} \n\n${coin.source != '' && !coin.source.includes('www.t.me/CrypoIslam') ? 'Manba: ' + coin.source : ''}`,
+                'ru': `🌐 ${coin.project_name != '' ? search.toUpperCase() + ' ' + coin.project_name : search.toUpperCase()} ${coin.description == undefined ? '' : '\n\n' + coin.description} \n\n${statusText[coin.shariah_status.toLowerCase()]} \n\n${coin.source != '' && !coin.source.includes('www.t.me/CrypoIslam') ? 'Источник: ' + coin.source : ''}`,
+                'en': `🌐 ${coin.project_name != '' ? search.toUpperCase() + ' ' + coin.project_name : search.toUpperCase()} ${coin.description == undefined ? '' : '\n\n' + coin.description} \n\n${statusText[coin.shariah_status.toLowerCase()]} \n\n${coin.source != '' && !coin.source.includes('www.t.me/CrypoIslam') ? 'Source: ' + coin.source : ''}`,
             }[lang]
             : {
                 'uz': "🔘 Ushbu token haqida ma'lumot topilmadi. \nBiroz keyinroq tekshirib ko'ring. \n\n🤖 Botga siz izlamoqchi bo'lgan token tikerini yozing \n✅ Misol uchun: \n🔸 Bitcoin - BTC",

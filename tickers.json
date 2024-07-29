@@ -1,0 +1,2944 @@
+[
+    {
+        "id": 0,
+        "ticker": "MLN",
+        "project_name": " (Enzyme)",
+        "description": "The project provides decentralized asset management for users to diversify their investment on DeFi protocol. The project permissibility of certain portfolio depends on the vault products offered by the project. In short, the project was the same as an investment company that manage funds. Overall the project did invest in Non-Shariah coin that triggered Shariah issues.",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 1,
+        "ticker": "ZETA",
+        "project_name": " (ZetaChain)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 2,
+        "ticker": "STG",
+        "project_name": "(Stargate Finance)",
+        "description": "The project provides a cross chain transfer platform. The aim is to ease users from multi chain transfer their assets to multiple chains by using a single transaction. There are various products including liquidity pool and farming, but overall they are all neutral. We would say they just act as currency exchange but in web3 world that revolves around various blockchain. The project is neutral.",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 3,
+        "ticker": "ROSE",
+        "project_name": "(Oasis Network)",
+        "description": "Oasis Network is a layer 1 that provides a platform for open finance and a responsible data economy dApps. Overall, Oasis Network ecosystem is aligned with Shariah",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 4,
+        "ticker": "MNT",
+        "project_name": " (Mantle)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 5,
+        "ticker": "MANTA",
+        "project_name": " (Manta Network)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 6,
+        "ticker": "GALA",
+        "project_name": " (Gala)",
+        "description": "من قبل كنت أقول بإباحة عملة gala تقليدا للمهندس احمد ابو العمرين صاحب قناة كريبتو استثمار حيث انه كان قد درسها ووصل الى انها مباحة حسب رأيه فمن باب التسهيل كنت اقول باباحتها و لكن مع غياب اخونا المنهندس احمد حيث انه من غزة نسأل الله تعالى ان يكون بخير و الدكتور محمد ابو جزر و كل اهلنا في فلسطين غزة الله يحفظهم \nاعدت مراجعة مشروع القناة فوجدت انهم اضافوا الى اهتمامات الشركة و خدماتها عنصرين تغير لاجلهما الحكم و هما عنصر الموسيقى و الافلام و ما فيها من مخالفات شرعية و هاتان الخدمتان داخلتان في اصل المشروع و ليستا خدمتان فرعيتان حيث ان الشركة تركز على الكل الالعاب الموسيقى و الافلام.",
+        "shariah_status": " QUESTIONABLE",
+        "source": "www.t.me\/CrypoIslam\/79"
+    },
+    {
+        "id": 7,
+        "ticker": "KCS",
+        "project_name": " (Kucoin Token)",
+        "description": "For exchange tokens that act as the main token for trading purposes on the specific exchange, there are some tricky cases that need to be clarified. First, the token itself represents the ecosystem that gains profit from all transactions on the exchange that may include the Non-Shariah project Token. Second, the ecosystem benefits from derivatives contracts that clearly contrast with Shariah's ruling. We assume the same methodology of Stock Shariah screening that enacts the prohibition of stockbroking activities is applied in the same case. However, the usage of Exchange Token is commonly used to trade NFT or any other coin, thus we recommend not to hold Exchange Token for more than 30 days to avoid being involved in their ecosystem.",
+        "shariah_status": " QUESTIONABLE",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 8,
+        "ticker": "APT",
+        "project_name": "(Aptos)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 9,
+        "ticker": "ZK",
+        "project_name": " (Zksync)",
+        "description": "مشروع zkSync هو بروتوكول Layer-2 مصمم لتوسيع نطاق Ethereum عبر توفير معاملات أسرع وأرخص. يستند zkSync إلى استخدام إثباتات المعرفة الصفرية (Zero-Knowledge Proofs) لتحسين كفاءة المعاملات على البلوكشين. مع الحفاظ على قيمها الأساسية المتمثلة في اللامركزية والأمن والسيادة الذاتية. يحقق هذا البروتوكول ذلك من خلال استخدام ZK-rollups، والذي يسمح بمعالجة المعاملات خارج السلسلة ثم تجميعها معًا وإرسالها إلى Ethereum في دليل واحد. تعمل هذه الطريقة على زيادة سرعات المعاملات بشكل كبير وتقليل التكاليف دون المساس بالأمان يعمل رمز ZK كرمز أصلي للأداة المساعدة والحوكمة داخل النظام البيئي zkSync، ويلعب دورًا حاسمًا في الحفاظ على عمليات البروتوكول وتعزيزها. إحدى حالات الاستخدام الأساسية هي دفع رسوم المعاملات على شبكة zkSync. من خلال استخدام رموز ZK مقابل الرسوم",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 10,
+        "ticker": "BNB",
+        "project_name": "(Binance Coin)",
+        "description": "For exchange tokens that act as the main token for trading purposes on the specific exchange, there are some tricky cases that need to be clarified. First, the token itself represents the ecosystem that gains profit from all transactions on the exchange may include the Non-Shariah project token. Second, the ecosystem benefits from derivatives contracts that clearly contrast with Shariah's ruling. We assume the same methodology of Stock Shariah screening that enacts the prohibition of stockbroking activities is applied in the same case. However, the usage of Exchange Token is commonly used to trade NFT or any other coin, thus we recommend not to hold Exchange Token for more than 30 days to avoid being involved in their ecosystem.",
+        "shariah_status": " QUESTIONABLE",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 11,
+        "ticker": "OCTA",
+        "project_name": "(OctaSpace)",
+        "shariah_status": "HALAL",
+        "source": "www.t.me\/CrypoIslam\/768"
+    },
+    {
+        "id": 12,
+        "ticker": "GPU",
+        "project_name": "(Node AI)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 13,
+        "ticker": "CUDOS",
+        "project_name": "Cudos",
+        "shariah_status": "HALAL",
+        "source": "www.t.me\/CrypoIslam\/766"
+    },
+    {
+        "id": 14,
+        "ticker": "POKT",
+        "project_name": "(Pocket Network)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 15,
+        "ticker": "NYM",
+        "project_name": "(NYM)",
+        "shariah_status": "HALAL",
+        "source": "www.t.me\/CrypoIslam\/764"
+    },
+    {
+        "id": 16,
+        "ticker": "SHDW",
+        "project_name": "( Shadow Token )",
+        "shariah_status": "HALAL",
+        "source": "www.t.me\/CrypoIslam\/763"
+    },
+    {
+        "id": 17,
+        "ticker": "WMT",
+        "project_name": "( World Mobile Token )",
+        "shariah_status": "HALAL",
+        "source": "www.t.me\/CrypoIslam\/762"
+    },
+    {
+        "id": 18,
+        "ticker": "TRID",
+        "project_name": "( Tridefi )",
+        "shariah_status": "HARAM",
+        "source": "www.t.me\/CrypoIslam\/757"
+    },
+    {
+        "id": 19,
+        "ticker": "BLAST",
+        "project_name": "( BLAST )",
+        "description": "The project itself does not pose any Shariah issues. However, the rewards being distributed are in the form of USDB, which are tokens backed by real decentralized assets. Nevertheless, the specific asset serving as the backing remains undisclosed.",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 20,
+        "ticker": "PENDLE",
+        "project_name": "( Pendle )",
+        "description": "هو بروتوكول يتيح تداول عائد مستقبلي رمزي على نظام AMM. يهدف إلى منح مالكي الأصول المدرة للعائد الفرصة لتوليد عائد إضافي وتثبيت العائد المستقبلي مقدمًا، مع توفير تعرض المتداولين المباشر لتدفقات العائدات المستقبلية، دون الحاجة إلى ضمان أساسي. ويهدف إلى دعم العديد من البروتوكولات والأصول، مما يتيح إدارة شاملة وسهلة للعائد على نظام أساسي واحد.",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 21,
+        "ticker": "WAXP",
+        "project_name": "( WAX )",
+        "description": "WAX provides many features in its platform. The main product in this platform is a trading and minting platform for NFT or any digital assets. DeFi is another product offered by this project. Users can stake to secure the network and provide liquidity for their main token and Ethereum Interoperability token. The project does not offer any prohibited service instead all the product is neutral. The staking method by this protocol is neutral as there are no rewards involved instead users will benefit from free transactions. We conclude that WAX is Shariah Compliant.",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 22,
+        "ticker": "RARE",
+        "project_name": "( SuperRare )",
+        "description": "قدمت SuperRare ملكية وحوكمة الشبكة إلى المجتمع. SuperRare 2.0 هي DAO ، وهي منظمة لامركزية تشرف على معلمات النظام الأساسي الرئيسية ، وتخصص الأموال من خزانة المجتمع ، وتصوت على التحسينات المقترحة للشبكة والبروتوكول.",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 23,
+        "ticker": "WEST",
+        "project_name": "(Waves Enterprise)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 24,
+        "ticker": "MBL",
+        "project_name": "( MovieBloc )",
+        "description": "هي عبارة عن منصة توزيع أفلام ومحتوى لا مركزية.\nتتمثل مهمة MovieBloc في حل المشكلات التي تسببها هيمنة التكتلات على صناعة المسرح والترفيه المنزلي من خلال تقنية blockchain الخاصة بها, سيحصل منشئو المحتوى على حصة أرباح شفافة وبيانات جمهور وفرصة عرض متساوية في المقابل سيصل المشاهدون إلى أفلام ومحتوى متنوع، وسيحصلون على مكافأة مقابل تقديم مواد تنظيمية وترجمات ومواد تسويقية للمجتمع .\nفي فبراير 2020، استحوذت MovieBloc على خدمة “Cobak” ، وهي خدمة مجتمعية للعملات الرقمية في كوريا وخدمة متنقلة توفر محفظة تشفير ومجتمع ومؤشر في الوقت الفعلي وأخبار وإسقاط جوي وخدمات بيع رمزية.\n في مارس 2020، أنشأت MovieBloc شركة MBL Media، وهي شركة لتطوير محتوى IP وستتولى تطوير الملكية الفكرية والإنتاج وإدارة حقوق الطبع والنشر التي تركز على محتوى الرسوم المتحركة والأفلام كعملها الرئيسي.",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 25,
+        "ticker": "IO",
+        "project_name": "( Io.net )",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 26,
+        "ticker": "RON",
+        "project_name": "(Ronin)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 27,
+        "ticker": "ZRO",
+        "project_name": "( LayerZero )",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 28,
+        "ticker": "RIO",
+        "project_name": "( Realio Network )",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 29,
+        "ticker": "TET",
+        "project_name": "( Tectum Emission token )",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 30,
+        "ticker": "ACE",
+        "project_name": "( Fusionist )",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 31,
+        "ticker": "DAG",
+        "project_name": "( Constellation )",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 32,
+        "ticker": "DIONE",
+        "project_name": "( Dione Protocol )",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 33,
+        "ticker": "AUCTION",
+        "project_name": "( Bounce Finance )",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 34,
+        "ticker": "IOTA",
+        "project_name": "( IOTA )",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 35,
+        "ticker": "IOTX",
+        "project_name": "( Iotex )",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 36,
+        "ticker": "BAT",
+        "project_name": "( Basic Attention Token )",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 37,
+        "ticker": "KAVA",
+        "project_name": "(Kava.io)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 38,
+        "ticker": "KDA",
+        "project_name": "(Kadena)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 39,
+        "ticker": "EOS",
+        "project_name": "(Eos)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 40,
+        "ticker": "ZBCN",
+        "project_name": "(Zebec Network)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 41,
+        "ticker": "YGG",
+        "project_name": "(Yield Guild Games)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 42,
+        "ticker": "SAND",
+        "project_name": "(The Sandbox)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 43,
+        "ticker": "MANA",
+        "project_name": "(Decentraland)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 44,
+        "ticker": "HIGH",
+        "project_name": "(Highstreet)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 45,
+        "ticker": "EPX",
+        "project_name": "(Ellipsis)",
+        "shariah_status": "HARAM",
+        "source": "www.t.me\/CrypoIslam\/49"
+    },
+    {
+        "id": 46,
+        "ticker": "ERN",
+        "project_name": "(Ethernity Chain)",
+        "description": "سلسلة Ethernity هي عبارة عن نظام أساسي قائم على blockchain الاثريوم يتيح للمستخدمين الاستفادة من الشعبية المتزايدة للعملات غير القابلة للاستبدال. يضع المطورون (NFTs) كمشروع متقاطع للتمويل اللامركزي (DeFi) مع NFTs المصدق عليها في النظام البيئي لسلسلة Ethernity. كما تعمل على تهيئة الظروف لجميع الأعضاء النشطين في المجتمع لتعزيز قيمة عملة ERN الخاص به. تسعى Ethernity إلى تحقيق هدفها المتمثل في تعميم الفن الرقمي القائم على NFT ودعم القضايا الخيرية من خلال شراكات مع شخصيات بارزة في صناعات blockchain والموسيقى والترفيه.",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 47,
+        "ticker": "GAL",
+        "project_name": "(Galxe)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 48,
+        "ticker": "HOOK",
+        "project_name": "(Hooked Protocol)",
+        "description": "Hooked Protocol aims to help Web2 users transition into the Web3 ecosystem. Hook proposed for streamlined and fun gamified learning mechanism, Wild-Cash app (the all-in-one Learn-to-Earn- DApp) and Web3 Onboarding Combo. Overall, Hooked Protocol are neutral.",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 49,
+        "ticker": "QI",
+        "project_name": "(BenQI)",
+        "description": "يوفر لمستخدمي DeFi من الشبكات المزدحمة والمركزية خيار نقل أصولهم غير المستخدمة ووضعها على BENQI دون عقبات ورسوم الشبكة المنخفضة.\nيسمح لمستخدمي BENQI بالوصول بسلاسة وبتكلفة معقولة إلى الخدمات المالية اللامركزية وزيادة التحكم في استراتيجياتهم.\nيتمتع المطورون بخيار استخدام BENQI لإنشاء منتجات مالية باستخدام الرموز المميزة للبروتوكول والحوكمة.\nيمكن لأعضاء BENQI سحب السيولة من سوق السيولة المشتركة والاقتراض من سوق السيولة والحصول على رؤية واضحة لأسعار الفائدة.",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 50,
+        "ticker": "ZEPH",
+        "project_name": "(Zephyr Protocol )",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 51,
+        "ticker": "TRAC",
+        "project_name": "(OriginTrail)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 52,
+        "ticker": "ATH",
+        "project_name": "(Aethir)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 53,
+        "ticker": "GHX",
+        "project_name": "(GamerCoin)",
+        "description": "The GamerHash Store is a platform where users can purchase games, streaming gift cards, and more. It's important to note that some streaming services available, like Netflix, may involve Shariah non-compliant entertainment content. As a result, there is a mix of Shariah-compliant and potentially non-Shariah-compliant activities within the store, and there are still ongoing projects.",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 54,
+        "ticker": "ACH",
+        "project_name": "(Alchemy Pay)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 55,
+        "ticker": "DIA",
+        "project_name": "(DIA)",
+        "shariah_status": "HALAL",
+        "source": "www.t.me\/CrypoIslam\/141"
+    },
+    {
+        "id": 56,
+        "ticker": "SNT",
+        "project_name": "(Status)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 57,
+        "ticker": "GAS",
+        "project_name": "(Gas)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 58,
+        "ticker": "CYBER",
+        "project_name": "(CyberConnect)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 59,
+        "ticker": "W",
+        "project_name": "(Wormhole)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 60,
+        "ticker": "ALT",
+        "project_name": "(AltLayer)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 61,
+        "ticker": "OG",
+        "project_name": "(OG Fan Token)",
+        "description": "The committees do not check cryptocurrencies belonging to the categories of fan tokens, meme tokens and game tokens.",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.t.me\/CrypoIslam\/374"
+    },
+    {
+        "id": 62,
+        "ticker": "ASR",
+        "project_name": "(AS Roma Fan Token)",
+        "description": "The committees do not check cryptocurrencies belonging to the categories of fan tokens, meme tokens and game tokens.",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.t.me\/CrypoIslam\/375"
+    },
+    {
+        "id": 63,
+        "ticker": "ATM",
+        "project_name": "(Atletico De Madrid Fan Token)",
+        "description": "The committees do not check cryptocurrencies belonging to the categories of fan tokens, meme tokens and game tokens.",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.t.me\/CrypoIslam\/376"
+    },
+    {
+        "id": 64,
+        "ticker": "PSG",
+        "project_name": "(Paris Saint-Germain Fan Token)",
+        "description": "The committees do not check cryptocurrencies belonging to the categories of fan tokens, meme tokens and game tokens.",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.t.me\/CrypoIslam\/377"
+    },
+    {
+        "id": 65,
+        "ticker": "CITY",
+        "project_name": "(Manchester City Fan Token)",
+        "description": "The committees do not check cryptocurrencies belonging to the categories of fan tokens, meme tokens and game tokens.",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.t.me\/CrypoIslam\/378"
+    },
+    {
+        "id": 66,
+        "ticker": "PORTO",
+        "description": "The committees do not check cryptocurrencies belonging to the categories of fan tokens, meme tokens and game tokens.",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.t.me\/CrypoIslam\/379"
+    },
+    {
+        "id": 67,
+        "ticker": "JUV",
+        "description": "The committees do not check cryptocurrencies belonging to the categories of fan tokens, meme tokens and game tokens.",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.t.me\/CrypoIslam\/380"
+    },
+    {
+        "id": 68,
+        "ticker": "ALPINE",
+        "project_name": "(Alpine F1 Team Fan Token)",
+        "description": "The committees do not check cryptocurrencies belonging to the categories of fan tokens, meme tokens and game tokens.",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.t.me\/CrypoIslam\/381"
+    },
+    {
+        "id": 69,
+        "ticker": "SANTOS",
+        "description": "The committees do not check cryptocurrencies belonging to the categories of fan tokens, meme tokens and game tokens.",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.t.me\/CrypoIslam\/382"
+    },
+    {
+        "id": 70,
+        "ticker": "BAR",
+        "description": "The committees do not check cryptocurrencies belonging to the categories of fan tokens, meme tokens and game tokens.",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.t.me\/CrypoIslam\/383"
+    },
+    {
+        "id": 71,
+        "ticker": "LAZIO",
+        "description": "The committees do not check cryptocurrencies belonging to the categories of fan tokens, meme tokens and game tokens.",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.t.me\/CrypoIslam\/384"
+    },
+    {
+        "id": 72,
+        "ticker": "GALFAN",
+        "description": "The committees do not check cryptocurrencies belonging to the categories of fan tokens, meme tokens and game tokens.",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.t.me\/CrypoIslam\/385"
+    },
+    {
+        "id": 73,
+        "ticker": "AFC",
+        "description": "The committees do not check cryptocurrencies belonging to the categories of fan tokens, meme tokens and game tokens.",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.t.me\/CrypoIslam\/386"
+    },
+    {
+        "id": 74,
+        "ticker": "FRONT",
+        "project_name": "(Frontier)",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 75,
+        "ticker": "WEN",
+        "project_name": "(Wen)",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 76,
+        "ticker": "BEAM",
+        "project_name": "(Beam)",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 77,
+        "ticker": "FORTH",
+        "project_name": "(Ampleforth Governance Token)",
+        "shariah_status": "HARAM",
+        "source": "www.t.me\/CrypoIslam\/408"
+    },
+    {
+        "id": 78,
+        "ticker": "MAV",
+        "project_name": "(Maverick Protocol)",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 79,
+        "ticker": "MAVIA",
+        "project_name": "(Heroes of Mavia)",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 80,
+        "ticker": "BAKE",
+        "project_name": "(BakeryToken)",
+        "description": "BakeryToken platform offered various DeFi products and NFT marketplace for BSC blockchain users. The DeFi platform has always been a red flag in our analysis. The project offered a Yield Farming product that gains from impermissible sources. Other than that, we could say all products are in-line with Shariah's rulings. We classified the project as Non-Shariah Compliant.",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 81,
+        "ticker": "TRB",
+        "project_name": "(Tellor)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 82,
+        "ticker": "AMB",
+        "project_name": "(Ambrosus\/AirDAO)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 83,
+        "ticker": "LEVER",
+        "project_name": "(LeverFi)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 84,
+        "ticker": "EVER",
+        "project_name": "(Everscale)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 85,
+        "ticker": "DF",
+        "project_name": "(dForce)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 86,
+        "ticker": "YFI",
+        "project_name": "(Yearn.Finance)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 87,
+        "ticker": "YFII",
+        "project_name": "(DFI.Money)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 88,
+        "ticker": "LQTY",
+        "project_name": "(Liquity)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 89,
+        "ticker": "VANRY",
+        "project_name": "(Vanar Chain)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 90,
+        "ticker": "GFT",
+        "project_name": "(Gifto)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 91,
+        "ticker": "PUNDIX",
+        "project_name": "(PundiX)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 92,
+        "ticker": "CSPR",
+        "project_name": "(Casper)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 93,
+        "ticker": "MKR",
+        "project_name": "(Maker)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 94,
+        "ticker": "CEL",
+        "project_name": "(Celsius)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 95,
+        "ticker": "COMP",
+        "project_name": "(Compound)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 96,
+        "ticker": "DAI",
+        "project_name": "(Dai)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 97,
+        "ticker": "CRO",
+        "project_name": "(Cronos)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 98,
+        "ticker": "DEXE",
+        "project_name": "(DeXe)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 99,
+        "ticker": "NEXO",
+        "project_name": "(Nexo)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 100,
+        "ticker": "RAY",
+        "project_name": "(Raydium)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 101,
+        "ticker": "RPL",
+        "project_name": "(Rocket Pool)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 102,
+        "ticker": "GMX",
+        "project_name": "(GMX)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 103,
+        "ticker": "PEOPLE",
+        "project_name": "(ConstitutionDAO)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 104,
+        "ticker": "SUPER",
+        "project_name": "(SuperVerse)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 105,
+        "ticker": "FXS",
+        "project_name": "(Frax Share)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 106,
+        "ticker": "CTC",
+        "project_name": "(Creditcoin)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 107,
+        "ticker": "UMA",
+        "project_name": "(Uma)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 108,
+        "ticker": "FTT",
+        "project_name": "(FTX Token)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 109,
+        "ticker": "OSMO",
+        "project_name": "(Osmosis)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 110,
+        "ticker": "LUNC",
+        "project_name": "(Terra Classic)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 111,
+        "ticker": "C98",
+        "project_name": "(Coin98)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 112,
+        "ticker": "NMR",
+        "project_name": "(Numeraire)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 113,
+        "ticker": "XVS",
+        "project_name": "(Venus)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 114,
+        "ticker": "SPELL",
+        "project_name": "(Spell Token)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 115,
+        "ticker": "CTK",
+        "project_name": "(Shentu)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 116,
+        "ticker": "LUSD",
+        "project_name": "(Liquity USD)",
+        "shariah_status": "HARAM"
+    },
+    {
+        "id": 117,
+        "ticker": "PERP",
+        "project_name": "(Perpetual Protocol)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 118,
+        "ticker": "KAS",
+        "project_name": "(Kaspa)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 119,
+        "ticker": "USDY",
+        "project_name": "(Ondo US Dollar Yield)",
+        "description": "USDY invests money in safe assets such as short-term US Treasury bonds and bank deposits to generate usurious returns for investors.",
+        "shariah_status": "HARAM",
+        "source": "www.t.me\/CrypoIslam\/754"
+    },
+    {
+        "id": 120,
+        "ticker": "MEME",
+        "project_name": "(Мем-коины)",
+        "description": "Ознакомьтесь общий хукм по мем-коинам здесь: www.telegra.ph\/Hukm-mem-koinov-Sharlife-07-08",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 121,
+        "ticker": "HFT",
+        "project_name": "(HashFlow)",
+        "description": "Hashflow DEX منصة DEX تستفيد من نموذج تسعير طلب عرض الأسعار بدلاً من دفتر الطلبات أو بروتوكول AMM الميزة الرئيسية لهذا الهيكل هو أنه يحدث خارج السلسلة مما يساعد على تحسين الأداء\nالمقايضات عبر سلسلة Bridgeless والتي تسمح للمستخدمين بتبديل الأصول بسلاسة عبر السلاسل في غضون دقائق دون الحاجة إلى جسور خارجية.\nمجمعات سيولة\nstaking",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 122,
+        "ticker": "STORJ",
+        "project_name": "(Storj)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 123,
+        "ticker": "TAO",
+        "project_name": "(Bittensor)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 124,
+        "ticker": "RNDR",
+        "project_name": "(Render Token)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 125,
+        "ticker": "TOKEN",
+        "project_name": "(TokenFi)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 126,
+        "ticker": "GRT",
+        "project_name": "(The Graph)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 127,
+        "ticker": "METIS",
+        "project_name": "(MetisDAO)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 128,
+        "ticker": "HOT",
+        "project_name": "(Holo)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 129,
+        "ticker": "BICO",
+        "project_name": "Biconomy",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 130,
+        "ticker": "RSR",
+        "project_name": "(Reserve)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 131,
+        "ticker": "FLOW",
+        "project_name": "(Flow)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 132,
+        "ticker": "ETHW",
+        "project_name": "(EthereumPOW)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 133,
+        "ticker": "SPACE",
+        "project_name": "(MicroVisionChain)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 134,
+        "ticker": "DOCK",
+        "project_name": "(Dock)",
+        "shariah_status": "HALAL",
+        "source": "www.t.me\/CrypoIslam\/349"
+    },
+    {
+        "id": 135,
+        "ticker": "ARK",
+        "project_name": "(Ark) ",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 136,
+        "ticker": "STEEM",
+        "project_name": "(Steem)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 137,
+        "ticker": "STMX",
+        "project_name": "(StormX)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 138,
+        "ticker": "STPT",
+        "project_name": "(Stp)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 139,
+        "ticker": "1INCH",
+        "project_name": "(1Inch)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 140,
+        "ticker": "ANKR",
+        "project_name": "(Ankr)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 141,
+        "ticker": "BNX",
+        "project_name": "(BinaryX)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 142,
+        "ticker": "AEVO",
+        "project_name": "(Aevo)",
+        "shariah_status": "HARAM",
+        "source": "www.t.me\/CrypoIslam\/137"
+    },
+    {
+        "id": 143,
+        "ticker": "DCR",
+        "project_name": "(Decred)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 144,
+        "ticker": "OMNI",
+        "project_name": "(Omni Network)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 145,
+        "ticker": "1000SATS",
+        "project_name": "(Sats)",
+        "shariah_status": "HALAL",
+        "source": "www.t.me\/CrypoIslam\/7"
+    },
+    {
+        "id": 146,
+        "ticker": "JASMY",
+        "project_name": "(JasmyCoin)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 147,
+        "ticker": "TNSR",
+        "project_name": "(Tensor)",
+        "shariah_status": "HALAL",
+        "source": "www.t.me\/CrypoIslam\/379"
+    },
+    {
+        "id": 148,
+        "ticker": "ADX",
+        "project_name": "(Adex)",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 149,
+        "ticker": "SAGA",
+        "project_name": "(Saga)",
+        "shariah_status": "HALAL",
+        "source": "www.t.me\/CrypoIslam\/372"
+    },
+    {
+        "id": 150,
+        "ticker": "LINA",
+        "project_name": "(Linear Finance)",
+        "description": "Linear offered various DeFi products in their ecosystem. Overall all the products offered by this protocol complies with Shariah's rulings. However, we could not identify the source of return or where the fund goes in their Vault product. Possibly it can come from lending protocol. The staking method in this project also triggered a red flag. We classified Linear as Non-Shariah.",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 151,
+        "ticker": "SATS",
+        "project_name": "(Unisat)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 152,
+        "ticker": "APE",
+        "project_name": "(ApeCoin)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 153,
+        "ticker": "GMT",
+        "project_name": "(Gmt\/Stepn)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 154,
+        "ticker": "LPT",
+        "project_name": "(Livepeer)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 155,
+        "ticker": "QNT",
+        "project_name": "(Quant)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 156,
+        "ticker": "PIXEL",
+        "project_name": "(Pixels)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 157,
+        "ticker": "XNO",
+        "project_name": "(Nano)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 158,
+        "ticker": "IMX",
+        "project_name": "(Immutable)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 159,
+        "ticker": "COS",
+        "project_name": "(Contentos)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 160,
+        "ticker": "SHRAP",
+        "project_name": "(Shrapnel)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 161,
+        "ticker": "SOLAV",
+        "project_name": "(Solav Token)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 162,
+        "ticker": "PALAI",
+        "project_name": "(PaladinAI)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 163,
+        "ticker": "RIO",
+        "project_name": "(Realio Network)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 164,
+        "ticker": "EVMOS",
+        "project_name": "(Evmos)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 165,
+        "ticker": "FI",
+        "project_name": "(Fideum)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 166,
+        "ticker": "ORDI",
+        "project_name": "(Ordi)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 167,
+        "ticker": "PRCL",
+        "project_name": "(Parcl)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 168,
+        "ticker": "API3",
+        "project_name": "(Api3)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 169,
+        "ticker": "PORT3",
+        "project_name": "(Port3 Network)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 170,
+        "ticker": "POLYX",
+        "project_name": "(Polymesh)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 171,
+        "ticker": "ATA",
+        "project_name": "(Automata Network)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 172,
+        "ticker": "AST",
+        "project_name": "(AirSwap)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 173,
+        "ticker": "API3",
+        "project_name": "(Api3)"
+    },
+    {
+        "id": 174,
+        "ticker": "AUDIO",
+        "project_name": "(Audius)",
+        "description": "AUDIUS is a music streaming ecosystem that combines blockchain with its system. Users can create, listen and stream any audio content with AUDIUS. The token itself acts as a utility token that allows users to participate in the ecosystem governance, such as voting and staking. We don't see any issue with how the token works. However, the ecosystem itself was built for entertainment that contains a lot of unrestricted content. Thus as a user, you have to choose your content wisely.",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 175,
+        "ticker": "DYDX",
+        "project_name": "(dydX)",
+        "description": "DYDX provide features that contradict Shariah rulings in their exchange platform. The project offers decentralized exchange for trading on the platform, spot and margin trading, and lending and borrowing features that include interest.",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 176,
+        "ticker": "PROS",
+        "project_name": "(Prosper)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 177,
+        "ticker": "FOR",
+        "project_name": "(Fortube)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 178,
+        "ticker": "JOE",
+        "project_name": "(Joe)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 179,
+        "ticker": "USTC",
+        "project_name": "(terraclassicusd)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 180,
+        "ticker": "RDNT",
+        "project_name": "(Radiant Capital)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 181,
+        "ticker": "ORN",
+        "project_name": "(Orion)",
+        "shariah_status": "HARAM",
+        "source": "www.t.me\/CrypoIslam\/352"
+    },
+    {
+        "id": 182,
+        "ticker": "KP3R",
+        "project_name": "(Keep3rV1)",
+        "shariah_status": "HARAM",
+        "source": "www.t.me\/CrypoIslam\/353"
+    },
+    {
+        "id": 183,
+        "ticker": "GNS",
+        "project_name": "(Gains Network)",
+        "shariah_status": "HARAM",
+        "source": "www.t.me\/CrypoIslam\/350"
+    },
+    {
+        "id": 184,
+        "ticker": "DYM",
+        "project_name": "(Dymension)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 185,
+        "ticker": "AI",
+        "project_name": "(Sleepless AI)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 186,
+        "ticker": "SUN",
+        "project_name": "(Sun)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 187,
+        "ticker": "MBOX",
+        "project_name": "(Mobox)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 188,
+        "ticker": "MDX",
+        "project_name": "(Mdex)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 189,
+        "ticker": "ONDO",
+        "project_name": "(Ondo Finance)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 190,
+        "ticker": "SNX",
+        "project_name": "(Synthetix)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 191,
+        "ticker": "CELR",
+        "project_name": "(Celer Network)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 192,
+        "ticker": "FLM",
+        "project_name": "(Flamingo)",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 193,
+        "ticker": "BTCUP",
+        "project_name": "(Bitcoin-UP)",
+        "description": "UP\/DOWN currencies are usually backed by up to 4x leverage, so trading these coins is HARAM!",
+        "shariah_status": "HARAM"
+    },
+    {
+        "id": 194,
+        "ticker": "BTCDOWN",
+        "project_name": "(Bitcoin-DOWN)",
+        "description": "UP\/DOWN currencies are usually backed by up to 4x leverage, so trading these coins is HARAM!",
+        "shariah_status": "HARAM"
+    },
+    {
+        "id": 195,
+        "ticker": "ETHUP",
+        "project_name": "(Ethereum-UP)",
+        "description": "UP\/DOWN currencies are usually backed by up to 4x leverage, so trading these coins is HARAM!",
+        "shariah_status": "HARAM"
+    },
+    {
+        "id": 196,
+        "ticker": "ETHDOWN",
+        "project_name": "(Ethereum-DOWN)",
+        "description": "UP\/DOWN currencies are usually backed by up to 4x leverage, so trading these coins is HARAM!",
+        "shariah_status": "HARAM"
+    },
+    {
+        "id": 197,
+        "ticker": "GBTC",
+        "project_name": "(Grayscale Bitcoin ETF)",
+        "description": "Upon conducting a thorough examination, it can be concluded that the Greyscale Bitcoin Trust (GBTC) fund does not contain elements that contravene the principles of Shariah. Therefore, in accordance with the Islamic legal maxim \"Al-ashlu fil mu'amalah al-ibahah illa an yadulla daliilun 'ala tahrimihaa,\" which translates to \"The fundamental principle in financial transactions is permissibility, unless there is evidence indicating its prohibition,\" the Greyscale Bitcoin Trust (GBTC) can be deemed a Shariah-compliant investment instrument.\n\nGrayscale Bitcoin Trust is primarily invested in BTC, with minimal cash holdings dedicated to covering operational costs and expenses. Importantly, the ETF do not distribute interest to their investors, focusing solely on capital gains derived from BTC’s valuation. Therefore, it aligns with Shariah principles and is considered Shariah-compliant.",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 198,
+        "ticker": "HODL",
+        "project_name": "(VanEck Bitcoin Trust ETF)",
+        "description": "Upon conducting a thorough examination, it can be concluded that the Vaneck Bitcoin Trust (HODL) fund does not contain elements that contravene the principles of Shariah. Therefore, in accordance with the Islamic legal maxim \"Al-ashlu fil mu'amalah al-ibahah illa an yadulla daliilun 'ala tahrimihaa,\" which translates to \"The fundamental principle in financial transactions is permissibility, unless there is evidence indicating its prohibition,\" the Vaneck Bitcoin Trust (HODL) can be deemed a Shariah-compliant investment instrument.\n\nVanEck Bitcoin Trust is primarily invested in BTC, with minimal cash holdings dedicated to covering operational costs and expenses. Importantly, the ETF do not distribute interest to their investors, focusing solely on capital gains derived from BTC’s valuation. Therefore, it aligns with Shariah principles and is considered Shariah-compliant.",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 199,
+        "ticker": "VALKYRIE",
+        "project_name": "(Valkyrie Bitcoin Fund)",
+        "description": "Valkyrie Bitcoin Fund is to be found has an exposure to futures contracts, cash, and bonds, hence do not meet the Shariah compliance criteria due to it asset composition.\n\nValkyrie Bitcoin Fund is considered not in line with Shariah principles due to the involvement in the allocation of assets on futures contracts. Firstly, futures contracts involve a high degree of uncertainty (gharar) regarding the future price of the asset, which contradicts the Islamic principle of transparency and clarity in transactions. Secondly, futures contracts are often used for speculative purposes, where the primary intention is to profit from price fluctuations rather than actual ownership of the underlying asset. Islam strongly discourages such gambling-like behavior and excessive risk-taking in speculation. Lastly, in many futures contracts, the buyer does not intend to take actual delivery of the asset, leading to transactions based on something that does not physically exist at the time of the contract. This lack of underlying asset ownership is also at odds with Shariah principles. Collectively, these factors make futures contracts problematic and generally prohibited within the framework of Islamic finance.",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 200,
+        "ticker": "BTC",
+        "project_name": "(Bitcoin)",
+        "description": "Фетвы учёных о дозволенности биткоина: \n\nwww.drive.google.com\/file\/d\/1PpB1gZ4ossyIi_KibjnakXMyHUqwG94c\/view?usp=drivesdk\nШариатские правовые нормы связанные с электронной валютой \"Bitcoin\"\n\nАвтор: Абдуллах ибн Мухаммад ибн Абдульваххаб Аль Укайль\n\nwww.drive.google.com\/file\/d\/1Pp272lS13l96JqyhYKW4tKwumy1mmeNz\/view?usp=drivesdk\nПеревели для вас фетву Абдуррахмана Ибн Насыра Аль-Баррака.\n\n\"Хукм криптовалюты Биткоин\"\n\nwww. youtu. be\/2-UKQ51Hm98?si=YOrRPZsaOp2w4N7L\nШейх Мутляк Аль-Джасир Аль-Ханбали \n\n\"Хукм цифровых валют и биткоина\"\n\nwww.telegra.ph\/Fetva-o-dozvolennosti-bitkoina--SHejh-Saad-Haslyan-07-24\nШейх Саад Хаслян о дозволенности биткоина и криптовалют. \n\nАргументы  о дозволенности биткоина от комитетов: \nwww.telegra.ph\/Bitcoin-BTC-07-24",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, www.cryptohalal.cc"
+    },
+    {
+        "id": 201,
+        "ticker": "ETH",
+        "project_name": "(Ethereum)",
+        "description": "Ethereum (ETH) \n\n\nПРОЕКТ\nEthereum - это платформа смарт-контрактов на основе блокчейна. Смарт-контракты это компьютерные программы, которые автоматически выполняют необходимые действия для выполнения соглашения между несколькими сторонами в Интернете. Они предназначены для сокращения потребностей в посредниках, следовательно, снижения комиссий за транзакции и повышения надежности транзакций\n\nОсновной целью изобретения Ethereum была разработка\nплатформы, позволяющей выполнять смарт-контракты с использованием блокчейна, что значительно увеличивает существующие преимущества технологии смарт-контрактов. В дополнение к смарт-контрактам, блокчейн Ethereum способен размещать другие криптовалюты, которые называются \"токенами\", благодаря использованию стандарта соответствия ERC-20. На самом деле это было наиболее распространенное использование платформы ЕТН на сегодняшний день.\n\nДо сих пор было запущено более 280 000 токенов, совместимых с ERC-20, более 40 из них входят в топ-100 криптовалют по рыночной капитализации.\n\nСЕРВИС\n- Платформа смарт-контрактов\n- Блокчейн для размещения других криптовалют и\nдецентрализованных приложений.\n\nИСПОЛЬЗОВАНИЕ\nОн используется в качестве платы за транзакции в сети - Он используется в качестве хранилища ценностей.\n\nШАРИАТСКОЕ ЗАКЛЮЧЕНИЕ - ХАЛЯЛЬ (ДОЗВОЛЕНО)\n\n\"Это решение является иджтихадом, основанным на информации из официального ресурса валюты и других открытых источников, а Аллах знает лучше",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, www.cryptohalal.cc"
+    },
+    {
+        "id": 202,
+        "ticker": "SOL",
+        "project_name": "(Solana)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, www.cryptohalal.cc"
+    },
+    {
+        "id": 203,
+        "ticker": "XRP",
+        "project_name": "(Ripple)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, www.cryptohalal.cc"
+    },
+    {
+        "id": 204,
+        "ticker": "MATIC",
+        "project_name": "(Polygon)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, www.cryptohalal.cc"
+    },
+    {
+        "id": 205,
+        "ticker": "LINK",
+        "project_name": "(Chainlink)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, www.cryptohalal.cc"
+    },
+    {
+        "id": 206,
+        "ticker": "ADA",
+        "project_name": "(Cardano)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, www.cryptohalal.cc"
+    },
+    {
+        "id": 207,
+        "ticker": "XLM",
+        "project_name": "(Stellar)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, www.cryptohalal.cc"
+    },
+    {
+        "id": 208,
+        "ticker": "ATOM",
+        "project_name": "(Cosmos)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, www.cryptohalal.cc"
+    },
+    {
+        "id": 209,
+        "ticker": "DOT",
+        "project_name": "(Polkadot)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, www.cryptohalal.cc"
+    },
+    {
+        "id": 210,
+        "ticker": "FIL",
+        "project_name": "(Filecoin)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, www.cryptohalal.cc"
+    },
+    {
+        "id": 211,
+        "ticker": "NEAR",
+        "project_name": "(Near Protocol)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, www.cryptohalal.cc"
+    },
+    {
+        "id": 212,
+        "ticker": "DOGE",
+        "project_name": "Dogecoin)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, www.cryptohalal.cc"
+    },
+    {
+        "id": 213,
+        "ticker": "SHIB",
+        "project_name": "(Shiba Inu)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, www.cryptohalal.cc"
+    },
+    {
+        "id": 214,
+        "ticker": "WLD",
+        "project_name": "(Worldcoin)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, www.cryptohalal.cc"
+    },
+    {
+        "id": 215,
+        "ticker": "IOTA",
+        "project_name": "(Iota)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, www.cryptohalal.cc"
+    },
+    {
+        "id": 216,
+        "ticker": "IOTX",
+        "project_name": "(Iotex)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, www.cryptohalal.cc"
+    },
+    {
+        "id": 217,
+        "ticker": "AVAX",
+        "project_name": "(Avalanche)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, www.cryptohalal.cc"
+    },
+    {
+        "id": 218,
+        "ticker": "IOST",
+        "project_name": "(Iost)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, www.cryptohalal.cc"
+    },
+    {
+        "id": 219,
+        "ticker": "LINA",
+        "project_name": "(Linear Finance)",
+        "description": "Linear offered various DeFi products in their ecosystem. Overall all the products offered by this protocol complies with Shariah's rulings. However, we could not identify the source of return or where the fund goes in their Vault product. Possibly it can come from lending protocol. The staking method in this project also triggered a red flag. We classified Linear as Non-Shariah.",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 220,
+        "ticker": "AGI",
+        "project_name": "(Delysium)",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 221,
+        "ticker": "ICP",
+        "project_name": "(Internet Computer)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 222,
+        "ticker": "TIA",
+        "project_name": "(Celestia)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 223,
+        "ticker": "PYTH",
+        "project_name": "(Pyth Network)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 224,
+        "ticker": "ARB",
+        "project_name": "(Arbitrum)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 225,
+        "ticker": "OP",
+        "project_name": "(Optimism)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 226,
+        "ticker": "CVC",
+        "project_name": "(Civic)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 227,
+        "ticker": "KMD",
+        "project_name": "(Komodo)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 228,
+        "ticker": "KLAY",
+        "project_name": "(Klaytn)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 229,
+        "ticker": "AVA",
+        "project_name": "(Travala.com)",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam, www.cryptohalal.cc"
+    },
+    {
+        "id": 230,
+        "ticker": "REI",
+        "project_name": "(Rei Network)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 231,
+        "ticker": "REQ",
+        "project_name": "(Request)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 232,
+        "ticker": "PDA",
+        "project_name": "(PlayDapp)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my\/"
+    },
+    {
+        "id": 233,
+        "ticker": "GTC",
+        "project_name": "(Gitcoin)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 234,
+        "ticker": "JTO",
+        "project_name": "(Jito Protocol)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 235,
+        "ticker": "JUP",
+        "project_name": "(Jupiter)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 236,
+        "ticker": "LTC",
+        "project_name": "(Litecoin) ",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 237,
+        "ticker": "BCH",
+        "project_name": "(Bitcoin Cash)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 238,
+        "ticker": "ZEC",
+        "project_name": "(Zcash)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 239,
+        "ticker": "ZEN",
+        "project_name": "(Horizen)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 240,
+        "ticker": "ZIL",
+        "project_name": "(Zilliqa)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 241,
+        "ticker": "BAND",
+        "project_name": "(Band protocol)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 242,
+        "ticker": "XTZ",
+        "project_name": "(Tezos)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 243,
+        "ticker": "XVG",
+        "project_name": "(Verge)",
+        "description": "📌 تنبيه بخصوص عملة XVG\nهذه العملة xvg مشروعها أنها شبكة دفع تحافظ على الخصوصية و هي موجهة لكل المؤسسات\nو الأفراد و كونها عملة دفع في موقع محرم فإن هذا لا يحرمها فهي عملة دفع في كثير من المواقع المباحة",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 244,
+        "ticker": "OGN",
+        "project_name": "(Origin Token)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 245,
+        "ticker": "THETA",
+        "project_name": "(Theta Network)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 246,
+        "ticker": "XMR",
+        "project_name": "(Monero)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 247,
+        "ticker": "PIVX",
+        "project_name": "(Pivx)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 248,
+        "ticker": "TAIKO",
+        "project_name": "(Taiko)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 249,
+        "ticker": "SPEC",
+        "project_name": "(Spectral)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 250,
+        "ticker": "DATA",
+        "project_name": "(Streamr)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 251,
+        "ticker": "AMP",
+        "project_name": "(Amp)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 252,
+        "ticker": "LAI",
+        "project_name": "(LayerAI)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 253,
+        "ticker": "FLIP",
+        "project_name": "(Chainflip)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 254,
+        "ticker": "SEI",
+        "project_name": "(Sei)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 255,
+        "ticker": "NFP",
+        "project_name": "(NFPrompt)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 256,
+        "ticker": "AXL",
+        "project_name": "(Axelar)",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam "
+    },
+    {
+        "id": 257,
+        "ticker": "LAVA",
+        "project_name": "(Lava Network)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 258,
+        "ticker": "ENS",
+        "project_name": "(Ethereum Name Service)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 259,
+        "ticker": "FTM",
+        "project_name": "(Fantom)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 260,
+        "ticker": "GLM",
+        "project_name": "(Golem)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 261,
+        "ticker": "GLMR",
+        "project_name": "(Moonbeam)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 262,
+        "ticker": "EGLD",
+        "project_name": "(MultiversX)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 263,
+        "ticker": "ELF",
+        "project_name": "(aelf)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 264,
+        "ticker": "HBAR",
+        "project_name": "(Hedera)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 265,
+        "ticker": "HIVE",
+        "project_name": "(Hive)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 266,
+        "ticker": "KSM",
+        "project_name": "(Kusama)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 267,
+        "ticker": "KMD",
+        "project_name": "(Komodo)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 268,
+        "ticker": "LIT",
+        "project_name": "(Litentry)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 269,
+        "ticker": "MASK",
+        "project_name": "(Mask Network)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 270,
+        "ticker": "VET",
+        "project_name": "(Vechain)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 271,
+        "ticker": "VTHO",
+        "project_name": "(VeThor Token)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 272,
+        "ticker": "VENOM",
+        "project_name": "(Venom)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 273,
+        "ticker": "LRC",
+        "project_name": "(Loopring)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 274,
+        "ticker": "MDT",
+        "project_name": "(Measurable Data Token)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 275,
+        "ticker": "MINA",
+        "project_name": "(Mina Protocol)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 276,
+        "ticker": "MOVR",
+        "project_name": "(Moonriver)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 277,
+        "ticker": "MTL",
+        "project_name": "(Metal)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 278,
+        "ticker": "MVL",
+        "project_name": "(Mvl)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 279,
+        "ticker": "NULS",
+        "project_name": "(Nuls)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 280,
+        "ticker": "OXT",
+        "project_name": "(Orchid Protocol)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 281,
+        "ticker": "ONG",
+        "project_name": "(Ontology Gas)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 282,
+        "ticker": "OMG",
+        "project_name": "(OMG Network)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 283,
+        "ticker": "ORAI",
+        "project_name": "(Oraichain)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 284,
+        "ticker": "FIO",
+        "project_name": "(FIO Protocol)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 285,
+        "ticker": "FLUX",
+        "project_name": "(Flux)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 286,
+        "ticker": "DENT",
+        "project_name": "(Dent)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 287,
+        "ticker": "CHZ",
+        "project_name": "(Chilliz)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 288,
+        "ticker": "CFX",
+        "project_name": "(Conflux)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 289,
+        "ticker": "AXL",
+        "project_name": "(Axelar) ",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 290,
+        "ticker": "AE",
+        "project_name": "(Æternity)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 291,
+        "ticker": "ZK",
+        "project_name": "(Zksync)",
+        "description": "مشروع zkSync هو بروتوكول Layer-2 مصمم لتوسيع نطاق Ethereum عبر توفير معاملات أسرع وأرخص. يستند zkSync إلى استخدام إثباتات المعرفة الصفرية (Zero-Knowledge Proofs) لتحسين كفاءة المعاملات على البلوكشين. مع الحفاظ على قيمها الأساسية المتمثلة في اللامركزية والأمن والسيادة الذاتية. يحقق هذا البروتوكول ذلك من خلال استخدام ZK-rollups، والذي يسمح بمعالجة المعاملات خارج السلسلة ثم تجميعها معًا وإرسالها إلى Ethereum في دليل واحد. تعمل هذه الطريقة على زيادة سرعات المعاملات بشكل كبير وتقليل التكاليف دون المساس بالأمان يعمل رمز ZK كرمز أصلي للأداة المساعدة والحوكمة داخل النظام البيئي zkSync، ويلعب دورًا حاسمًا في الحفاظ على عمليات البروتوكول وتعزيزها. إحدى حالات الاستخدام الأساسية هي دفع رسوم المعاملات على شبكة zkSync. من خلال استخدام رموز ZK مقابل الرسوم",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 292,
+        "ticker": "CHR",
+        "project_name": "(Chromia)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 293,
+        "ticker": "CTSI",
+        "project_name": "(Cartesi)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 294,
+        "ticker": "ALGO",
+        "project_name": "(Algorand)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 295,
+        "ticker": "KEY",
+        "project_name": "(SelfKey)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 296,
+        "ticker": "CKB",
+        "project_name": "(Nervos Network)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 297,
+        "ticker": "CTXC",
+        "project_name": "(Cortex)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 298,
+        "ticker": "IQ",
+        "project_name": "(Iq)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 299,
+        "ticker": "RENDER",
+        "project_name": "(Render Token)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 300,
+        "ticker": "BOND",
+        "project_name": "(BarnBridge)",
+        "shariah_status": "HARAM"
+    },
+    {
+        "id": 301,
+        "ticker": "WIF",
+        "project_name": "(dogwifhat)",
+        "description": "Dogwifhat is a meme coin without specific use case, which raises concerns regarding their compliance with Shariah principles. Meme coins often lack clear utility or tangible benefits, making it questionable whether they meet the criteria for Shariah compliance, as they do not contribute to mutually beneficial exchanges. Additionally, meme coins are commonly associated with pump and dump activities, which can be harmful to investors' wealth. Based on these factors, we have deemed meme coins that have no use cases, including WIF, as impermissible (tahrim al-wasail).",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 302,
+        "ticker": "CVP",
+        "project_name": "(PowerPool Concentrated Voting Power)",
+        "shariah_status": "HARAM"
+    },
+    {
+        "id": 303,
+        "ticker": "HARD",
+        "project_name": "(Kava Lend)",
+        "shariah_status": "HARAM",
+        "source": "CryptoIslam "
+    },
+    {
+        "id": 304,
+        "ticker": "CVX",
+        "project_name": "(Convex Finance)",
+        "shariah_status": "HARAM"
+    },
+    {
+        "id": 305,
+        "ticker": "BANANA",
+        "project_name": "(Banana Gun)",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 306,
+        "ticker": "WATER",
+        "project_name": "(Water Coin)",
+        "shariah_status": "HARAM",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 307,
+        "ticker": "COTI",
+        "project_name": "(Coti)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 308,
+        "ticker": "BIT",
+        "project_name": "(BitDAO)",
+        "shariah_status": "HARAM"
+    },
+    {
+        "id": 309,
+        "ticker": "ANC",
+        "project_name": "(Anchor Protocol)",
+        "shariah_status": "HARAM"
+    },
+    {
+        "id": 310,
+        "ticker": "REEF",
+        "project_name": "(Reef)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 311,
+        "ticker": "BB",
+        "project_name": "(BounceBit)",
+        "shariah_status": "HARAM"
+    },
+    {
+        "id": 312,
+        "ticker": "NOT",
+        "project_name": "(Notcoin)",
+        "description": "Notcoin is similar to a meme coin without a specific use case, which raises concerns regarding their compliance with Shariah principles. Meme coins often lack clear utility or tangible benefits, making it questionable whether they meet the criteria for Shariah compliance, as they do not contribute to mutually beneficial exchanges. Additionally, meme coins are commonly associated with pump and dump activities, which can be harmful to investors' wealth. Based on these factors, we have deemed meme coins that have no use cases, including NOT, as impermissible (tahrim al-wasail).",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 313,
+        "ticker": "SUSHI",
+        "project_name": "(Sushiswap)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 314,
+        "ticker": "CRV",
+        "project_name": "(Curve DAO Token)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 315,
+        "ticker": "BNB",
+        "project_name": "(Binance Coin)",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 316,
+        "ticker": "OKB",
+        "project_name": "(Okb\/Okx Coin)",
+        "description": "For exchange tokens that act as the main token for trading purposes on the specific exchange, there are some tricky cases that need to be clarified. First, the token itself represents the ecosystem that gains profit from all transactions on the exchange that may include the Non-Shariah project Token. Second, the ecosystem benefits from derivatives contracts that clearly contrast with Shariah's ruling. We assume the same methodology of Stock Shariah screening that enacts the prohibition of stockbroking activities is applied in the same case. However, the usage of Exchange Token is commonly used to trade NFT or any other coin, thus we recommend not to hold Exchange Token for more than 30 days to avoid being involved in their ecosystem.",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 317,
+        "ticker": "CAKE",
+        "project_name": "(PancakeSwap)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 318,
+        "ticker": "QUICK",
+        "project_name": "(QuickSwap)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 319,
+        "ticker": "BEL",
+        "project_name": "(Bella Protocol)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 320,
+        "ticker": "NEO",
+        "project_name": "(Neo)",
+        "description": ". تعتبر حامليها شركاء في الشبكة او المشروع وتعود عليهم بارباح لهذا فهي تعتبر سهم مختلط والسهم المختلط الذي يدور نشاط شركته بين الحل والحرمة ... وحكمه يحرم التعامل به وفقا لقرار مجمع الفقه الاسلامي الدولي",
+        "shariah_status": "HARAM",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 321,
+        "ticker": "REN",
+        "project_name": "(Ren)",
+        "shariah_status": "HARAM",
+        "source": "CryptoIslam "
+    },
+    {
+        "id": 322,
+        "ticker": "FRAX",
+        "project_name": "(Frax) ",
+        "shariah_status": "HARAM",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 323,
+        "ticker": "UFT",
+        "project_name": "(UniLend)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 324,
+        "ticker": "TKO",
+        "project_name": "(Toko Token)",
+        "description": "هي عملة مشفرة صادرة عن أول بورصة عملات مشفرة في إندونيسيا تقدم نموذجًا من الرموز الهجينة أي أنه يعتبر خليط أو مزيج بين التمويل المركزي (CeFi) والتمويل اللامركزي (DeFi). حيث تم انشاؤها على شبكة بايننس (BEB-20) وأصبح أول كيان مسجل بموجب وكالة تنظيم تداول السلع الآجلة في إندونيسيا (BAPPEBTI). يخدم (TKO) عدة أغراض على منصة Tokocrypto blockchain ويسمح للمستخدمين بالمشاركة في تبادل العملات المشفرة وبرامج الإيداع والادخار وتطبيقات ( DeFi ) عبر الأنظمة الأساسية وأسواق(NFT).",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 325,
+        "ticker": "VITE",
+        "project_name": "(Vite)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 326,
+        "ticker": "FUN",
+        "project_name": "(FUNToken)",
+        "description": "Casino gambling and loans symbol رمز مقامرة كازينو و قروض",
+        "shariah_status": "HARAM",
+        "source": "CryptoIslam "
+    },
+    {
+        "id": 327,
+        "ticker": "LISTA",
+        "project_name": "(Lista DAO)",
+        "description": " هو بروتوكول سيولة مصمم لتحسين توليد العائد من العملات المشفرة المضمونة مثل BNB وETH والعملات المستقرة والأصول الرقمية الأخرى. تعمل Lista DAO في جوهرها على نموذج ثنائي الرمز يضم lisUSD، وهي عملة مستقرة لامركزية، وLISTA، العملة المشفرة الأصلية الخاصة بها تستخدم lisUSD باعتبارها العملة المستقرة اللامركزية الأساسية، المضمونة بأصول مرهونة عبر البروتوكول يميز هذا النهج العملة lisUSD عن العملات المستقرة التقليدية من خلال الاستفادة من الأصول اللامركزية للحصول على ضمانات بدلاً من الربط بالعملات الورقية.\nتوفر المنصة مجموعة من الوظائف بما في ذلك التحويلات الفورية، والاقتراض، وزراعة الغلة ، وضمان الأصول تعمل هذه الميزات على تمكين المستخدمين من المشاركة بنشاط في النظام البيئي مع كسب المكافآت والحفاظ على السيولة.",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 328,
+        "ticker": "T",
+        "project_name": "(Threshold)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 329,
+        "ticker": "ONT",
+        "project_name": "(Ontology)",
+        "description": "ONT تمثل سهم ملكية في المشروع وليس عملة, وتملك الاسهم في المشاريع المختلطة غير جائز بحسب قرار مجمع الفقه الاسلامي الدولي",
+        "shariah_status": "HARAM",
+        "source": "http:\/\/www.cryptohalal.cc"
+    },
+    {
+        "id": 330,
+        "ticker": "UNI",
+        "project_name": "(Uniswap)",
+        "description": "UNISWAP whole protocol offers features that act as a platform to provide liquidity to the market to make it more efficient. There are fees charged to the user who swaps their token, which can be classified as management fees and not interest-based fees. We concluded that UNISWAP token is permissible and Shariah Compliant.",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 331,
+        "ticker": "CLV",
+        "project_name": "(Clover Finance)",
+        "description": "Clover Finance (CLV) is a blockchain operating system that provides an EVM-compatible framework for Substrate-based applications. It consists of specialized chains that are cross-chain interoperable, including a Governance & Exchange Chain and a Smart Contract Chain. The platform aims to reduce development efforts and costs for developers by providing multiple services to users. It also offers a non-custodial wallet for managing crypto assets and interacting with decentralized applications. Additionally, the project is Shariah-compliant.",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 332,
+        "ticker": "TON",
+        "project_name": "(Toncoin)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 333,
+        "ticker": "PHA",
+        "project_name": "(Phala Network)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 334,
+        "ticker": "ID",
+        "project_name": "(Space ID)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 335,
+        "ticker": "XCH",
+        "project_name": "(Chia)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 336,
+        "ticker": "PHB",
+        "project_name": "(Phoenix)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 337,
+        "ticker": "PAXG",
+        "project_name": "(Pax GOLD)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 338,
+        "ticker": "QTUM",
+        "project_name": "(Qtum)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 339,
+        "ticker": "RVN",
+        "project_name": "(Ravencoin)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 340,
+        "ticker": "DKA",
+        "project_name": "(dKargo) ",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam "
+    },
+    {
+        "id": 341,
+        "ticker": "SFP",
+        "project_name": "(Safepal)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 342,
+        "ticker": "SKL",
+        "project_name": "(Skale)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 343,
+        "ticker": "SC",
+        "project_name": "(SiaCoin)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 344,
+        "ticker": "LAT",
+        "project_name": "(PlatON)",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 345,
+        "ticker": "SUI",
+        "project_name": "(Sui)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 346,
+        "ticker": "STRAX",
+        "project_name": "(Stratis)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 347,
+        "ticker": "STX",
+        "project_name": "(Stacks)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 348,
+        "ticker": "TFUEL",
+        "project_name": "(Theta Fuel)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 349,
+        "ticker": "LSK",
+        "project_name": "(Lisk)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 350,
+        "ticker": "IRIS",
+        "project_name": "(Iris Network)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 351,
+        "ticker": "CLV",
+        "project_name": "(Clover Finance)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 352,
+        "ticker": "FIRO",
+        "project_name": "(Firo)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 353,
+        "ticker": "NTRN",
+        "project_name": "(Neutron)",
+        "shariah_status": "QUESTIONABLE"
+    },
+    {
+        "id": 354,
+        "ticker": "UTK",
+        "project_name": "(xMoney)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 355,
+        "ticker": "VIDT",
+        "project_name": "(Vidt DAO)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 356,
+        "ticker": "PROM",
+        "project_name": "(Prom)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 357,
+        "ticker": "ONE",
+        "project_name": "(Harmony)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 358,
+        "ticker": "ONG",
+        "project_name": "(Ontology Gas)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 359,
+        "ticker": "POND",
+        "project_name": "(Marlin)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 360,
+        "ticker": "ICX",
+        "project_name": "(Icon) ",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 361,
+        "ticker": "SYS",
+        "project_name": "(Syscoin)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 362,
+        "ticker": "XEC",
+        "project_name": "(eCash)",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 363,
+        "ticker": "ACA",
+        "project_name": "(Acala)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 364,
+        "ticker": "DEXT",
+        "project_name": "(Dex Tools)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 365,
+        "ticker": "LIME",
+        "project_name": "(Ime Lab)",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 366,
+        "ticker": "GLC",
+        "project_name": "(Goldcoin)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 367,
+        "ticker": "BLZ",
+        "project_name": "(Bluzelle)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 368,
+        "ticker": "TWT",
+        "project_name": "Trust Wallet)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 369,
+        "ticker": "SKM",
+        "project_name": "Skrumble Network)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 370,
+        "ticker": "USDT",
+        "project_name": "(Tether Usd)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 371,
+        "ticker": "USDC",
+        "project_name": "(Usd Coin)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 372,
+        "ticker": "QUBIC",
+        "project_name": "(Qubic)",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 373,
+        "ticker": "MOCA",
+        "project_name": "(Moca Coin )",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam "
+    },
+    {
+        "id": 374,
+        "ticker": "PYUSD",
+        "project_name": "(Paypal USD) ",
+        "shariah_status": "HALAL"
+    },
+    {
+        "id": 375,
+        "ticker": "TORN",
+        "project_name": "(Tornado Cash)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 376,
+        "ticker": "ARDR",
+        "project_name": "(Ardor)",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam "
+    },
+    {
+        "id": 377,
+        "ticker": "VIC",
+        "project_name": "(Viction)",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam "
+    },
+    {
+        "id": 378,
+        "ticker": "NKN",
+        "project_name": "(Nkn)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 379,
+        "ticker": "RAD",
+        "project_name": "(Radworks\/Radicle)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 380,
+        "ticker": "BNT",
+        "project_name": "(Bancor)",
+        "shariah_status": "HARAM",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 381,
+        "ticker": "JST",
+        "project_name": "(Just)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 382,
+        "ticker": "VIB",
+        "project_name": "(Viberate)",
+        "description": "عبارة عن منصة مبنية على Ethereum تشكل النظام البيئي للموسيقى الحية بالكامل تحت سقف واحد. تعمل حاليًا بمثابة IMDB للموسيقى الحية، حيث يتم تصنيف ملفات الموسيقيين وفقًا لشعبيتهم عبر الإنترنت.\nوهو نظام بيئي للموسيقى الحية يعمل ربط الفنانين والمعجبين ووكالات الحجز وإدارة المواهب ومنظمي الأحداث معًا على نفس المنصة. وتقوم بإدراج ملفات تعريف لأكثر من 300000 فنان و2000 وكالة حجز و90.000 مكان و500000 حدث. وهدفها هو أن تصبح أكبر سوق للمواهب العالمية.",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 383,
+        "ticker": "STRK",
+        "project_name": "(Starknet)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 384,
+        "ticker": "OAX",
+        "project_name": "(openANX)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 385,
+        "ticker": "ONT",
+        "project_name": "(Ontology) ",
+        "description": ". تعتبر حامليها شركاء في الشبكة او المشروع وتعود عليهم بارباح لهذا فهي تعتبر سهم مختلط والسهم المختلط الذي يدور نشاط شركته بين الحل والحرمة ... وحكمه يحرم التعامل به وفقا لقرار مجمع الفقه الاسلامي الدولي",
+        "shariah_status": "HARAM",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 386,
+        "ticker": "CREAM",
+        "project_name": "(Cream Finance)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 387,
+        "ticker": "WAN",
+        "project_name": "(Wanchain)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 388,
+        "ticker": "RIF",
+        "project_name": "(RSK Infrastructure Framework)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 389,
+        "ticker": "AVAIL",
+        "project_name": "(Avail)",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam "
+    },
+    {
+        "id": 390,
+        "ticker": "LSS",
+        "project_name": "(Lossless)",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam "
+    },
+    {
+        "id": 391,
+        "ticker": "LITH",
+        "project_name": "(Lithium)",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam "
+    },
+    {
+        "id": 392,
+        "ticker": "SQT",
+        "project_name": "(SubQuery Network )",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam "
+    },
+    {
+        "id": 393,
+        "ticker": "TOMI",
+        "project_name": "(Tomi)",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam "
+    },
+    {
+        "id": 394,
+        "ticker": "CHESS",
+        "project_name": "(Tranchess)",
+        "shariah_status": "HARAM",
+        "source": "CryptoIslam "
+    },
+    {
+        "id": 395,
+        "ticker": "HIFI",
+        "project_name": "(Hifi Finance )",
+        "shariah_status": "HARAM",
+        "source": "CryptoIslam "
+    },
+    {
+        "id": 396,
+        "ticker": "INJ",
+        "project_name": "(Injective)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 397,
+        "ticker": "AAVE",
+        "project_name": "(Aave)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 398,
+        "ticker": "UNFI",
+        "project_name": "(Unifi Protocol DAO )",
+        "shariah_status": "HARAM",
+        "source": "CryptoIslam "
+    },
+    {
+        "id": 399,
+        "ticker": "IDEX",
+        "project_name": "(Idex)",
+        "description": "هو عبارة عن سيولة هجين يجمع بين نموذج دفتر الطلبات وصانع السوق الآلي. تتخذ Idex نهجًا مبتكرًا للتبادلات اللامركزية من خلال الجمع بين محرك التداول خارج السلسلة والتسوية التجارية عبر السلسلة. تعمل على Ethereum و Binance Smart Chain",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 400,
+        "ticker": "XAUT",
+        "project_name": "(Tether Gold)",
+        "description": "Tether has introduced Alloy, a new product blending traditional finance stability with digital asset innovation. \n\nAlloy is a digital asset known as aUSD₮, over-collateralized by Tether Gold (XAU₮), ensuring that for every unit of aUSD₮ created, a larger value of gold is held as collateral in Swiss vaults. \n\nThis addresses the common issue of volatility in the cryptocurrency market, offering a stable alternative backed by gold. \n\nAlloy operates through over-collateralization, where users deposit Tether Gold into a smart contract, mint aUSD₮ based on the gold deposited, and use aUSD₮ for various transactions. \n\nThis system provides the US dollar's utility with gold's stability, crucial for those wanting to use digital assets without worrying about sudden value drops. \n\nAlloy complements Bitcoin by providing a stable alternative for transactions, allowing diversification of digital asset portfolios, and encouraging mainstream adoption of digital currencies. \n\nDesigned for secondary market liquidity, Alloy creates arbitrage opportunities when market prices deviate from the reference price. \n\nIf aUSD₮ falls below $1, users can buy it at a discount to release their collateral, while if it exceeds $1, new users can mint and sell it to balance the supply and stabilize the price. \n\nHowever, from a Shariah perspective, aUSD₮ is not suitable for TijarX as it does not give the holder ownership of the gold per se, unlike alternatives like Ainslie or PAX Gold. \n\nChief Shariyah Architect of MRHB, Mufti Billal Omarjee points out that XAU₮, the Tether Gold backing aUSD₮, is also not Shariah-compliant as there is no audit confirming a 1:1 gold reserve ratio. \n\nThus, while Alloy by Tether offers innovative stability and utility, it does not meet the criteria for Shariah compliance, making it unsuitable for those seeking Shariah-compliant investment options. \n\nThis highlights the importance of ensuring transparency and adherence to Shariah principles in the evolving landscape of digital currencies.",
+        "shariah_status": "QUESTIONABLE"
+    },
+    {
+        "id": 401,
+        "ticker": "AUSDT",
+        "project_name": "(aUSDT)",
+        "description": "look at the fatwa on the \"XAUT\" currency.",
+        "shariah_status": "QUESTIONABLE"
+    },
+    {
+        "id": 402,
+        "ticker": "WBTC",
+        "project_name": "Wrapped Bitcoin)",
+        "description": "According to Dr. Muhammad Abu Jazar, deployed bitcoin is haram. Therefore, we compared all deployed tokens with deployed bitcoin, at least these coins are considered questionable! If we receive a response from one of the committees, we will update the hukm insha Allah.",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 403,
+        "ticker": "WETH",
+        "project_name": "(Wrapped Ethereum)",
+        "description": "According to Dr. Muhammad Abu Jazar, deployed bitcoin is haram. Therefore, we compared all deployed tokens with deployed bitcoin, at least these coins are considered questionable! If we receive a response from one of the committees, we will update the hukm insha Allah.",
+        "shariah_status": "QUESTIONABLE"
+    },
+    {
+        "id": 404,
+        "ticker": "BLUR",
+        "project_name": "(Blur.io)",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 405,
+        "ticker": "DAR",
+        "project_name": "(Mines of Dalarnia)",
+        "description": "The committees do not check cryptocurrencies belonging to the categories of fan tokens, meme tokens and game tokens.",
+        "shariah_status": "QUESTIONABLE",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 406,
+        "ticker": "VOXEL",
+        "project_name": "(Voxies)",
+        "description": "The committees do not check cryptocurrencies belonging to the categories of fan tokens, meme tokens and game tokens."
+    },
+    {
+        "id": 407,
+        "ticker": "WTRX",
+        "project_name": "(Wrapped TRON)",
+        "description": "According to Dr. Muhammad Abu Jazar, deployed bitcoin is haram. Therefore, we compared all deployed tokens with deployed bitcoin, at least these coins are considered questionable! If we receive a response from one of the committees, we will update the hukm insha Allah.",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 408,
+        "ticker": "FIS",
+        "project_name": "(StarFi)",
+        "shariah_status": "HARAM",
+        "source": "CryptoIslam "
+    },
+    {
+        "id": 409,
+        "ticker": "CNV",
+        "project_name": "(Concave)",
+        "description": "تقدم خدمات رئيسية مختلطة بين مباحة و غير مباحة\n\n• Mixed services",
+        "shariah_status": "HARAM",
+        "source": "CryptoIslam "
+    },
+    {
+        "id": 410,
+        "ticker": "WRX",
+        "project_name": "(WazirX)",
+        "description": "هي منصة تداول عملات مشفرة هندية الأصل أسسها مطورون من الهند. وهي موجهة في الأساس لمنطقة الهند. ويتم تداول أكثر من 80 عملة عليها. تم إطلاق النظام الأساسي عام 2018م. كما تسهل المنصة التحويل المضمون والاقتصادي من العملات الورقية إلى العملات المشفرة، وتقوم العملة بدعم المشروع بالكامل، قامت منصة بايننس بالاستحواذ عليها عام 2019م.",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam "
+    },
+    {
+        "id": 411,
+        "ticker": "SURE",
+        "project_name": "(inSure DeFi )",
+        "shariah_status": "HARAM",
+        "source": "CryptoIslam "
+    },
+    {
+        "id": 412,
+        "ticker": "WOO",
+        "project_name": "(Woo Network)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 413,
+        "ticker": "TLM",
+        "project_name": "(Alien Worlds)",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 414,
+        "ticker": "ONT",
+        "project_name": "(Ontology)",
+        "description": "ONT تمثل سهم ملكية في المشروع وليس عملة, وتملك الاسهم في المشاريع المختلطة غير جائز بحسب قرار مجمع الفقه الاسلامي الدولي",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 415,
+        "ticker": "WSOL",
+        "project_name": "(Wrapped Sol)",
+        "description": "According to Dr. Muhammad Abu Jazar, deployed bitcoin is haram. Therefore, we compared all deployed tokens with deployed bitcoin, at least these coins are considered questionable! If we receive a response from one of the committees, we will update the hukm insha Allah.",
+        "shariah_status": "QUESTIONABLE"
+    },
+    {
+        "id": 416,
+        "ticker": "ARBITRAGE",
+        "project_name": "(Арбитраж) ",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 417,
+        "ticker": "HMSTR",
+        "project_name": "(Hamster Kombat)",
+        "description": "The idea of the Hamster Combat game was originally to gather a large audience and release your token. But as we can see, after the project gathered more than 100,000,000 users into its game, they began to work closely with the Winline bookmaker company. According to Sharia law, all gambling is HARAM! To advertise, to cooperate is also HARAM!",
+        "shariah_status": "QUESTIONABLE"
+    },
+    {
+        "id": 418,
+        "ticker": "BLUM",
+        "project_name": "(Blum)",
+        "description": "Blum wants to become a decentralized exchange in the future, in Telegram, which will support spot trading as well as derivatives. We have not found an exact hook regarding this game, but when the Blum token is released, the shariah status of exchange coins also applies to the Blum token, that is, as a QUESTIONABLE ",
+        "shariah_status": "QUESTIONABLE"
+    },
+    {
+        "id": 419,
+        "ticker": "UXLINK",
+        "project_name": "(Uxlink)",
+        "shariah_status": "HALAL",
+        "source": "t.me\/CrypoIslam"
+    },
+    {
+        "id": 420,
+        "ticker": "STAKING",
+        "project_name": "(Стейкинг) ",
+        "description": "Cryptocurrency staking: an Islamic finance perspective.\n Staking has become a popular way to make money in the crypto world, but how does it relate to Sharia principles? Let's figure it out:\nTypes of staking:\nMining on the platform, Participation in liquidity pools, Storage rewards\nShariah assessment:\nMining: prohibited on platforms with smart contracts, but may be allowed without them Liquidity pools: expressly prohibited as a form of usury\nReward for storage: prohibited due to suspicions of usury\nA Important: the decision may depend on the features of a particular platform",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    }
+]
