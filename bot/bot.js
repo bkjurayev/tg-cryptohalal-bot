@@ -2,37 +2,29 @@ const { Telegraf, Markup, session } = require('telegraf');
 const { default: axios } = require('axios');
 const fs = require('fs');
 
-// const User = require('../models/User')
-// const AuthService = require("./services/auth.service");
-// const authService = new AuthService();
-
 const bot = new Telegraf(process.env.TOKEN, { polling: true });
-
 bot.use(session({
     defaultSession: () => ({
         lang: null,
     }),
 }));
-
-// const jsonData = fs.readFileSync('users.json', { encoding: 'utf-8' });
-// // const jsonData = JSON.parse(fs.readFileSync('users.json', 'utf-8'));
-// let jsonDataObj = JSON.parse(jsonData)
-// console.log(typeof jsonData);
-
-
-// Загрузка данных о монетах
-let coins = JSON.parse(fs.readFileSync('tickers.json', 'utf-8'));
-const date = new Date();
-
 bot.telegram.setMyCommands([
     { command: '/start', description: 'Start' },
 ])
+
+
+// Загрузка данных о монетах и пользователя
+let coins = JSON.parse(fs.readFileSync('tickers.json', 'utf-8'));
+let usersJson = JSON.parse(fs.readFileSync('users.json', 'utf-8'))
+const date = new Date();
+
 
 // Начальная команда
 bot.start(async (ctx) => {
     const chatId = ctx.chat.id;
     const name = ctx.chat.username ? ctx.chat.username : ctx.chat.first_name
     const createdAt = date
+    let checkUser = await usersJson.find(el => el.chatId == chatId)
 
     axios
         .post('https://api.telegram.org/bot5336070499:AAFrn3cc5vInWMLnqbqHB7uC9BZRuxXk7dE/sendMessage', {
@@ -46,20 +38,30 @@ bot.start(async (ctx) => {
             console.log('Error while sending to TG', error);
         })
 
+    if (checkUser) {
+        console.log('Bu user allaqachon bazada bor');
+    } else {
+        // Чтение существующего файла JSON
+        // Новые данные, которые нужно добавить
+        const data = {
+            "name": ctx.chat.username ? ctx.chat.username : ctx.chat.first_name,
+            "chatId": chatId,
+            "action": "start",
+            "quanttityUsing": "1",
+            "createdAt": date
+        }
+        // Добавление новых данных
+        usersJson.push(data);
+        // Запись обновленных данных обратно в файл
+        fs.writeFile('users.json', JSON.stringify(usersJson, null, 2), { encoding: 'utf8', flag: 'w' }, (err) => {
+            if (err) throw err;
+            console.log('Данные успешно добавлены и сохранены.');
+        })
+    }
 
-    // let checkUser = await User.findOne({ chatId }).lean()
-    // let usersJson = JSON.parse(fs.readFileSync('users.json', 'utf-8'));
-    // const data = {
-    //     "name": ctx.chat.username ? ctx.chat.username : ctx.chat.first_name,
-    //     "chatId": chatId,
-    //     "action": "start",
-    //     "quanttityUsing": "1",
-    //     "createdAt": date
-    // }
-    // console.log(usersJson, data);
-    // let newUserList = { ...data, ...usersJson };
-    // console.log(newUserList);
-    // fs.writeFileSync('users.json', JSON.stringify(newUserList), { encoding: 'utf8', flag: 'w' })
+
+
+
     // // Register route
     // if (!checkUser) {
     //     try {
@@ -111,9 +113,9 @@ async function homeMessageBuilder(ctx) {
             }[lang],
             Markup.inlineKeyboard([
                 [Markup.button.callback({
-                    'uz': '🔎 Koinlarni tekshirish',
-                    'ru': '🔎 Проверка монет',
-                    'en': '🔎 Checking coins'
+                    'uz': 'Kriptovalyutalar hukmini tekshrish 🔍',
+                    'ru': 'Проверка криптомонет 🔍',
+                    'en': 'Checking Cryptocurrency 🔍'
                 }[lang], 'research')]
             ])
         );
@@ -246,9 +248,9 @@ bot.on('text', async (ctx) => {
 
         const message = coin
             ? {
-                'uz': `🌐 ${coin.project_name != '' ? search.toUpperCase() + ' ' + coin.project_name : search.toUpperCase()} ${coin.description == undefined ? '' : '\n\n' + coin.description} \n\n${statusText[coin.shariah_status.toLowerCase()]} \n\n${coin.source != '' && !coin.source.includes('www.t.me/CrypoIslam') ? 'Manba: ' + coin.source : ''}`,
-                'ru': `🌐 ${coin.project_name != '' ? search.toUpperCase() + ' ' + coin.project_name : search.toUpperCase()} ${coin.description == undefined ? '' : '\n\n' + coin.description} \n\n${statusText[coin.shariah_status.toLowerCase()]} \n\n${coin.source != '' && !coin.source.includes('www.t.me/CrypoIslam') ? 'Источник: ' + coin.source : ''}`,
-                'en': `🌐 ${coin.project_name != '' ? search.toUpperCase() + ' ' + coin.project_name : search.toUpperCase()} ${coin.description == undefined ? '' : '\n\n' + coin.description} \n\n${statusText[coin.shariah_status.toLowerCase()]} \n\n${coin.source != '' && !coin.source.includes('www.t.me/CrypoIslam') ? 'Source: ' + coin.source : ''}`,
+                'uz': `🌐 ${coin.project_name ? search.toUpperCase() + ' ' + coin.project_name : search.toUpperCase()} ${coin.description ? '\n\n' + coin.description : ''} \n\n${statusText[coin.shariah_status.toLowerCase()]} \n\n${coin.source && !coin.source.includes('t.me/CrypoIslam') ? 'Manba: ' + coin.source : ''}`,
+                'ru': `🌐 ${coin.project_name ? search.toUpperCase() + ' ' + coin.project_name : search.toUpperCase()} ${coin.description ? '\n\n' + coin.description : ''} \n\n${statusText[coin.shariah_status.toLowerCase()]} \n\n${coin.source && !coin.source.includes('t.me/CrypoIslam') ? 'Источник: ' + coin.source : ''}`,
+                'en': `🌐 ${coin.project_name ? search.toUpperCase() + ' ' + coin.project_name : search.toUpperCase()} ${coin.description ? '\n\n' + coin.description : ''} \n\n${statusText[coin.shariah_status.toLowerCase()]} \n\n${coin.source && !coin.source.includes('t.me/CrypoIslam') ? 'Source: ' + coin.source : ''}`,
             }[lang]
             : {
                 'uz': "🔘 Ushbu token haqida ma'lumot topilmadi. \nBiroz keyinroq tekshirib ko'ring. \n\n🤖 Botga siz izlamoqchi bo'lgan token tikerini yozing \n✅ Misol uchun: \n🔸 Bitcoin - BTC",

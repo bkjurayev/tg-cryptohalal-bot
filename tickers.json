@@ -1074,11 +1074,11 @@
     },
     {
         "id": 150,
-        "ticker": "LINA",
-        "project_name": "(Linear Finance)",
-        "description": "Linear offered various DeFi products in their ecosystem. Overall all the products offered by this protocol complies with Shariah's rulings. However, we could not identify the source of return or where the fund goes in their Vault product. Possibly it can come from lending protocol. The staking method in this project also triggered a red flag. We classified Linear as Non-Shariah.",
-        "shariah_status": "HALAL",
-        "source": "www.sharlife.my"
+        "ticker": "STAKING",
+        "project_name": "(Стейкинг)",
+        "description": "Cryptocurrency staking: an Islamic finance perspective.\n Staking has become a popular way to make money in the crypto world, but how does it relate to Sharia principles? Let's figure it out:\nTypes of staking:\nMining on the platform, Participation in liquidity pools, Storage rewards\nShariah assessment:\nMining: prohibited on platforms with smart contracts, but may be allowed without them Liquidity pools: expressly prohibited as a form of usury\nReward for storage: prohibited due to suspicions of usury\nA Important: the decision may depend on the features of a particular platform",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
     },
     {
         "id": 151,
@@ -1430,7 +1430,7 @@
         "id": 200,
         "ticker": "BTC",
         "project_name": "(Bitcoin)",
-        "description": "Фетвы учёных о дозволенности биткоина: \n\nwww.drive.google.com\/file\/d\/1PpB1gZ4ossyIi_KibjnakXMyHUqwG94c\/view?usp=drivesdk\nШариатские правовые нормы связанные с электронной валютой \"Bitcoin\"\n\nАвтор: Абдуллах ибн Мухаммад ибн Абдульваххаб Аль Укайль\n\nwww.drive.google.com\/file\/d\/1Pp272lS13l96JqyhYKW4tKwumy1mmeNz\/view?usp=drivesdk\nПеревели для вас фетву Абдуррахмана Ибн Насыра Аль-Баррака.\n\n\"Хукм криптовалюты Биткоин\"\n\nwww. youtu. be\/2-UKQ51Hm98?si=YOrRPZsaOp2w4N7L\nШейх Мутляк Аль-Джасир Аль-Ханбали \n\n\"Хукм цифровых валют и биткоина\"\n\nwww.telegra.ph\/Fetva-o-dozvolennosti-bitkoina--SHejh-Saad-Haslyan-07-24\nШейх Саад Хаслян о дозволенности биткоина и криптовалют. \n\nАргументы  о дозволенности биткоина от комитетов: \nwww.telegra.ph\/Bitcoin-BTC-07-24",
+        "description": "Фетвы учёных о дозволенности биткоина: \n\nwww.drive.google.com\/file\/d\/1PpB1gZ4ossyIi_KibjnakXMyHUqwG94c\/view?usp=drivesdk\nШариатские правовые нормы связанные с электронной валютой \"Bitcoin\"\n\nАвтор: Абдуллах ибн Мухаммад ибн Абдульваххаб Аль Укайль\n\nwww.drive.google.com\/file\/d\/1Pp272lS13l96JqyhYKW4tKwumy1mmeNz\/view?usp=drivesdk\nПеревели для вас фетву Абдуррахмана Ибн Насыра Аль-Баррака.\n\n\"Хукм криптовалюты Биткоин\"\n\nwww.youtu.be\/2-UKQ51Hm98?si=YOrRPZsaOp2w4N7L\nШейх Мутляк Аль-Джасир Аль-Ханбали \n\n\"Хукм цифровых валют и биткоина\"\n\nwww.telegra.ph\/Fetva-o-dozvolennosti-bitkoina--SHejh-Saad-Haslyan-07-24\nШейх Саад Хаслян о дозволенности биткоина и криптовалют. \n\nАргументы  о дозволенности биткоина от комитетов: \nwww.telegra.ph\/Bitcoin-BTC-07-24",
         "shariah_status": "HALAL",
         "source": "www.sharlife.my, www.cryptohalal.cc"
     },
@@ -1516,6 +1516,7 @@
         "id": 212,
         "ticker": "DOGE",
         "project_name": "Dogecoin)",
+        "description": "SharLife believes that all meme coins are questionable, even some of them are haram. According to Dr. Muhammad Abu Jazar (Cryptohalal), the DogeCoin meme coin has its own blockchain and works on the basis of PoW. The currency is also used in several online stores, the fact that the coin works on a mining algorithm makes it valuable, for this reason this coin is considered 'HALAL🟢'",
         "shariah_status": "HALAL",
         "source": "www.sharlife.my, www.cryptohalal.cc"
     },
@@ -1523,7 +1524,8 @@
         "id": 213,
         "ticker": "SHIB",
         "project_name": "(Shiba Inu)",
-        "shariah_status": "HALAL",
+        "description": "SharLife: QUESTIONABLE",
+        "shariah_status": "HARAM",
         "source": "www.sharlife.my, www.cryptohalal.cc"
     },
     {
@@ -1924,7 +1926,7 @@
         "ticker": "VENOM",
         "project_name": "(Venom)",
         "shariah_status": "HALAL",
-        "source": "www.cryptohalal.cc"
+        "source": "www.sharlife.my"
     },
     {
         "id": 273,
@@ -2909,6 +2911,7 @@
         "id": 416,
         "ticker": "ARBITRAGE",
         "project_name": "(Арбитраж) ",
+        "description": "Check out the Sharlife article dedicated to the topic of arbitrage: \nwww.sharlife.my/article/content/is-arbitrage-trading-halal \n\nСтатья - о дозволенности арбитража криптовалют: \nwww.telegra.ph/Article-on-the-halal-of-arbitrage-07-29 \n\nАрбитраж савдоси шаръий ҳукмига боғлиқ мақолани қўйидаги линк орқали ўқиб чиқинг: \nwww.telegra.ph/Arbitrage-savdosining-shariy-hukmi-07-29",
         "shariah_status": "HALAL",
         "source": "www.sharlife.my"
     },
@@ -2921,7 +2924,7 @@
     },
     {
         "id": 418,
-        "ticker": "BLUM",
+        "ticker": "blum",
         "project_name": "(Blum)",
         "description": "Blum wants to become a decentralized exchange in the future, in Telegram, which will support spot trading as well as derivatives. We have not found an exact hook regarding this game, but when the Blum token is released, the shariah status of exchange coins also applies to the Blum token, that is, as a QUESTIONABLE ",
         "shariah_status": "QUESTIONABLE"
@@ -2932,13 +2935,5 @@
         "project_name": "(Uxlink)",
         "shariah_status": "HALAL",
         "source": "t.me\/CrypoIslam"
-    },
-    {
-        "id": 420,
-        "ticker": "STAKING",
-        "project_name": "(Стейкинг) ",
-        "description": "Cryptocurrency staking: an Islamic finance perspective.\n Staking has become a popular way to make money in the crypto world, but how does it relate to Sharia principles? Let's figure it out:\nTypes of staking:\nMining on the platform, Participation in liquidity pools, Storage rewards\nShariah assessment:\nMining: prohibited on platforms with smart contracts, but may be allowed without them Liquidity pools: expressly prohibited as a form of usury\nReward for storage: prohibited due to suspicions of usury\nA Important: the decision may depend on the features of a particular platform",
-        "shariah_status": "HARAM",
-        "source": "www.cryptohalal.cc"
     }
 ]
