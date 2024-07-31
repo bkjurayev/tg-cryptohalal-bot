@@ -122,8 +122,14 @@ async function homeMessageBuilder(ctx) {
                     'uz': 'Kriptovalyutalar hukmini tekshrish 🔍',
                     'ru': 'Проверка криптомонет 🔍',
                     'en': 'Checking Cryptocurrency 🔍',
-                    'sa': 'التحقق من العملات المشفرة 🔍'
-                }[lang], 'research')]
+                    'sa': 'فحص العملات الرقمية 🔍'
+                }[lang], 'research')],
+                [Markup.button.callback({
+                    'uz': 'Akademiya 📚',
+                    'ru': 'Статьи 📚',
+                    'en': 'Articles 📚',
+                    'sa': 'مقالات 📚'
+                }[lang], 'articles')]
             ])
         );
     } catch (error) {
@@ -174,6 +180,41 @@ async function researchMessageBuilder(ctx) {
         );
     } catch (error) {
         console.log('Error while start finding coins', error);
+    }
+}
+// Обработчик выбора "Исследование"
+bot.action('articles', async (ctx) => {
+    const chatId = ctx.chat.id;
+    ctx.session.route = 'articles';
+    ctx.session.lastMessageId = ctx.update.callback_query.message.message_id;
+
+    await articlesMessageBuilder(ctx);
+});
+// Построитель сообщения исследования
+async function articlesMessageBuilder(ctx) {
+    const lang = ctx.session.lang || 'uz';
+
+    const bigtexts = {
+        'uz': "Арбитраж савдоси шаръий ҳукмига боғлиқ мақолани қўйидаги линк орқали ўқиб чиқинг: \nhttps://telegra.ph/Arbitrage-savdosining-shariy-hukmi-07-29",
+        'ru': "Статья - о дозволенности арбитража криптовалют: \nhttps://telegra.ph/Article-on-the-halal-of-arbitrage-07-29",
+        'en': "Check out the Sharlife article dedicated to the topic of arbitrage: \nhttps://sharlife.my/article/content/is-arbitrage-trading-halal ",
+        'sa': "اطلع على مقال شارلايف المخصص لموضوع التحكيم: \nhttps://sharlife.my/article/content/is-arbitrage-trading-halal ",
+    }
+    const bigtext = bigtexts[lang];
+
+    // Define the inline keyboard markup based on the language
+    const buttonLabels = {
+        'uz': '🔙 Orqaga',
+        'ru': '🔙 Назад',
+        'en': '🔙 Back',
+        'sa': '🔙 خلف',
+    };
+    const buttonText = buttonLabels[lang];
+
+    try {
+        await ctx.replyWithHTML(bigtext)
+    } catch (error) {
+        console.log('Error while showing article', error);
     }
 }
 // Обработчик возврата домой
