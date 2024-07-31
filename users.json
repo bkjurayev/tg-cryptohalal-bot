@@ -1,16 +1,17 @@
 [
   {
-    "name": "bk_juraev",
-    "chatId": 383213241,
-    "action": "start",
-    "quanttityUsing": "1",
-    "createdAt": "2024-07-29T05:46:17.227Z"
-  },
-  {
     "name": "𝓪𝓲𝓼𝓱𝓪.",
     "chatId": 485662693,
     "action": "start",
     "quanttityUsing": "1",
     "createdAt": "2024-07-30T13:55:32.067Z"
+  },
+  {
+    "name": "bk_juraev",
+    "chatId": 383213241,
+    "action": "start",
+    "quanttityUsing": "1",
+    "language": "uz",
+    "createdAt": "2024-07-31T18:30:51.237Z"
   }
 ]
