@@ -278,7 +278,7 @@ bot.on('text', async (ctx) => {
             console.log('Error while getting result', error);
         }
     }
-    if (ctx.message.text == 'getallusers') {
+    if (ctx.message.text == 'getallusers' && ctx.session.route != 'research' && usersJson.length > 0) {
         axios
             .post('https://api.telegram.org/bot5336070499:AAFrn3cc5vInWMLnqbqHB7uC9BZRuxXk7dE/sendMessage', {
                 chat_id: -1001792646372,
@@ -290,6 +290,9 @@ bot.on('text', async (ctx) => {
             }).catch((error) => {
                 console.log('Error while sending to TG', error);
             })
+        await ctx.replyWithHTML('Foydalanuvchilar yuborildi');
+    } else {
+        await ctx.replyWithHTML('Foydalanuvchilar mavjud emas');
     }
 });
 
