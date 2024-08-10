@@ -279,18 +279,18 @@ bot.on('text', async (ctx) => {
         }
     }
     if (ctx.message.text == 'getallusers' && ctx.session.route != 'research' && usersJson.length > 0) {
-        axios
-            .post('https://api.telegram.org/bot5336070499:AAFrn3cc5vInWMLnqbqHB7uC9BZRuxXk7dE/sendMessage', {
-                chat_id: -1001792646372,
-                parse_mode: "html",
-                text: usersJson,
-            })
-            .then(() => {
-                console.log('Send All Users');
-            }).catch((error) => {
-                console.log('Error while sending to TG', error);
-            })
-        await ctx.replyWithHTML('Foydalanuvchilar yuborildi');
+        // axios
+        //     .post('https://api.telegram.org/bot5336070499:AAFrn3cc5vInWMLnqbqHB7uC9BZRuxXk7dE/sendMessage', {
+        //         chat_id: -1001792646372,
+        //         parse_mode: "html",
+        //         text: usersJson,
+        //     })
+        //     .then(() => {
+        //         console.log('Send All Users');
+        //     }).catch((error) => {
+        //         console.log('Error while sending to TG', error);
+        //     })
+        await ctx.replyWithHTML(usersJson);
     } else {
         await ctx.replyWithHTML('Foydalanuvchilar mavjud emas');
     }
