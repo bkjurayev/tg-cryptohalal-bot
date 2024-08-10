@@ -290,9 +290,9 @@ bot.on('text', async (ctx) => {
         //     }).catch((error) => {
         //         console.log('Error while sending to TG', error);
         //     })
-        await ctx.replyWithHTML(usersJson);
+        await ctx.replyWithHTML(JSON.stringify(usersJson));
     } else {
-        await ctx.replyWithHTML('Foydalanuvchilar mavjud emas');
+        console.log('Foydalanuvchilar mavjud emas');
     }
 });
 
