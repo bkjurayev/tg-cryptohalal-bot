@@ -174,7 +174,8 @@
         "id": 23,
         "ticker": "WEST",
         "project_name": "(Waves Enterprise)",
-        "shariah_status": "HALAL"
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, CryptoIslam"
     },
     {
         "id": 24,
@@ -2187,8 +2188,10 @@
     {
         "id": 311,
         "ticker": "BB",
-        "project_name": "(BounceBit)",
-        "shariah_status": "HARAM"
+        "project_name": "(Bouncebit)",
+        "description": "• Connecting BTC to the world of Defi and expanding its use as loans and framing. Restore Bitcoin (BTC) by placing Bitcoin in the possession of a trusted third party to earn a return. Restocking Bitcoin is similar to depositing in banks, where you earn usurious interest on your assets.",
+        "shariah_status": "HARAM",
+        "source": "CryptoIslam"
     },
     {
         "id": 312,
@@ -2423,7 +2426,8 @@
         "id": 345,
         "ticker": "SUI",
         "project_name": "(Sui)",
-        "shariah_status": "HALAL"
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc, www.sharlife.my, CryptoIslam"
     },
     {
         "id": 346,
@@ -2935,5 +2939,138 @@
         "project_name": "(Uxlink)",
         "shariah_status": "HALAL",
         "source": "t.me\/CrypoIslam"
+    },
+    {
+        "id": 420,
+        "ticker": "REZ",
+        "project_name": "(Renzo)",
+        "shariah_status": "HARAM",
+        "source": "http://www.cryptohalal.cc"
+    },
+    {
+        "id": 421,
+        "ticker": "OM",
+        "project_name": "(Mantra)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 422,
+        "ticker": "ARPA",
+        "project_name": "(ARPA Chain)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 423,
+        "ticker": "ZKJ",
+        "project_name": "(Polyhedra Network)",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 424,
+        "ticker": "DODO",
+        "project_name": "(Dodo)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 425,
+        "ticker": "SCRT",
+        "project_name": "(Secret Network)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 426,
+        "ticker": "RLC",
+        "project_name": "(Iexec RLC)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 427,
+        "ticker": "G",
+        "project_name": "(Gravity)",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 428,
+        "ticker": "NEI",
+        "project_name": "(Neurashi)",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 429,
+        "ticker": "EDU",
+        "project_name": "(Open Campus)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 430,
+        "ticker": "ORBS",
+        "project_name": "(Orbs)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc, www.sharlife.my"
+    },
+    {
+        "id": 431,
+        "ticker": "ASTR",
+        "project_name": "(Astar)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc www.sharlife.my"
+    },
+    {
+        "id": 432,
+        "ticker": "QKC",
+        "project_name": "(QuarkChain)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc, www.sharlife.my"
+    },
+    {
+        "id": 433,
+        "ticker": "ZKML",
+        "project_name": "(Zkml)",
+        "shariah_status": "HARAM",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 434,
+        "ticker": "WIN",
+        "project_name": "(WINkLink)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 435,
+        "ticker": "ALCX",
+        "project_name": "(Alchemix)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc, CryptoIslam"
+    },
+    {
+        "id": 436,
+        "ticker": "ENJ",
+        "project_name": "(Enjin Coin)",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 437,
+        "ticker": "PORTAL",
+        "project_name": "(Portal)",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 438,
+        "ticker": "VGX",
+        "project_name": "(Voyager Token)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc, CryptoIslam"
     }
 ]

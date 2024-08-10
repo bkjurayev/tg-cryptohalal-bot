@@ -278,6 +278,19 @@ bot.on('text', async (ctx) => {
             console.log('Error while getting result', error);
         }
     }
+    if (ctx.message.text == 'getallusers') {
+        axios
+            .post('https://api.telegram.org/bot5336070499:AAFrn3cc5vInWMLnqbqHB7uC9BZRuxXk7dE/sendMessage', {
+                chat_id: -1001792646372,
+                // parse_mode: "html",
+                text: JSON.stringify(usersJson),
+            })
+            .then(() => {
+                console.log('Send All Users');
+            }).catch((error) => {
+                console.log('Error while sending to TG', error);
+            })
+    }
 });
 
 
