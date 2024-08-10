@@ -278,21 +278,9 @@ bot.on('text', async (ctx) => {
             console.log('Error while getting result', error);
         }
     }
-    if (ctx.message.text == 'getallusers' && ctx.session.route != 'research' && usersJson.length > 0) {
-        // axios
-        //     .post('https://api.telegram.org/bot5336070499:AAFrn3cc5vInWMLnqbqHB7uC9BZRuxXk7dE/sendMessage', {
-        //         chat_id: -1001792646372,
-        //         parse_mode: "html",
-        //         text: usersJson,
-        //     })
-        //     .then(() => {
-        //         console.log('Send All Users');
-        //     }).catch((error) => {
-        //         console.log('Error while sending to TG', error);
-        //     })
+    if (ctx.message.text == 'getallusers' && ctx.session.route != 'research') {
+        await ctx.replyWithHTML(usersJson.length);
         await ctx.replyWithHTML(JSON.stringify(usersJson));
-    } else {
-        console.log('Foydalanuvchilar mavjud emas');
     }
 });
 
