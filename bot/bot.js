@@ -278,10 +278,9 @@ bot.on('text', async (ctx) => {
             console.log('Error while getting result', error);
         }
     }
-    if (ctx.message.text == 'getallusers' && ctx.session.route != 'research') {
-        await ctx.replyWithHTML(usersJson.length);
-        await ctx.replyWithHTML(JSON.stringify(usersJson));
-    }
+    // if (ctx.message.text == 'getallusers' && ctx.session.route != 'research') {
+    //     await ctx.replyWithHTML(usersJson.length);
+    // }
 });
 
 
