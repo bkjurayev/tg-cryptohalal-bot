@@ -277,24 +277,29 @@ bot.on('text', async (ctx) => {
             console.log('Error while getting result', error);
         }
     }
-    if (ctx.message.text == 'getallusers' && ctx.session.route != 'research') {
-        // await ctx.replyWithHTML(usersJson.length);
-        if (ctx.message.text == 'getallusers' && ctx.session.route != 'research') {
-            // await ctx.replyWithHTML(usersJson.length); // massivni jo'natib bo'lmadi
-            usersJson.forEach(user => {
-                axios
-                    .post('https://api.telegram.org/bot5336070499:AAFrn3cc5vInWMLnqbqHB7uC9BZRuxXk7dE/sendMessage', {
+    async function sendMessages(usersJson) {
+        try {
+            const sendMessagePromises = usersJson.map(async (user) => {
+                try {
+                    await axios.post('https://api.telegram.org/bot5336070499:AAFrn3cc5vInWMLnqbqHB7uC9BZRuxXk7dE/sendMessage', {
                         chat_id: -1001792646372,
                         parse_mode: "html",
-                        text: `Length: ${usersJson.length}, \n${user}`,
-                    })
-                    .then(() => {
-                        console.log('Yangi foydalanuvchi');
-                    }).catch((error) => {
-                        console.log('Error while sending to TG', error);
-                    })
-            })
+                        text: user,
+                    });
+                    console.log('Yangi foydalanuvchi');
+                } catch (error) {
+                    console.error('Error while sending to TG', error);
+                }
+            });
+    
+            await Promise.all(sendMessagePromises);
+            console.log('All messages sent');
+        } catch (error) {
+            console.error('Error in sending messages', error);
         }
+    }
+    if (ctx.message.text == 'getallusers' && ctx.session.route != 'research') {
+        sendMessages(usersJson);
     }
 });
 
