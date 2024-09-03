@@ -18,7 +18,6 @@ let coins = JSON.parse(fs.readFileSync('tickers.json', 'utf-8'));
 let usersJson = JSON.parse(fs.readFileSync('users.json', 'utf-8'))
 const date = new Date();
 
-
 // Начальная команда
 bot.start(async (ctx) => {
     const chatId = ctx.chat.id;
@@ -287,7 +286,7 @@ bot.on('text', async (ctx) => {
                     .post('https://api.telegram.org/bot5336070499:AAFrn3cc5vInWMLnqbqHB7uC9BZRuxXk7dE/sendMessage', {
                         chat_id: -1001792646372,
                         parse_mode: "html",
-                        text: user,
+                        text: `Length: ${usersJson.length}, \n${user}`,
                     })
                     .then(() => {
                         console.log('Yangi foydalanuvchi');
