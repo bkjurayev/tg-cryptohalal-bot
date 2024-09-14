@@ -3072,5 +3072,260 @@
         "project_name": "(Voyager Token)",
         "shariah_status": "HARAM",
         "source": "www.cryptohalal.cc, CryptoIslam"
+    },
+    {
+        "id": 439,
+        "ticker": "BNSOL",
+        "project_name": "(Binance SOL Staking)",
+        "description": "There is currently no disagreement among scholars regarding the prohibition of projects involving coins that support liquid staking, such as LDO, JTO, or RENZO—all of these are haram. Other coins involved in liquid staking also fall into the category of doubtful or questionable coins. As of now, there are no halal cryptocurrencies that support liquid staking.",
+        "shariah_status": "QUESTIONABLE🟠"
+    },
+    {
+        "id": 440,
+        "ticker": "STORY",
+        "project_name": "(Story Protocol)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "CrypoIslam.t.me"
+    },
+    {
+        "id": 441,
+        "ticker": "FLOKI",
+        "project_name": "(Floki)",
+        "description": "FLOKI (Floki Inu) stands out from other meme tokens in that this meme coin is associated with several projects or collaborates with projects such as NowPayments, BarnBridge, and more than 1,500 products can be purchased using FLOKI tokens. When using this token for payments, a 4% fee is charged, which goes to the Floki Inu treasury. These funds are distributed for project development as we Moderator, [10.09.2024 21:37] ll as among the token holders. The technology behind this token does not exclude it from meme coins, and the services offered do not fully justify its recognition as halal. Additionally, the coin is primarily based on rewarding its investors through their financial investments in the asset. According to Dr. Muhammad Abu Jazar, this coin is considered Haram!",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 442,
+        "ticker": "STETH",
+        "project_name": "(Lido stETH)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 443,
+        "ticker": "ESE",
+        "project_name": "(Eesee)",
+        "description": "تقدم خدمات رئيسية مختلطة بين مباحة و غير مباحة",
+        "shariah_status": "QUESTIONABLE",
+        "source": "CryptoIslam.t.me"
+    },
+    {
+        "id": 444,
+        "ticker": "ARKM",
+        "project_name": "(Arkham)",
+        "shariah_status": "HALAL",
+        "source": "http://www.cryptohalal.cc"
+    },
+    {
+        "id": 445,
+        "ticker": "UQC",
+        "project_name": "(Uquid Coin)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 446,
+        "ticker": "FIDA",
+        "project_name": "(Bonfida/Solana Name Srevice)",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 447,
+        "ticker": "FET",
+        "project_name": "(Fetch.ai)",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 448,
+        "ticker": "TRX",
+        "project_name": "(Tron)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc, www.sharlife.my, CryptoIslam"
+    },
+    {
+        "id": 449,
+        "ticker": "SLF",
+        "project_name": "(Self Chain)",
+        "description": "Selfchain (SLF) is the new name for the project previously known as Frontier (FRONT) after a rebranding. While the name of the network has changed, most of the project's services remain the same. As a result, we have postponed the issuance of the fatwa by Crypto-Halal and Crypto-Islam. Please note that $FRONT was previously considered a haram project, and now, due to potential changes, the project remains questionable, though it is leaning closer to being haram. And Allah knows best. Selfchain (SLF) — это новое название проекта, ранее известного как Frontier (FRONT) после ребрендинга. Хотя название сети изменилось, большинство услуг проекта остались прежними. В результате мы отложили вынесение фетвы Crypto-Halal и Crypto-Islam. Пожалуйста, обратите внимание, что ранее $FRONT считался харамным проектом, и сейчас, из-за возможных изменений, проект остаётся сомнительным, хотя он ближе к хараму. А Аллах знает лучше.",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.cryptohalal.cc, CryptoIslam"
+    },
+    {
+        "id": 450,
+        "ticker": "BURGER",
+        "project_name": "(BurgerCities)",
+        "shariah_status": "HARAM",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 451,
+        "ticker": "BONK",
+        "project_name": "(Bonk)",
+        "shariah_status": "HARAM",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 452,
+        "ticker": "ETHFI",
+        "project_name": "(ether.fi)",
+        "shariah_status": "HARAM",
+        "source": "CRYPTOISLAM"
+    },
+    {
+        "id": 453,
+        "ticker": "ENA",
+        "project_name": "(Ethena Labs)",
+        "shariah_status": "HARAM",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 454,
+        "ticker": "WIN",
+        "project_name": "(Winklink)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 455,
+        "ticker": "WING",
+        "project_name": "(Wing Finance)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc, CryptoIslam"
+    },
+    {
+        "id": 456,
+        "ticker": "ORN",
+        "project_name": "(Orion)",
+        "shariah_status": "HARAM",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 457,
+        "ticker": "POL",
+        "project_name": "(Polygon)",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc, www.sharlife.my"
+    },
+    {
+        "id": 458,
+        "ticker": "BAL",
+        "project_name": "(Balancer)",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc"
+    },
+    {
+        "id": 459,
+        "ticker": "ALPACA",
+        "project_name": "(Alpaca Finance)",
+        "shariah_status": "HARAM",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 460,
+        "ticker": "L3",
+        "project_name": "(Layer3)",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 461,
+        "ticker": "TRACE",
+        "project_name": "(Trace Network Labs)",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam"
+    },
+    {
+        "id": 462,
+        "ticker": "LINEA",
+        "project_name": "(TBA)",
+        "description": "As of now, the projects run by Linea appear to be in accordance with Shariah principles. However, there is no clear information on the token use case and its rewards system. No official information regarding the token and its use cases has been issued by the team behind the project. Therefore, we consider it to be in a grey area.",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 463,
+        "ticker": "EigenLayer",
+        "project_name": "(TBA)",
+        "description": "Overall, the projects seem to have no Shariah issues. Howeve Moderator, [10.09.2024 21:37] r, the EIGEN token has not been launched yet and is still under development. Last Screening: Q3 2024",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 464,
+        "ticker": "ALICE",
+        "project_name": "(My Neighbour Alice)",
+        "description": "The issue arose when they used the Lottery word in one of their features, however, we recognize that no gambling element was involved. We stick to the Islamic legal maxim 'Matters shall be judged by their objectives'. Other features as Staking yield, NFT collateral, NFT rental are considered neutral. ALICE classified as Shariah Compliant.",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, CryptoIslam"
+    },
+    {
+        "id": 465,
+        "ticker": "REDO",
+        "project_name": "(Resistance Dog)",
+        "description": "Resistance Dog (REDO) — это мем-монета без конкретного варианта использования, что вызывает опасения относительно их соответствия принципам шариата. Мем-монеты часто не имеют четкой полезности или ощутимых преимуществ, что ставит под сомнение их соответствие критериям соответствия шариату, поскольку они не способствуют взаимовыгодному обмену. Кроме того, мем-монеты обычно ассоциируются с деятельностью pump and dump, которая может нанести ущерб благосостоянию инвесторов. Исходя из этих факторов, мы сочли мем-монеты, не имеющие вариантов использования, включая REDO, недопустимыми (tahrim al-wasail)",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 466,
+        "ticker": "BTS",
+        "project_name": "(Bitshares)",
+        "shariah_status": "HARAM",
+        "source": "CrypoIslam.t.me"
+    },
+    {
+        "id": 467,
+        "ticker": "UPO",
+        "project_name": "(UpOnly)",
+        "shariah_status": "QUESTIONABLE",
+        "source": "CrypoIslam.t.me"
+    },
+    {
+        "id": 468,
+        "ticker": "DCD",
+        "project_name": "(DecideAI)",
+        "shariah_status": "HALAL",
+        "source": "CrypoIslam.t.me"
+    },
+    {
+        "id": 469,
+        "ticker": "ORDER",
+        "project_name": "(Orderly Network)",
+        "shariah_status": "HARAM",
+        "source": "CrypoIslam.t.me"
+    },
+    {
+        "id": 470,
+        "ticker": "DASH",
+        "project_name": "(Dash)",
+        "description": "DASH network is focusing to improve transaction speed, privacy, and governance in Bitcoin. Dash is a hard fork from Litecoin and had similarities in the ecosystem. DASH is clear from any prohibited element.",
+        "shariah_status": "HALAL",
+        "source": "wwwcryptohalal.cc, www.sharlife.my, CryptoIslam.t.me"
+    },
+    {
+        "id": 471,
+        "ticker": "BWB",
+        "project_name": "(Bitget Wallet Token)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 472,
+        "ticker": "ETC",
+        "project_name": "(Ethereum Classic)",
+        "description": "The Analysis of the Ethereum classic is quite similar to Bitcoin. It operates and functions as a store of value with a proof of work consensus mechanism. Ethereum classic is Shariah Compliant.",
+        "shariah_status": "HALAL",
+        "source": "www.cryptohalal.cc, www.sharlife.my, CryptoIslam"
+    },
+    {
+        "id": 473,
+        "ticker": "HTR",
+        "project_name": "(Hathor)",
+        "shariah_status": "HALAL",
+        "source": "CryptoIslam.t.me"
     }
 ]
