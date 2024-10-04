@@ -18,9 +18,9 @@
         "id": 2,
         "ticker": "STG",
         "project_name": "(Stargate Finance)",
-        "description": "The project provides a cross chain transfer platform. The aim is to ease users from multi chain transfer their assets to multiple chains by using a single transaction. There are various products including liquidity pool and farming, but overall they are all neutral. We would say they just act as currency exchange but in web3 world that revolves around various blockchain. The project is neutral.",
-        "shariah_status": "HALAL",
-        "source": "www.sharlife.my"
+        "description": "",
+        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoHalal': HARAM🔴 \n'CryptoIslam': HARAM🔴",
+        "source": "https://t.me/HukmCrypto_bot"
     },
     {
         "id": 3,
@@ -34,8 +34,8 @@
         "id": 4,
         "ticker": "MNT",
         "project_name": " (Mantle)",
-        "shariah_status": "HALAL",
-        "source": "www.sharlife.my"
+        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoIslam': QUESTIONABLE🟠",
+        "source": ""
     },
     {
         "id": 5,
@@ -245,8 +245,8 @@
         "id": 33,
         "ticker": "AUCTION",
         "project_name": "( Bounce Finance )",
-        "shariah_status": "HALAL",
-        "source": "www.sharlife.my"
+        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoIslam': QUESTIONABLE🟠",
+        "source": ""
     },
     {
         "id": 34,
@@ -570,8 +570,8 @@
         "id": 78,
         "ticker": "MAV",
         "project_name": "(Maverick Protocol)",
-        "shariah_status": "QUESTIONABLE",
-        "source": "www.sharlife.my"
+        "shariah_status": "'Sharlife': QUESTIONABLE🟠 \n'CryptoIslam': HARAM🔴",
+        "source": ""
     },
     {
         "id": 79,
@@ -753,8 +753,8 @@
         "id": 104,
         "ticker": "SUPER",
         "project_name": "(SuperVerse)",
-        "shariah_status": "HARAM",
-        "source": "www.cryptohalal.cc"
+        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoHalal': HARAM🔴 \n'CryptoIslam': HARAM🔴",
+        "source": ""
     },
     {
         "id": 105,
@@ -1021,8 +1021,8 @@
         "id": 142,
         "ticker": "AEVO",
         "project_name": "(Aevo)",
-        "shariah_status": "HARAM",
-        "source": "www.t.me\/CrypoIslam\/137"
+        "shariah_status": "'Sharlife': QUESTIONABLE🟠 \n'CryptoIslam': HARAM🔴",
+        "source": ""
     },
     {
         "id": 143,
@@ -1134,8 +1134,8 @@
         "id": 158,
         "ticker": "IMX",
         "project_name": "(Immutable)",
-        "shariah_status": "HALAL",
-        "source": "www.sharlife.my"
+        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoIslam': QUESTIONABLE🟠",
+        "source": ""
     },
     {
         "id": 159,
@@ -1204,8 +1204,8 @@
         "id": 168,
         "ticker": "API3",
         "project_name": "(Api3)",
-        "shariah_status": "HALAL",
-        "source": "www.sharlife.my"
+        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoIslam': HALAL🟢",
+        "source": ""
     },
     {
         "id": 169,
@@ -1288,8 +1288,8 @@
         "id": 180,
         "ticker": "RDNT",
         "project_name": "(Radiant Capital)",
-        "shariah_status": "HARAM",
-        "source": "www.cryptohalal.cc"
+        "shariah_status": "'Sharlife': QUESTIONABLE🟠 \n'CryptoHalal': HARAM🔴 \n'CryptoIslam': HARAM🔴",
+        "source": ""
     },
     {
         "id": 181,
@@ -1365,8 +1365,8 @@
         "id": 191,
         "ticker": "CELR",
         "project_name": "(Celer Network)",
-        "shariah_status": "HARAM",
-        "source": "www.sharlife.my"
+        "shariah_status": "'Sharlife': HARAM🔴 \n'CryptoHalal': HALAL🟢 \n'CryptoIslam': HALAL🟢",
+        "source": ""
     },
     {
         "id": 192,
@@ -1517,9 +1517,9 @@
         "id": 212,
         "ticker": "DOGE",
         "project_name": "Dogecoin)",
-        "description": "SharLife believes that all meme coins are questionable, even some of them are haram. According to Dr. Muhammad Abu Jazar (Cryptohalal), the DogeCoin meme coin has its own blockchain and works on the basis of PoW. The currency is also used in several online stores, the fact that the coin works on a mining algorithm makes it valuable, for this reason this coin is considered 'HALAL🟢'",
-        "shariah_status": "HALAL",
-        "source": "www.sharlife.my, www.cryptohalal.cc"
+        "description": "",
+        "shariah_status": "'Sharlife': QUESTIONABLE🟠 \n'CryptoHalal': HALAL🟢 \n'CryptoIslam': HALAL🟢",
+        "source": ""
     },
     {
         "id": 213,
@@ -1653,8 +1653,8 @@
         "id": 232,
         "ticker": "PDA",
         "project_name": "(PlayDapp)",
-        "shariah_status": "HARAM",
-        "source": "www.sharlife.my\/"
+        "shariah_status": "'Sharlife': HARAM🔴 \n'CryptoIslam': HALAL🟢",
+        "source": ""
     },
     {
         "id": 233,
@@ -1673,8 +1673,8 @@
         "id": 235,
         "ticker": "JUP",
         "project_name": "(Jupiter)",
-        "shariah_status": "HALAL",
-        "source": "www.sharlife.my"
+        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoIslam': QUESTIONABLE🟠",
+        "source": ""
     },
     {
         "id": 236,
@@ -1779,8 +1779,8 @@
         "id": 251,
         "ticker": "AMP",
         "project_name": "(Amp)",
-        "shariah_status": "HALAL",
-        "source": "www.cryptohalal.cc"
+        "shariah_status": "'Sharlife': QUESTIONABLE🟠 \n'CryptoHalal': HALAL🟢 \n'CryptoIslam': HALAL🟢",
+        "source": ""
     },
     {
         "id": 252,
@@ -1926,15 +1926,15 @@
         "id": 272,
         "ticker": "VENOM",
         "project_name": "(Venom)",
-        "shariah_status": "HALAL",
-        "source": "www.sharlife.my"
+        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoIslam': QUESTIONABLE🟠",
+        "source": ""
     },
     {
         "id": 273,
         "ticker": "LRC",
         "project_name": "(Loopring)",
-        "shariah_status": "HALAL",
-        "source": "www.cryptohalal.cc"
+        "shariah_status": "'Sharlife': HARAM🔴 \n'CryptoHalal': HALAL🟢 \n'CryptoIslam': HALAL🟢",
+        "source": ""
     },
     {
         "id": 274,
@@ -2143,7 +2143,7 @@
         "id": 304,
         "ticker": "CVX",
         "project_name": "(Convex Finance)",
-        "shariah_status": "HARAM"
+        "shariah_status": "'Sharlife': HARAM🔴 \n'CryptoIslam': HARAM🔴"
     },
     {
         "id": 305,
@@ -2219,8 +2219,8 @@
         "id": 315,
         "ticker": "BNB",
         "project_name": "(Binance Coin)",
-        "shariah_status": "QUESTIONABLE",
-        "source": "www.sharlife.my"
+        "shariah_status": "'Sharlife': QUESTIONABLE🟠 \n'CryptoHalal': HARAM🔴 \n'CryptoIslam': HARAM🔴",
+        "source": ""
     },
     {
         "id": 316,
@@ -2234,8 +2234,8 @@
         "id": 317,
         "ticker": "CAKE",
         "project_name": "(PancakeSwap)",
-        "shariah_status": "HARAM",
-        "source": "www.sharlife.my"
+        "shariah_status": "'Sharlife': HARAM🔴 \n'CryptoHalal': HARAM🔴 \n'CryptoIslam': HARAM🔴",
+        "source": ""
     },
     {
         "id": 318,
@@ -2330,9 +2330,8 @@
         "id": 330,
         "ticker": "UNI",
         "project_name": "(Uniswap)",
-        "description": "UNISWAP whole protocol offers features that act as a platform to provide liquidity to the market to make it more efficient. There are fees charged to the user who swaps their token, which can be classified as management fees and not interest-based fees. We concluded that UNISWAP token is permissible and Shariah Compliant.",
-        "shariah_status": "HALAL",
-        "source": "www.sharlife.my"
+        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoHalal': HARAM🔴 \n'CryptoIslam': HARAM🔴",
+        "source": ""
     },
     {
         "id": 331,
@@ -2370,7 +2369,7 @@
         "id": 336,
         "ticker": "PHB",
         "project_name": "(Phoenix)",
-        "shariah_status": "HALAL"
+        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoHalal': HALAL🟢 \n'CryptoIslam': HALAL🟢"
     },
     {
         "id": 337,
@@ -2684,8 +2683,8 @@
         "id": 384,
         "ticker": "OAX",
         "project_name": "(openANX)",
-        "shariah_status": "HARAM",
-        "source": "www.cryptohalal.cc"
+        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoHalal': HARAM🔴 \n'CryptoIslam': QUESTIONABLE🟠",
+        "source": ""
     },
     {
         "id": 385,
@@ -2812,9 +2811,9 @@
         "id": 402,
         "ticker": "WBTC",
         "project_name": "Wrapped Bitcoin)",
-        "description": "According to Dr. Muhammad Abu Jazar, deployed bitcoin is haram. Therefore, we compared all deployed tokens with deployed bitcoin, at least these coins are considered questionable! If we receive a response from one of the committees, we will update the hukm insha Allah.",
-        "shariah_status": "HARAM",
-        "source": "www.cryptohalal.cc"
+        "description": "",
+        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoHalal': HARAM🔴 \n'CryptoIslam': HARAM🔴",
+        "source": ""
     },
     {
         "id": 403,
@@ -2827,8 +2826,8 @@
         "id": 404,
         "ticker": "BLUR",
         "project_name": "(Blur.io)",
-        "shariah_status": "QUESTIONABLE",
-        "source": "www.sharlife.my"
+        "shariah_status": "'Sharlife': QUESTIONABLE🟠 \n'CryptoHalal': HALAL🟢 \n'CryptoIslam': HALAL🟢",
+        "source": ""
     },
     {
         "id": 405,
@@ -2951,8 +2950,8 @@
         "id": 421,
         "ticker": "OM",
         "project_name": "(Mantra)",
-        "shariah_status": "HALAL",
-        "source": "www.sharlife.my"
+        "shariah_status": "Sharlife: HALAL🟢 \nCryptoHalal: HARAM🔴 \nCryptoIslam: HALAL🟢",
+        "source": ""
     },
     {
         "id": 422,
@@ -3136,8 +3135,8 @@
         "id": 447,
         "ticker": "FET",
         "project_name": "(Fetch.ai)",
-        "shariah_status": "HALAL",
-        "source": "CryptoIslam"
+        "shariah_status": "'Sharlife': QUESTIONABLE🟠 \n'CryptoHalal': HALAL🟢 \n'CryptoIslam': HALAL🟢",
+        "source": ""
     },
     {
         "id": 448,
@@ -3327,5 +3326,47 @@
         "project_name": "(Hathor)",
         "shariah_status": "HALAL",
         "source": "CryptoIslam.t.me"
+    },
+    {
+        "id": 474,
+        "ticker": "PEPE",
+        "project_name": "(Pepe)",
+        "shariah_status": "'Sharlife': QUESTIONABLE🟠 \n'CryptoHalal': HARAM🔴 \n'CryptoIslam': HARAM🔴",
+        "source": ""
+    },
+    {
+        "id": 475,
+        "ticker": "NFT",
+        "project_name": "(Apenft)",
+        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoHalal': HALAL🟢 \n'CryptoIslam': HALAL🟢",
+        "source": ""
+    },
+    {
+        "id": 476,
+        "ticker": "SXP",
+        "project_name": "(Swipe)",
+        "shariah_status": "'Sharlife': HARAM🔴 \n'CryptoHalal': HALAL🟢 \n'CryptoIslam': HALAL🟢",
+        "source": ""
+    },
+    {
+        "id": 477,
+        "ticker": "XAI",
+        "project_name": "(Xai)",
+        "shariah_status": "'Sharlife': QUESTIONABLE🟠 \n'CryptoIslam': HALAL🟢",
+        "source": ""
+    },
+    {
+        "id": 478,
+        "ticker": "VELO",
+        "project_name": "(Velo)",
+        "shariah_status": "'Sharlife': HARAM🔴 \n'CryptoIslam': QUESTIONABLE🟠",
+        "source": ""
+    },
+    {
+        "id": 479,
+        "ticker": "MAGA",
+        "project_name": "(Trump)",
+        "shariah_status": "'Sharlife': HARAM🔴 \n'CryptoIslam': HARAM🔴",
+        "source": ""
     }
 ]
