@@ -19,8 +19,8 @@
         "ticker": "STG",
         "project_name": "(Stargate Finance)",
         "description": "",
-        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoHalal': HARAM🔴 \n'CryptoIslam': HARAM🔴",
-        "source": "https://t.me/HukmCrypto_bot"
+        "shariah_status": "Sharlife: HALAL🟢 \nCryptoHalal: HARAM🔴 \nCryptoIslam: HARAM🔴",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 3,
@@ -34,8 +34,8 @@
         "id": 4,
         "ticker": "MNT",
         "project_name": " (Mantle)",
-        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoIslam': QUESTIONABLE🟠",
-        "source": ""
+        "shariah_status": "Sharlife: HALAL🟢 \nCryptoIslam: QUESTIONABLE🟠",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 5,
@@ -73,14 +73,6 @@
         "project_name": " (Zksync)",
         "description": "مشروع zkSync هو بروتوكول Layer-2 مصمم لتوسيع نطاق Ethereum عبر توفير معاملات أسرع وأرخص. يستند zkSync إلى استخدام إثباتات المعرفة الصفرية (Zero-Knowledge Proofs) لتحسين كفاءة المعاملات على البلوكشين. مع الحفاظ على قيمها الأساسية المتمثلة في اللامركزية والأمن والسيادة الذاتية. يحقق هذا البروتوكول ذلك من خلال استخدام ZK-rollups، والذي يسمح بمعالجة المعاملات خارج السلسلة ثم تجميعها معًا وإرسالها إلى Ethereum في دليل واحد. تعمل هذه الطريقة على زيادة سرعات المعاملات بشكل كبير وتقليل التكاليف دون المساس بالأمان يعمل رمز ZK كرمز أصلي للأداة المساعدة والحوكمة داخل النظام البيئي zkSync، ويلعب دورًا حاسمًا في الحفاظ على عمليات البروتوكول وتعزيزها. إحدى حالات الاستخدام الأساسية هي دفع رسوم المعاملات على شبكة zkSync. من خلال استخدام رموز ZK مقابل الرسوم",
         "shariah_status": "HALAL"
-    },
-    {
-        "id": 10,
-        "ticker": "BNB",
-        "project_name": "(Binance Coin)",
-        "description": "For exchange tokens that act as the main token for trading purposes on the specific exchange, there are some tricky cases that need to be clarified. First, the token itself represents the ecosystem that gains profit from all transactions on the exchange may include the Non-Shariah project token. Second, the ecosystem benefits from derivatives contracts that clearly contrast with Shariah's ruling. We assume the same methodology of Stock Shariah screening that enacts the prohibition of stockbroking activities is applied in the same case. However, the usage of Exchange Token is commonly used to trade NFT or any other coin, thus we recommend not to hold Exchange Token for more than 30 days to avoid being involved in their ecosystem.",
-        "shariah_status": " QUESTIONABLE",
-        "source": "www.sharlife.my"
     },
     {
         "id": 11,
@@ -245,8 +237,8 @@
         "id": 33,
         "ticker": "AUCTION",
         "project_name": "( Bounce Finance )",
-        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoIslam': QUESTIONABLE🟠",
-        "source": ""
+        "shariah_status": "Sharlife: HALAL🟢 \nCryptoIslam: QUESTIONABLE🟠",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 34,
@@ -570,8 +562,8 @@
         "id": 78,
         "ticker": "MAV",
         "project_name": "(Maverick Protocol)",
-        "shariah_status": "'Sharlife': QUESTIONABLE🟠 \n'CryptoIslam': HARAM🔴",
-        "source": ""
+        "shariah_status": "Sharlife: QUESTIONABLE🟠 \nCryptoIslam: HARAM🔴",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 79,
@@ -753,8 +745,8 @@
         "id": 104,
         "ticker": "SUPER",
         "project_name": "(SuperVerse)",
-        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoHalal': HARAM🔴 \n'CryptoIslam': HARAM🔴",
-        "source": ""
+        "shariah_status": "Sharlife: HALAL🟢 \nCryptoHalal: HARAM🔴 \nCryptoIslam: HARAM🔴",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 105,
@@ -1021,8 +1013,8 @@
         "id": 142,
         "ticker": "AEVO",
         "project_name": "(Aevo)",
-        "shariah_status": "'Sharlife': QUESTIONABLE🟠 \n'CryptoIslam': HARAM🔴",
-        "source": ""
+        "shariah_status": "Sharlife: QUESTIONABLE🟠 \nCryptoIslam: HARAM🔴",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 143,
@@ -1134,8 +1126,8 @@
         "id": 158,
         "ticker": "IMX",
         "project_name": "(Immutable)",
-        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoIslam': QUESTIONABLE🟠",
-        "source": ""
+        "shariah_status": "Sharlife: HALAL🟢 \nCryptoIslam: QUESTIONABLE🟠",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 159,
@@ -1204,8 +1196,8 @@
         "id": 168,
         "ticker": "API3",
         "project_name": "(Api3)",
-        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoIslam': HALAL🟢",
-        "source": ""
+        "shariah_status": "Sharlife: HALAL🟢 \nCryptoIslam: HALAL🟢",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 169,
@@ -1288,8 +1280,8 @@
         "id": 180,
         "ticker": "RDNT",
         "project_name": "(Radiant Capital)",
-        "shariah_status": "'Sharlife': QUESTIONABLE🟠 \n'CryptoHalal': HARAM🔴 \n'CryptoIslam': HARAM🔴",
-        "source": ""
+        "shariah_status": "Sharlife: QUESTIONABLE🟠 \nCryptoHalal: HARAM🔴 \nCryptoIslam: HARAM🔴",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 181,
@@ -1365,8 +1357,8 @@
         "id": 191,
         "ticker": "CELR",
         "project_name": "(Celer Network)",
-        "shariah_status": "'Sharlife': HARAM🔴 \n'CryptoHalal': HALAL🟢 \n'CryptoIslam': HALAL🟢",
-        "source": ""
+        "shariah_status": "Sharlife: HARAM🔴 \nCryptoHalal: HALAL🟢 \nCryptoIslam: HALAL🟢",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 192,
@@ -1518,8 +1510,8 @@
         "ticker": "DOGE",
         "project_name": "Dogecoin)",
         "description": "",
-        "shariah_status": "'Sharlife': QUESTIONABLE🟠 \n'CryptoHalal': HALAL🟢 \n'CryptoIslam': HALAL🟢",
-        "source": ""
+        "shariah_status": "Sharlife: QUESTIONABLE🟠 \nCryptoHalal: HALAL🟢 \nCryptoIslam: HALAL🟢",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 213,
@@ -1653,8 +1645,8 @@
         "id": 232,
         "ticker": "PDA",
         "project_name": "(PlayDapp)",
-        "shariah_status": "'Sharlife': HARAM🔴 \n'CryptoIslam': HALAL🟢",
-        "source": ""
+        "shariah_status": "Sharlife: HARAM🔴 \nCryptoIslam: HALAL🟢",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 233,
@@ -1673,8 +1665,8 @@
         "id": 235,
         "ticker": "JUP",
         "project_name": "(Jupiter)",
-        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoIslam': QUESTIONABLE🟠",
-        "source": ""
+        "shariah_status": "Sharlife: HALAL🟢 \nCryptoIslam: QUESTIONABLE🟠",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 236,
@@ -1779,8 +1771,8 @@
         "id": 251,
         "ticker": "AMP",
         "project_name": "(Amp)",
-        "shariah_status": "'Sharlife': QUESTIONABLE🟠 \n'CryptoHalal': HALAL🟢 \n'CryptoIslam': HALAL🟢",
-        "source": ""
+        "shariah_status": "Sharlife: QUESTIONABLE🟠 \nCryptoHalal: HALAL🟢 \nCryptoIslam: HALAL🟢",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 252,
@@ -1926,15 +1918,15 @@
         "id": 272,
         "ticker": "VENOM",
         "project_name": "(Venom)",
-        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoIslam': QUESTIONABLE🟠",
-        "source": ""
+        "shariah_status": "Sharlife: HALAL🟢 \nCryptoIslam: QUESTIONABLE🟠",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 273,
         "ticker": "LRC",
         "project_name": "(Loopring)",
-        "shariah_status": "'Sharlife': HARAM🔴 \n'CryptoHalal': HALAL🟢 \n'CryptoIslam': HALAL🟢",
-        "source": ""
+        "shariah_status": "Sharlife: HARAM🔴 \nCryptoHalal: HALAL🟢 \nCryptoIslam: HALAL🟢",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 274,
@@ -2143,7 +2135,8 @@
         "id": 304,
         "ticker": "CVX",
         "project_name": "(Convex Finance)",
-        "shariah_status": "'Sharlife': HARAM🔴 \n'CryptoIslam': HARAM🔴"
+        "shariah_status": "Sharlife: HARAM🔴 \nCryptoIslam: HARAM🔴",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 305,
@@ -2219,8 +2212,8 @@
         "id": 315,
         "ticker": "BNB",
         "project_name": "(Binance Coin)",
-        "shariah_status": "'Sharlife': QUESTIONABLE🟠 \n'CryptoHalal': HARAM🔴 \n'CryptoIslam': HARAM🔴",
-        "source": ""
+        "shariah_status": "Sharlife: QUESTIONABLE🟠 \nCryptoHalal: HARAM🔴 \nCryptoIslam: HARAM🔴",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 316,
@@ -2234,8 +2227,8 @@
         "id": 317,
         "ticker": "CAKE",
         "project_name": "(PancakeSwap)",
-        "shariah_status": "'Sharlife': HARAM🔴 \n'CryptoHalal': HARAM🔴 \n'CryptoIslam': HARAM🔴",
-        "source": ""
+        "shariah_status": "Sharlife: HARAM🔴 \nCryptoHalal: HARAM🔴 \nCryptoIslam: HARAM🔴",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 318,
@@ -2330,8 +2323,8 @@
         "id": 330,
         "ticker": "UNI",
         "project_name": "(Uniswap)",
-        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoHalal': HARAM🔴 \n'CryptoIslam': HARAM🔴",
-        "source": ""
+        "shariah_status": "Sharlife: HALAL🟢 \nCryptoHalal: HARAM🔴 \nCryptoIslam: HARAM🔴",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 331,
@@ -2369,7 +2362,8 @@
         "id": 336,
         "ticker": "PHB",
         "project_name": "(Phoenix)",
-        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoHalal': HALAL🟢 \n'CryptoIslam': HALAL🟢"
+        "shariah_status": "Sharlife: HALAL🟢 \nCryptoHalal: HALAL🟢 \nCryptoIslam: HALAL🟢",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 337,
@@ -2683,8 +2677,8 @@
         "id": 384,
         "ticker": "OAX",
         "project_name": "(openANX)",
-        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoHalal': HARAM🔴 \n'CryptoIslam': QUESTIONABLE🟠",
-        "source": ""
+        "shariah_status": "Sharlife: HALAL🟢 \nCryptoHalal: HARAM🔴 \nCryptoIslam: QUESTIONABLE🟠",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 385,
@@ -2812,8 +2806,8 @@
         "ticker": "WBTC",
         "project_name": "Wrapped Bitcoin)",
         "description": "",
-        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoHalal': HARAM🔴 \n'CryptoIslam': HARAM🔴",
-        "source": ""
+        "shariah_status": "Sharlife: HALAL🟢 \nCryptoHalal: HARAM🔴 \nCryptoIslam: HARAM🔴",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 403,
@@ -2826,8 +2820,8 @@
         "id": 404,
         "ticker": "BLUR",
         "project_name": "(Blur.io)",
-        "shariah_status": "'Sharlife': QUESTIONABLE🟠 \n'CryptoHalal': HALAL🟢 \n'CryptoIslam': HALAL🟢",
-        "source": ""
+        "shariah_status": "Sharlife: QUESTIONABLE🟠 \nCryptoHalal: HALAL🟢 \nCryptoIslam: HALAL🟢",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 405,
@@ -2951,7 +2945,7 @@
         "ticker": "OM",
         "project_name": "(Mantra)",
         "shariah_status": "Sharlife: HALAL🟢 \nCryptoHalal: HARAM🔴 \nCryptoIslam: HALAL🟢",
-        "source": ""
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 422,
@@ -3135,8 +3129,8 @@
         "id": 447,
         "ticker": "FET",
         "project_name": "(Fetch.ai)",
-        "shariah_status": "'Sharlife': QUESTIONABLE🟠 \n'CryptoHalal': HALAL🟢 \n'CryptoIslam': HALAL🟢",
-        "source": ""
+        "shariah_status": "Sharlife: QUESTIONABLE🟠 \nCryptoHalal: HALAL🟢 \nCryptoIslam: HALAL🟢",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 448,
@@ -3331,42 +3325,42 @@
         "id": 474,
         "ticker": "PEPE",
         "project_name": "(Pepe)",
-        "shariah_status": "'Sharlife': QUESTIONABLE🟠 \n'CryptoHalal': HARAM🔴 \n'CryptoIslam': HARAM🔴",
-        "source": ""
+        "shariah_status": "Sharlife: QUESTIONABLE🟠 \nCryptoHalal: HARAM🔴 \nCryptoIslam: HARAM🔴",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 475,
         "ticker": "NFT",
         "project_name": "(Apenft)",
-        "shariah_status": "'Sharlife': HALAL🟢 \n'CryptoHalal': HALAL🟢 \n'CryptoIslam': HALAL🟢",
-        "source": ""
+        "shariah_status": "Sharlife: HALAL🟢 \nCryptoHalal: HALAL🟢 \nCryptoIslam: HALAL🟢",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 476,
         "ticker": "SXP",
         "project_name": "(Swipe)",
-        "shariah_status": "'Sharlife': HARAM🔴 \n'CryptoHalal': HALAL🟢 \n'CryptoIslam': HALAL🟢",
-        "source": ""
+        "shariah_status": "Sharlife: HARAM🔴 \nCryptoHalal: HALAL🟢 \nCryptoIslam: HALAL🟢",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 477,
         "ticker": "XAI",
         "project_name": "(Xai)",
-        "shariah_status": "'Sharlife': QUESTIONABLE🟠 \n'CryptoIslam': HALAL🟢",
-        "source": ""
+        "shariah_status": "Sharlife: QUESTIONABLE🟠 \nCryptoIslam: HALAL🟢",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 478,
         "ticker": "VELO",
         "project_name": "(Velo)",
-        "shariah_status": "'Sharlife': HARAM🔴 \n'CryptoIslam': QUESTIONABLE🟠",
-        "source": ""
+        "shariah_status": "Sharlife: HARAM🔴 \nCryptoIslam: QUESTIONABLE🟠",
+        "source": "@hukmcrypto_bot"
     },
     {
         "id": 479,
         "ticker": "MAGA",
         "project_name": "(Trump)",
-        "shariah_status": "'Sharlife': HARAM🔴 \n'CryptoIslam': HARAM🔴",
-        "source": ""
+        "shariah_status": "Sharlife: HARAM🔴 \nCryptoIslam: HARAM🔴",
+        "source": "@hukmcrypto_bot"
     }
 ]
