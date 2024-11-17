@@ -3358,6 +3358,298 @@
     },
     {
         "id": 479,
+        "ticker": "🌐PRCL",
+        "project_name": "(Parcl)",
+        "description": "The projects behind this token are DEX featuring derivatives trading platforms only, which contravene Shariah principles.",
+        "shariah_status": "HARAM🔴",
+        "source": "www.sharlife.my, crypoislam.t.me"
+    },
+    {
+        "id": 480,
+        "ticker": "🌐AGLD",
+        "project_name": "(Adventure Gold)",
+        "shariah_status": "HALAL🟢",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 481,
+        "ticker": "🌐CARV",
+        "project_name": "(Carv)",
+        "shariah_status": "HALAL🟢",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 482,
+        "ticker": "🌐SCR",
+        "project_name": "(Scroll)",
+        "shariah_status": "HALAL🟢",
+        "source": "www.sharlife.my, crypoislam.t.me"
+    },
+    {
+        "id": 483,
+        "ticker": "🌐ROOT",
+        "project_name": "(The Root Network)",
+        "description": "Root Network is a multifunctional blockchain project. Some of the project’s services are impermissible from a Sharia perspective, while others are permissible. According to Sharia Life, the impermissible services make up a small percentage of the overall project, and therefore, the project as a whole complies with Sharia requirements. From the perspective of Crypto Islam, however, the project's services are mixed, which could make it questionable.",
+        "shariah_status": "HALAL🟢",
+        "source": "www.sharlife.my, Crypoislam.t.me"
+    },
+    {
+        "id": 484,
+        "ticker": "🌐TATSU",
+        "project_name": "(Tatsu)",
+        "description": "As of Q2 2024, many of TATSU's services have yet to be implemented, and the primary use of the token is to stake wTao and TATSU tokens with an annual return of 30%. According to Crypto Islam, the project is considered haram, while Sharia Life views the token as halal.",
+        "shariah_status": "HALAL🟢",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 485,
+        "ticker": "🌐MERL",
+        "project_name": "(Merlin Chain )",
+        "shariah_status": "HALAL🟢",
+        "source": "CrypoIslam.t.me"
+    },
+    {
+        "id": 486,
+        "ticker": "🌐ANYONE",
+        "project_name": "(Anyone Protocol)",
+        "shariah_status": "HALAL🟢",
+        "source": "www.sharlife.my, CrypoIslam.t.me"
+    },
+    {
+        "id": 487,
+        "ticker": "🌐SUNDOG",
+        "project_name": "(Sundog)",
+        "shariah_status": "HARAM🔴",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 488,
+        "ticker": "🌐ZKJ",
+        "project_name": "(Polyhedra Network)",
+        "description": "According to Sharia Life and Crypto Islam, the Polyhedra Network project generally complies with Sharia requirements. However, there may be issues in the future when the project launches its gaming platform. If you are investing in this token for the long term, you should conduct Sharia audits on the token more frequently.",
+        "shariah_status": "QUESTIONABLE🟠",
+        "source": "www.sharlife.my, CrypoIslam.t.me"
+    },
+    {
+        "id": 489,
+        "ticker": "🌐LIKE",
+        "project_name": "(Only1)",
+        "shariah_status": "HARAM🔴",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 490,
+        "ticker": "🌐UNIBOT",
+        "project_name": "(Unibot)",
+        "shariah_status": "HALAL🟢",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 491,
+        "ticker": "🌐SQR",
+        "project_name": "(Magic Square)",
+        "shariah_status": "QUESTIONABLE🟠",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 492,
+        "ticker": "🌐FILTER",
+        "project_name": "(Filter AI)",
+        "shariah_status": "HALAL🟢",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 493,
+        "ticker": "🌐GRASS",
+        "project_name": "(Grass)",
+        "shariah_status": "HALAL🟢",
+        "source": "www.sharlife.my, crypoislam.t.me"
+    },
+    {
+        "id": 494,
+        "ticker": "🌐LUMIA",
+        "project_name": "(Lumia)",
+        "shariah_status": "HARAM🔴",
+        "source": "CrypoIslam.t.me"
+    },
+    {
+        "id": 495,
+        "ticker": "🌐YIELD",
+        "project_name": "(YieldStone)",
+        "shariah_status": "HARAM🔴",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 496,
+        "ticker": "🌐ALPHA",
+        "project_name": "(Stella)",
+        "shariah_status": "HARAM🔴",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 497,
+        "ticker": "🌐UMA",
+        "project_name": "(Uma)",
+        "shariah_status": "HALAL🟢",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 498,
+        "ticker": "🌐GALA",
+        "project_name": "(Gala)",
+        "description": "Изначально монета GALA считалась халяльной, так как проект был создан как игровая платформа для разработчиков. Позже разработчики расширили проект, добавив платформы для фильмов и музыки, где монета GALA использовалась для оплаты услуг. На тот момент мы признали монету GALA недозволенной с точки зрения шариата. При последней проверке проекта мы узнали, что разработчики разделили платформу: теперь для оплаты на платформе, предоставляющей доступ к фильмам и музыке, используется отдельная валюта MUSIC (Gala Music). Монета GALA больше не участвует в этой платформе, и другие проекты, использующие её, соответствуют требованиям шариата. В связи с этим монета GALA снова считается халяльной. А Аллах знает лучше",
+        "shariah_status": "HALAL🟢",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 499,
+        "ticker": "🌐MUSIC",
+        "project_name": "(Gala Music)",
+        "shariah_status": "HARAM🔴",
+        "source": "www.sharlife.my, crypoislam.t.me"
+    },
+    {
+        "id": 500,
+        "ticker": "🌐SLF",
+        "project_name": "(Self Chain)",
+        "shariah_status": "HALAL🟢",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 501,
+        "ticker": "🌐LUMIA",
+        "project_name": "(Lumia)",
+        "shariah_status": "HARAM🔴",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 502,
+        "ticker": "🌐BOME",
+        "project_name": "(Book of Meme)",
+        "shariah_status": "HARAM🔴",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 503,
+        "ticker": "🌐LADYS",
+        "project_name": "(Milady Meme Coin)",
+        "shariah_status": "HARAM🔴",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 504,
+        "ticker": "🌐MAGA",
+        "project_name": "(Trump)",
+        "shariah_status": "HARAM🔴",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 505,
+        "ticker": "🌐ALEO",
+        "project_name": "(Aleo)",
+        "shariah_status": "HALAL🟢",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 506,
+        "ticker": "🌐DAPP",
+        "project_name": "(Pencils Protocol)",
+        "shariah_status": "HARAM🔴",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 507,
+        "ticker": "🌐DAPP",
+        "project_name": "(LiquidApps)",
+        "shariah_status": "HALAL🟢",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 508,
+        "ticker": "🌐SAVM",
+        "project_name": "(SatoshiVM)",
+        "shariah_status": "HALAL🟢",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 509,
+        "ticker": "🌐LL",
+        "project_name": "(LightLink)",
+        "shariah_status": "HALAL🟢",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 510,
+        "ticker": "🌐EIGEN",
+        "project_name": "(EigenLayer)",
+        "shariah_status": "HARAM🔴",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 511,
+        "ticker": "🌐FDUSD",
+        "project_name": "(First Digital USD)",
+        "shariah_status": "HALAL🟢"
+    },
+    {
+        "id": 512,
+        "ticker": "🌐USDP",
+        "project_name": "(PAX Dollar)",
+        "shariah_status": "HALAL🟢",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 513,
+        "ticker": "🌐KAIA",
+        "project_name": "(Kaia)",
+        "shariah_status": "HALAL🟢",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 514,
+        "ticker": "🌐SMILE",
+        "project_name": "(bitSmiley)",
+        "shariah_status": "HARAM🔴",
+        "source": "Crypoislam.t.me"
+    },
+    {
+        "id": 515,
+        "ticker": "🌐COW",
+        "project_name": "(COW Protocol)",
+        "shariah_status": "HARAM🔴",
+        "source": "Crypoislam.t.me"
+    },
+    {
+        "id": 516,
+        "ticker": "🌐ZORA",
+        "project_name": "(Zora)",
+        "description": "We regard Zora Energy as being in a grey area in terms of Shariah compliance, given the lack of clarity surrounding its token's use case at the time of its launch. For an item to be considered al-mal, it must have a use case or provide some benefit. Without a specific utility or benefit attached, it is questionable whether it qualifies as al-mal.",
+        "shariah_status": "QUESTIONABLE🟠",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 517,
+        "ticker": "🌐SOON",
+        "project_name": "(SoonVerse)",
+        "description": "SoonVerse operates within the entertainment industry, offering games. Their collaborations may potentially lead to involvement in Shariah non-compliant entertainment, particularly through games that incorporate non-compliant features.",
+        "shariah_status": "QUESTIONABLE🟠",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 518,
+        "ticker": "🌐FRA",
+        "project_name": "(Fractal Network)",
+        "shariah_status": "HALAL🟢",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 519,
+        "ticker": "🌐CETUS",
+        "project_name": "(Cetus Protocol)",
+        "description": "CryptoIslam: HARAM🔴 Sharlife: HALAL🟢"
+    },
+    {
+        "id": 520,
         "ticker": "MAGA",
         "project_name": "(Trump)",
         "shariah_status": "Sharlife: HARAM🔴 \nCryptoIslam: HARAM🔴",
