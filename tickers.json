@@ -45,14 +45,6 @@
         "source": "www.sharlife.my"
     },
     {
-        "id": 6,
-        "ticker": "GALA",
-        "project_name": " (Gala)",
-        "description": "من قبل كنت أقول بإباحة عملة gala تقليدا للمهندس احمد ابو العمرين صاحب قناة كريبتو استثمار حيث انه كان قد درسها ووصل الى انها مباحة حسب رأيه فمن باب التسهيل كنت اقول باباحتها و لكن مع غياب اخونا المنهندس احمد حيث انه من غزة نسأل الله تعالى ان يكون بخير و الدكتور محمد ابو جزر و كل اهلنا في فلسطين غزة الله يحفظهم \nاعدت مراجعة مشروع القناة فوجدت انهم اضافوا الى اهتمامات الشركة و خدماتها عنصرين تغير لاجلهما الحكم و هما عنصر الموسيقى و الافلام و ما فيها من مخالفات شرعية و هاتان الخدمتان داخلتان في اصل المشروع و ليستا خدمتان فرعيتان حيث ان الشركة تركز على الكل الالعاب الموسيقى و الافلام.",
-        "shariah_status": " QUESTIONABLE",
-        "source": "www.t.me\/CrypoIslam\/79"
-    },
-    {
         "id": 7,
         "ticker": "KCS",
         "project_name": " (Kucoin Token)",
@@ -1182,13 +1174,6 @@
         "id": 166,
         "ticker": "ORDI",
         "project_name": "(Ordi)",
-        "shariah_status": "HALAL",
-        "source": "www.sharlife.my"
-    },
-    {
-        "id": 167,
-        "ticker": "PRCL",
-        "project_name": "(Parcl)",
         "shariah_status": "HALAL",
         "source": "www.sharlife.my"
     },
@@ -3138,14 +3123,6 @@
         "project_name": "(Tron)",
         "shariah_status": "HALAL",
         "source": "www.cryptohalal.cc, www.sharlife.my, CryptoIslam"
-    },
-    {
-        "id": 449,
-        "ticker": "SLF",
-        "project_name": "(Self Chain)",
-        "description": "Selfchain (SLF) is the new name for the project previously known as Frontier (FRONT) after a rebranding. While the name of the network has changed, most of the project's services remain the same. As a result, we have postponed the issuance of the fatwa by Crypto-Halal and Crypto-Islam. Please note that $FRONT was previously considered a haram project, and now, due to potential changes, the project remains questionable, though it is leaning closer to being haram. And Allah knows best. Selfchain (SLF) — это новое название проекта, ранее известного как Frontier (FRONT) после ребрендинга. Хотя название сети изменилось, большинство услуг проекта остались прежними. В результате мы отложили вынесение фетвы Crypto-Halal и Crypto-Islam. Пожалуйста, обратите внимание, что ранее $FRONT считался харамным проектом, и сейчас, из-за возможных изменений, проект остаётся сомнительным, хотя он ближе к хараму. А Аллах знает лучше.",
-        "shariah_status": "QUESTIONABLE",
-        "source": "www.cryptohalal.cc, CryptoIslam"
     },
     {
         "id": 450,

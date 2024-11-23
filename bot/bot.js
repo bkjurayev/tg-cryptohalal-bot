@@ -25,7 +25,7 @@ bot.start(async (ctx) => {
     const name = ctx.chat.username ? ctx.chat.username : ctx.chat.first_name
     const createdAt = date
     let checkUser = await usersJson.find(el => el.chatId == chatId)
-
+    
     axios
         .post('https://api.telegram.org/bot5336070499:AAFrn3cc5vInWMLnqbqHB7uC9BZRuxXk7dE/sendMessage', {
             chat_id: -1001792646372,
@@ -194,43 +194,6 @@ bot.action('articles', async (ctx) => {
 async function articlesMessageBuilder(ctx) {
     const lang = ctx.session.lang || 'uz';
 
-    const bigtexts = {
-        'uz': "Арбитраж савдоси шаръий ҳукмига боғлиқ мақолани қўйидаги линк орқали ўқиб чиқинг: \nhttps://telegra.ph/Arbitrage-savdosining-shariy-hukmi-07-29",
-        'ru': "Статья - о дозволенности арбитража криптовалют: \nhttps://telegra.ph/Article-on-the-halal-of-arbitrage-07-29",
-        'en': "Check out the Sharlife article dedicated to the topic of arbitrage: \nhttps://sharlife.my/article/content/is-arbitrage-trading-halal ",
-        'sa': "اطلع على مقال شارلايف المخصص لموضوع التحكيم: \nhttps://sharlife.my/article/content/is-arbitrage-trading-halal ",
-    }
-    const bigtexts2 = {
-        'uz': "'Крипто-лойиҳалар орасидаги ҳамкорлик лойиҳанинг шубҳали бўлишига сабаб бўладими' номлик мақолани ўқиб чиқинг: \nhttps://telegra.ph/ArticleSharlifemyuz-09-03",
-        'ru': "Ознакомьтесь со статьей о влиянии партнерств между криптопроектами на их соответствие халяльности: \nhttps://telegra.ph/ArticleSharlifemy-09-03",
-        'en': "Read the article about the impact of partnerships between crypto projects on their compliance with halal principles: \nhttps://sharlife.my/article/content/How_Halal_and_Haram_Crypto_Partnerships_Affect_Shariah_Compliance",
-        'sa': "Read the article about the impact of partnerships between crypto projects on their compliance with halal principles: \nhttps://sharlife.my/article/content/How_Halal_and_Haram_Crypto_Partnerships_Affect_Shariah_Compliance",
-    }
-    const bigtexts3 = {
-        'uz': "'Нима учун фьючерс ва маржа савдолари ҳаром ҳисобланади' номли мақолани қўйидаги линк орқали ўқиб чиқишингиз мумкин: \nhttps://telegra.ph/Article2Sharlifemyuz-09-03",
-        'ru': "Почему маржинальная торговля и торговля с использованием кредитного плеча считаются харам? \nhttps://telegra.ph/Article2sharlifemy-09-03",
-        'en': "Why is Leverage and Margin Trading Considered Haram? \nhttps://sharlife.my/article/content/why-is-leverage-and-margin-trading-considered-haram",
-        'sa': "Why is Leverage and Margin Trading Considered Haram? \nhttps://sharlife.my/article/content/why-is-leverage-and-margin-trading-considered-haram",
-    }
-    const bigtexts4 = {
-        'uz': "Мем-токенларни Сотиб Олишдан Эҳтиёт бўлинг \nhttps://telegra.ph/Avoid-Buying-Meme-Coins---SharLifemy-09-03",
-        'ru': "Избегайте Покупки Мем-монет \nhttp://www.telegra.ph/Hukm-mem-koinov-Sharlife-07-08",
-        'en': "Avoid Buying Meme Coins \nhttps://sharlife.my/article/content/avoid-buying-meme-coins",
-        'sa': "Avoid Buying Meme Coins \nhttps://sharlife.my/article/content/avoid-buying-meme-coins",
-    }
-    const bigtexts5 = {
-        'uz': "Криптовалюта аирдропи ҳалолми? \nhttps://telegra.ph/Is-Cryptocurrency-Airdrop-Halal-08-09",
-        'ru': "Является ли раздача криптовалюты халяльной? (Аирдропы) \nhttps://telegra.ph/Is-Cryptocurrency-Airdrop-Halal-07-29",
-        'en': "Is Cryptocurrency Airdrop Halal? \nhttps://sharlife.my/article/content/is-cryptocurrency-airdrop-halal",
-        'sa': "Is Cryptocurrency Airdrop Halal? \nhttps://sharlife.my/article/content/is-cryptocurrency-airdrop-halal",
-    }
-    const bigtext = bigtexts[lang];
-    const bigtext2 = bigtexts2[lang];
-    const bigtext3 = bigtexts3[lang];
-    const bigtext4 = bigtexts4[lang];
-    const bigtext5 = bigtexts5[lang];
-
-    // Define the inline keyboard markup based on the language
     const buttonLabels = {
         'uz': '🔙 Orqaga',
         'ru': '🔙 Назад',
@@ -240,15 +203,584 @@ async function articlesMessageBuilder(ctx) {
     const buttonText = buttonLabels[lang];
 
     try {
-        await ctx.replyWithHTML(bigtext)
-        await ctx.replyWithHTML(bigtext2)
-        await ctx.replyWithHTML(bigtext3)
-        await ctx.replyWithHTML(bigtext4)
-        await ctx.replyWithHTML(bigtext5)
+        await ctx.editMessageText(
+            {
+                'uz': '🔘 Ўзингизга керакли мақолани ўқиш учун мавзу тугмасига босинг:',
+                'ru': '🔘 Чтобы прочитать нужную вам статью, нажмите на кнопку с темой:',
+                'en': 'Articles 📚',
+                'sa': 'مقالات 📚'
+            }[lang],
+            Markup.inlineKeyboard([
+                [Markup.button.callback({
+                    'uz': 'Арбитраж ҳалолми?',
+                    'ru': 'Арбитраж халяль?',
+                    'en': '',
+                    'sa': ''
+                }[lang], 'arbitraj')],
+                [Markup.button.callback({
+                    'uz': 'Ҳамкорлик криптовалюта хукмига таъсир қиладими?',
+                    'ru': 'Партнёрства и шариатский статус монет',
+                    'en': '',
+                    'sa': ''
+                }[lang], 'partner')],
+                [Markup.button.callback({
+                    'uz': 'Маржинал савдо ва фьючерслар ҳалолми?',
+                    'ru': 'Маржинальная торговля и фьючерсы халяль?',
+                    'en': '',
+                    'sa': ''
+                }[lang], 'feature')],
+                [Markup.button.callback({
+                    'uz': 'Мем-токенлардан эҳтиёт бўлинг',
+                    'ru': 'Избегайте мем-монет',
+                    'en': '',
+                    'sa': ''
+                }[lang], 'memtokens')],
+                [Markup.button.callback({
+                    'uz': 'Аирдроп ҳалолми?',
+                    'ru': 'Аирдроп халяль?',
+                    'en': '',
+                    'sa': ''
+                }[lang], 'airdrop')],
+                [Markup.button.callback({
+                    'uz': 'PoS ва бошқа стейкинг турлари',
+                    'ru': 'PoS и другие виды стейкинга',
+                    'en': '',
+                    'sa': ''
+                }[lang], 'pos')],
+                [Markup.button.callback({
+                    'uz': 'Рақамли валюталардаги закот',
+                    'ru': 'Закят в цифровом мире',
+                    'en': '',
+                    'sa': ''
+                }[lang], 'zakot')],
+                [Markup.button.callback({
+                    'uz': 'Олтин — Ислом валютасими?',
+                    'ru': 'Золото как валюта Ислама',
+                    'en': '',
+                    'sa': ''
+                }[lang], 'oltin')],
+                [Markup.button.callback({
+                    'uz': 'T2E ўйинлари ҳукми',
+                    'ru': 'T2E-тапалки и шариат',
+                    'en': '',
+                    'sa': ''
+                }[lang], 't2egame')],
+                [Markup.button.callback({
+                    'uz': 'Бойкот рўйхатидаги криптовалюталар',
+                    'ru': 'Криптовалюты в бойкот-листе',
+                    'en': '',
+                    'sa': ''
+                }[lang], 'baykot')],
+                [Markup.button.callback({
+                    'uz': 'Стейблкоинлар: барчаси ҳалолми?',
+                    'ru': 'Стейблкоины: все ли дозволены?',
+                    'en': '',
+                    'sa': ''
+                }[lang], 'stablekoins')],
+                [Markup.button.callback({
+                    'uz': 'Ҳаром криптовалюталардан сармояни тозалаш',
+                    'ru': 'Очищение от харам-инвестиций',
+                    'en': '',
+                    'sa': ''
+                }[lang], 'clearinvest')],
+                [Markup.button.callback({
+                    'uz': 'Мем-токенлар ҳалолми | Муфтий Фараз Адам',
+                    'ru': 'Являются ли мем-токены халяльными | Муфти Фараз Адам',
+                    'en': '',
+                    'sa': ''
+                }[lang], 'muftiyfazar')],
+                [Markup.button.callback(buttonText, 'home')],
+            ])
+        );
     } catch (error) {
-        console.log('Error while showing article', error);
+        console.log('Error while slecting', error);
     }
+
+    // const bigtexts = {
+    //     'uz': "Арбитраж савдоси шаръий ҳукмига боғлиқ мақолани қўйидаги линк орқали ўқиб чиқинг: \nhttps://telegra.ph/Arbitrage-savdosining-shariy-hukmi-07-29",
+    //     'ru': "Статья - о дозволенности арбитража криптовалют: \nhttps://telegra.ph/Article-on-the-halal-of-arbitrage-07-29",
+    //     'en': "Check out the Sharlife article dedicated to the topic of arbitrage: \nhttps://sharlife.my/article/content/is-arbitrage-trading-halal ",
+    //     'sa': "اطلع على مقال شارلايف المخصص لموضوع التحكيم: \nhttps://sharlife.my/article/content/is-arbitrage-trading-halal ",
+    // }
+    // const bigtexts2 = {
+    //     'uz': "'Крипто-лойиҳалар орасидаги ҳамкорлик лойиҳанинг шубҳали бўлишига сабаб бўладими' номлик мақолани ўқиб чиқинг: \nhttps://telegra.ph/ArticleSharlifemyuz-09-03",
+    //     'ru': "Ознакомьтесь со статьей о влиянии партнерств между криптопроектами на их соответствие халяльности: \nhttps://telegra.ph/ArticleSharlifemy-09-03",
+    //     'en': "Read the article about the impact of partnerships between crypto projects on their compliance with halal principles: \nhttps://sharlife.my/article/content/How_Halal_and_Haram_Crypto_Partnerships_Affect_Shariah_Compliance",
+    //     'sa': "Read the article about the impact of partnerships between crypto projects on their compliance with halal principles: \nhttps://sharlife.my/article/content/How_Halal_and_Haram_Crypto_Partnerships_Affect_Shariah_Compliance",
+    // }
+    // const bigtexts3 = {
+    //     'uz': "'Нима учун фьючерс ва маржа савдолари ҳаром ҳисобланади' номли мақолани қўйидаги линк орқали ўқиб чиқишингиз мумкин: \nhttps://telegra.ph/Article2Sharlifemyuz-09-03",
+    //     'ru': "Почему маржинальная торговля и торговля с использованием кредитного плеча считаются харам? \nhttps://telegra.ph/Article2sharlifemy-09-03",
+    //     'en': "Why is Leverage and Margin Trading Considered Haram? \nhttps://sharlife.my/article/content/why-is-leverage-and-margin-trading-considered-haram",
+    //     'sa': "Why is Leverage and Margin Trading Considered Haram? \nhttps://sharlife.my/article/content/why-is-leverage-and-margin-trading-considered-haram",
+    // }
+    // const bigtexts4 = {
+    //     'uz': "Мем-токенларни Сотиб Олишдан Эҳтиёт бўлинг \nhttps://telegra.ph/Avoid-Buying-Meme-Coins---SharLifemy-09-03",
+    //     'ru': "Избегайте Покупки Мем-монет \nhttp://www.telegra.ph/Hukm-mem-koinov-Sharlife-07-08",
+    //     'en': "Avoid Buying Meme Coins \nhttps://sharlife.my/article/content/avoid-buying-meme-coins",
+    //     'sa': "Avoid Buying Meme Coins \nhttps://sharlife.my/article/content/avoid-buying-meme-coins",
+    // }
+    // const bigtexts5 = {
+    //     'uz': "Криптовалюта аирдропи ҳалолми? \nhttps://telegra.ph/Is-Cryptocurrency-Airdrop-Halal-08-09",
+    //     'ru': "Является ли раздача криптовалюты халяльной? (Аирдропы) \nhttps://telegra.ph/Is-Cryptocurrency-Airdrop-Halal-07-29",
+    //     'en': "Is Cryptocurrency Airdrop Halal? \nhttps://sharlife.my/article/content/is-cryptocurrency-airdrop-halal",
+    //     'sa': "Is Cryptocurrency Airdrop Halal? \nhttps://sharlife.my/article/content/is-cryptocurrency-airdrop-halal",
+    // }
+    // const bigtext = bigtexts[lang];
+    // const bigtext2 = bigtexts2[lang];
+    // const bigtext3 = bigtexts3[lang];
+    // const bigtext4 = bigtexts4[lang];
+    // const bigtext5 = bigtexts5[lang];
+
+    // // Define the inline keyboard markup based on the language
+    // const buttonLabels = {
+    //     'uz': '🔙 Orqaga',
+    //     'ru': '🔙 Назад',
+    //     'en': '🔙 Back',
+    //     'sa': '🔙 خلف',
+    // };
+    // const buttonText = buttonLabels[lang];
+
+    // try {
+    //     await ctx.replyWithHTML(bigtext)
+    //     await ctx.replyWithHTML(bigtext2)
+    //     await ctx.replyWithHTML(bigtext3)
+    //     await ctx.replyWithHTML(bigtext4)
+    //     await ctx.replyWithHTML(bigtext5)
+    // } catch (error) {
+    //     console.log('Error while showing article', error);
+    // }
 }
+// Секшин по академии
+bot.action('arbitraj', async (ctx) => {
+    const chatId = ctx.chat.id;
+    ctx.session.route = 'arbitraj';
+    const lang = ctx.session.lang || 'uz';
+
+    const buttonLabels = {
+        'uz': '🔙 Orqaga',
+        'ru': '🔙 Назад',
+        'en': '🔙 Back',
+        'sa': '🔙 خلف',
+    };
+    const buttonText = buttonLabels[lang];
+    
+    const bigtexts = {
+        'uz': "Арбитраж савдоси шаръий ҳукмига боғлиқ мақолани қўйидаги линк орқали ўқиб чиқинг: \nhttps://telegra.ph/Arbitrage-savdosining-shariy-hukmi-07-29",
+        'ru': "Статья - о дозволенности арбитража криптовалют: \nhttps://telegra.ph/Article-on-the-halal-of-arbitrage-07-29",
+        'en': "Check out the Sharlife article dedicated to the topic of arbitrage: \nhttps://sharlife.my/article/content/is-arbitrage-trading-halal ",
+        'sa': "اطلع على مقال شارلايف المخصص لموضوع التحكيم: \nhttps://sharlife.my/article/content/is-arbitrage-trading-halal ",
+    }
+    const bigtext = bigtexts[lang];
+    try {
+        // await ctx.replyWithHTML(bigtext);   
+        await ctx.editMessageText(
+            bigtext,
+            Markup.inlineKeyboard([
+                [Markup.button.callback(buttonText, 'articles')],
+            ])
+        );
+    } catch (error) {
+        console.log('Error while slecting', error);
+    }
+     
+})
+// Секшин по академии
+bot.action('partner', async (ctx) => {
+    const chatId = ctx.chat.id;
+    ctx.session.route = 'partner';
+    const lang = ctx.session.lang || 'uz';
+
+    const buttonLabels = {
+        'uz': '🔙 Orqaga',
+        'ru': '🔙 Назад',
+        'en': '🔙 Back',
+        'sa': '🔙 خلف',
+    };
+    const buttonText = buttonLabels[lang];
+
+    const bigtexts2 = {
+        'uz': "'Крипто-лойиҳалар орасидаги ҳамкорлик лойиҳанинг шубҳали бўлишига сабаб бўладими' номлик мақолани ўқиб чиқинг: \nhttps://telegra.ph/ArticleSharlifemyuz-09-03",
+        'ru': "Ознакомьтесь со статьей о влиянии партнерств между криптопроектами на их соответствие халяльности: \nhttps://telegra.ph/ArticleSharlifemy-09-03",
+        'en': "Read the article about the impact of partnerships between crypto projects on their compliance with halal principles: \nhttps://sharlife.my/article/content/How_Halal_and_Haram_Crypto_Partnerships_Affect_Shariah_Compliance",
+        'sa': "Read the article about the impact of partnerships between crypto projects on their compliance with halal principles: \nhttps://sharlife.my/article/content/How_Halal_and_Haram_Crypto_Partnerships_Affect_Shariah_Compliance",
+    }
+    const bigtext = bigtexts2[lang];
+
+    try {
+        await ctx.editMessageText(
+            bigtext,
+            Markup.inlineKeyboard([
+                [Markup.button.callback(buttonText, 'articles')],
+            ])
+        );
+    } catch (error) {
+        console.log('Error while slecting', error);
+    }
+})
+// Секшин по академии
+bot.action('feature', async (ctx) => {
+    const chatId = ctx.chat.id;
+    ctx.session.route = 'feature';
+    const lang = ctx.session.lang || 'uz';
+
+    const buttonLabels = {
+        'uz': '🔙 Orqaga',
+        'ru': '🔙 Назад',
+        'en': '🔙 Back',
+        'sa': '🔙 خلف',
+    };
+    const buttonText = buttonLabels[lang];
+
+    const bigtexts2 = {
+        'uz': "https://telegra.ph/Article2Sharlifemyuz-09-03",
+        'ru': "https://telegra.ph/Article2sharlifemy-09-03",
+        'en': "",
+        'sa': "",
+    }
+    const bigtext = bigtexts2[lang];
+
+    try {
+        await ctx.editMessageText(
+            bigtext,
+            Markup.inlineKeyboard([
+                [Markup.button.callback(buttonText, 'articles')],
+            ])
+        );
+    } catch (error) {
+        console.log('Error while slecting', error);
+    }
+})
+// Секшин по академии
+bot.action('memtokens', async (ctx) => {
+    const chatId = ctx.chat.id;
+    ctx.session.route = 'memtokens';
+    const lang = ctx.session.lang || 'uz';
+
+    const buttonLabels = {
+        'uz': '🔙 Orqaga',
+        'ru': '🔙 Назад',
+        'en': '🔙 Back',
+        'sa': '🔙 خلف',
+    };
+    const buttonText = buttonLabels[lang];
+
+    const bigtexts2 = {
+        'uz': "https://telegra.ph/Avoid-Buying-Meme-Coins---SharLifemy-09-03",
+        'ru': "http://www.telegra.ph/Hukm-mem-koinov-Sharlife-07-08",
+        'en': "",
+        'sa': "",
+    }
+    const bigtext = bigtexts2[lang];
+
+    try {
+        await ctx.editMessageText(
+            bigtext,
+            Markup.inlineKeyboard([
+                [Markup.button.callback(buttonText, 'articles')],
+            ])
+        );
+    } catch (error) {
+        console.log('Error while slecting', error);
+    }
+})
+// Секшин по академии
+bot.action('airdrop', async (ctx) => {
+    const chatId = ctx.chat.id;
+    ctx.session.route = 'airdrop';
+    const lang = ctx.session.lang || 'uz';
+
+    const buttonLabels = {
+        'uz': '🔙 Orqaga',
+        'ru': '🔙 Назад',
+        'en': '🔙 Back',
+        'sa': '🔙 خلف',
+    };
+    const buttonText = buttonLabels[lang];
+
+    const bigtexts2 = {
+        'uz': "https://telegra.ph/Is-Cryptocurrency-Airdrop-Halal-08-09",
+        'ru': "https://telegra.ph/Is-Cryptocurrency-Airdrop-Halal-07-29",
+        'en': "",
+        'sa': "",
+    }
+    const bigtext = bigtexts2[lang];
+
+    try {
+        await ctx.editMessageText(
+            bigtext,
+            Markup.inlineKeyboard([
+                [Markup.button.callback(buttonText, 'articles')],
+            ])
+        );
+    } catch (error) {
+        console.log('Error while slecting', error);
+    }
+})
+// Секшин по академии
+bot.action('pos', async (ctx) => {
+    const chatId = ctx.chat.id;
+    ctx.session.route = 'pos';
+    const lang = ctx.session.lang || 'uz';
+
+    const buttonLabels = {
+        'uz': '🔙 Orqaga',
+        'ru': '🔙 Назад',
+        'en': '🔙 Back',
+        'sa': '🔙 خلف',
+    };
+    const buttonText = buttonLabels[lang];
+
+    const bigtexts2 = {
+        'uz': "https://teletype.in/@hukmcrypto_bot/staking-halolmi",
+        'ru': "https://teletype.in/@hukmcrypto_bot/SH-ANALYSE-OF-STAKING",
+        'en': "",
+        'sa': "",
+    }
+    const bigtext = bigtexts2[lang];
+
+    try {
+        await ctx.editMessageText(
+            bigtext,
+            Markup.inlineKeyboard([
+                [Markup.button.callback(buttonText, 'articles')],
+            ])
+        );
+    } catch (error) {
+        console.log('Error while slecting', error);
+    }
+})
+// Секшин по академии
+bot.action('zakot', async (ctx) => {
+    const chatId = ctx.chat.id;
+    ctx.session.route = 'zakot';
+    const lang = ctx.session.lang || 'uz';
+
+    const buttonLabels = {
+        'uz': '🔙 Orqaga',
+        'ru': '🔙 Назад',
+        'en': '🔙 Back',
+        'sa': '🔙 خلف',
+    };
+    const buttonText = buttonLabels[lang];
+
+    const bigtexts2 = {
+        'uz': "https://teletype.in/@hukmcrypto_bot/zakat-on-cryptoassets",
+        'ru': "https://teletype.in/@hukmcrypto_bot/zakat-on-cryptoassets",
+        'en': "",
+        'sa': "",
+    }
+    const bigtext = bigtexts2[lang];
+
+    try {
+        await ctx.editMessageText(
+            bigtext,
+            Markup.inlineKeyboard([
+                [Markup.button.callback(buttonText, 'articles')],
+            ])
+        );
+    } catch (error) {
+        console.log('Error while slecting', error);
+    }
+})
+// Секшин по академии
+bot.action('oltin', async (ctx) => {
+    const chatId = ctx.chat.id;
+    ctx.session.route = 'oltin';
+    const lang = ctx.session.lang || 'uz';
+
+    const buttonLabels = {
+        'uz': '🔙 Orqaga',
+        'ru': '🔙 Назад',
+        'en': '🔙 Back',
+        'sa': '🔙 خلف',
+    };
+    const buttonText = buttonLabels[lang];
+
+    const bigtexts2 = {
+        'uz': "https://teletype.in/@hukmcrypto_bot/zoloto-valyuta-islama",
+        'ru': "https://teletype.in/@hukmcrypto_bot/zoloto-valyuta-islama",
+        'en': "",
+        'sa': "",
+    }
+    const bigtext = bigtexts2[lang];
+
+    try {
+        await ctx.editMessageText(
+            bigtext,
+            Markup.inlineKeyboard([
+                [Markup.button.callback(buttonText, 'articles')],
+            ])
+        );
+    } catch (error) {
+        console.log('Error while slecting', error);
+    }
+})
+// Секшин по академии
+bot.action('t2egame', async (ctx) => {
+    const chatId = ctx.chat.id;
+    ctx.session.route = 't2egame';
+    const lang = ctx.session.lang || 'uz';
+
+    const buttonLabels = {
+        'uz': '🔙 Orqaga',
+        'ru': '🔙 Назад',
+        'en': '🔙 Back',
+        'sa': '🔙 خلف',
+    };
+    const buttonText = buttonLabels[lang];
+
+    const bigtexts2 = {
+        'uz': "https://teletype.in/@hukmcrypto_bot/sh-tap-to-earn",
+        'ru': "https://teletype.in/@hukmcrypto_bot/sh-taptoearn",
+        'en': "",
+        'sa': "",
+    }
+    const bigtext = bigtexts2[lang];
+
+    try {
+        await ctx.editMessageText(
+            bigtext,
+            Markup.inlineKeyboard([
+                [Markup.button.callback(buttonText, 'articles')],
+            ])
+        );
+    } catch (error) {
+        console.log('Error while slecting', error);
+    }
+})
+// Секшин по академии
+bot.action('baykot', async (ctx) => {
+    const chatId = ctx.chat.id;
+    ctx.session.route = 'baykot';
+    const lang = ctx.session.lang || 'uz';
+
+    const buttonLabels = {
+        'uz': '🔙 Orqaga',
+        'ru': '🔙 Назад',
+        'en': '🔙 Back',
+        'sa': '🔙 خلف',
+    };
+    const buttonText = buttonLabels[lang];
+
+    const bigtexts2 = {
+        'uz': "https://teletype.in/@hukmcrypto_bot/bNMAoIk4kQH",
+        'ru': "https://teletype.in/@hukmcrypto_bot/cryptocurrencyisrael-invest-article",
+        'en': "",
+        'sa': "",
+    }
+    const bigtext = bigtexts2[lang];
+
+    try {
+        await ctx.editMessageText(
+            bigtext,
+            Markup.inlineKeyboard([
+                [Markup.button.callback(buttonText, 'articles')],
+            ])
+        );
+    } catch (error) {
+        console.log('Error while slecting', error);
+    }
+})
+// Секшин по академии
+bot.action('stablekoins', async (ctx) => {
+    const chatId = ctx.chat.id;
+    ctx.session.route = 'stablekoins';
+    const lang = ctx.session.lang || 'uz';
+
+    const buttonLabels = {
+        'uz': '🔙 Orqaga',
+        'ru': '🔙 Назад',
+        'en': '🔙 Back',
+        'sa': '🔙 خلف',
+    };
+    const buttonText = buttonLabels[lang];
+
+    const bigtexts2 = {
+        'uz': "https://teletype.in/@hukmcrypto_bot/stablecoins-sharlife",
+        'ru': "https://teletype.in/@hukmcrypto_bot/stablecoins-sharlife",
+        'en': "",
+        'sa': "",
+    }
+    const bigtext = bigtexts2[lang];
+
+    try {
+        await ctx.editMessageText(
+            bigtext,
+            Markup.inlineKeyboard([
+                [Markup.button.callback(buttonText, 'articles')],
+            ])
+        );
+    } catch (error) {
+        console.log('Error while slecting', error);
+    }
+})
+// Секшин по академии
+bot.action('clearinvest', async (ctx) => {
+    const chatId = ctx.chat.id;
+    ctx.session.route = 'clearinvest';
+    const lang = ctx.session.lang || 'uz';
+
+    const buttonLabels = {
+        'uz': '🔙 Orqaga',
+        'ru': '🔙 Назад',
+        'en': '🔙 Back',
+        'sa': '🔙 خلف',
+    };
+    const buttonText = buttonLabels[lang];
+
+    const bigtexts2 = {
+        'uz': "https://teletype.in/@hukmcrypto_bot/Hbjv9cgzfbM",
+        'ru': "https://teletype.in/@hukmcrypto_bot/perevodstatyish",
+        'en': "",
+        'sa': "",
+    }
+    const bigtext = bigtexts2[lang];
+
+    try {
+        await ctx.editMessageText(
+            bigtext,
+            Markup.inlineKeyboard([
+                [Markup.button.callback(buttonText, 'articles')],
+            ])
+        );
+    } catch (error) {
+        console.log('Error while slecting', error);
+    }
+})
+// Секшин по академии
+bot.action('muftiyfazar', async (ctx) => {
+    const chatId = ctx.chat.id;
+    ctx.session.route = 'muftiyfazar';
+    const lang = ctx.session.lang || 'uz';
+
+    const buttonLabels = {
+        'uz': '🔙 Orqaga',
+        'ru': '🔙 Назад',
+        'en': '🔙 Back',
+        'sa': '🔙 خلف',
+    };
+    const buttonText = buttonLabels[lang];
+
+    const bigtexts2 = {
+        'uz': "https://teletype.in/@hukmcrypto_bot/are-mem-tokens-uz",
+        'ru': "https://teletype.in/@hukmcrypto_bot/arememetokens-halal",
+        'en': "",
+        'sa': "",
+    }
+    const bigtext = bigtexts2[lang];
+
+    try {
+        await ctx.editMessageText(
+            bigtext,
+            Markup.inlineKeyboard([
+                [Markup.button.callback(buttonText, 'articles')],
+            ])
+        );
+    } catch (error) {
+        console.log('Error while slecting', error);
+    }
+})
 // Обработчик возврата домой
 bot.action('home', async (ctx) => {
     ctx.session.route = 'home';
@@ -258,6 +790,7 @@ bot.action('home', async (ctx) => {
 bot.on('text', async (ctx) => {
     let date = new Date()
     const chatId = ctx.chat.id;
+    const lang = ctx.session.lang || 'uz';
 
     if (ctx.text == '/privacy') {
         await ctx.replyWithHTML('https://telegra.ph/privacy-bot-09-03');    
@@ -265,6 +798,14 @@ bot.on('text', async (ctx) => {
     if (ctx.session.route === 'research') {
         const lang = ctx.session.lang || 'uz';
         const search = ctx.message.text.toLowerCase();
+        
+        const buttonLabels = {
+            'uz': '🔙 Orqaga',
+            'ru': '🔙 Назад',
+            'en': '🔙 Back',
+            'sa': '🔙 خلف',
+        };
+        const buttonText = buttonLabels[lang];
 
         // await ctx.deleteMessage();
 
@@ -316,6 +857,7 @@ bot.on('text', async (ctx) => {
             console.log('Error while getting result', error);
         }
     }
+
     // Функция для отправки сообщения с задержкой и обработкой ошибок
     async function sendMessage(user, botToken, message) {
         const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
@@ -439,17 +981,41 @@ bot.on('text', async (ctx) => {
 
         await ctx.replyWithHTML('Barcha foydalanuvchilarga habar yuborildi!');    
     }    
-    if (ctx.message.text == 'send' && ctx.session.route != 'research' && chatId == 383213241) {
-        await ctx.replyWithHTML(`Quyidagi raqamni kiriting: ${ date.getMinutes()}`);    
-    }    
-    if (+ctx.message.text == date.getMinutes() && ctx.session.route != 'research' && chatId == 383213241) {
-        sendMessages(usersJson);
+
+    console.log(ctx.session.statusAdmin);
+
+    if (!ctx.session.lang && ctx.session.route != 'research' && chatId == 383213241 && ctx.session.statusAdmin == undefined) {
+        await ctx.replyWithHTML(`Avval tilni tanlang`);    
+        
     }
+    if (ctx.message.text == 'send' && ctx.session.lang && ctx.session.route != 'research' && chatId == 383213241 && ctx.session.statusAdmin == undefined) {
+        ctx.session.statusAdmin = 'send'
+        await ctx.replyWithHTML(`Textni kiriting:`);    
+        
+    } else if (ctx.session.lang && ctx.session.route != 'research' && chatId == 383213241 && ctx.session.statusAdmin == 'send' && ctx.message.text != 'yes' && ctx.message.text != 'no') {
+        ctx.session.statusAdmin = 'gettext'
+        ctx.session.textforuser = ctx.message.text 
+        await ctx.replyWithHTML(`Text quyidagi ko'rinishga ega:`);    
+        await ctx.replyWithHTML(`${ctx.message.text}`);    
+        await ctx.replyWithHTML(`Tasdiqlash uchun "yes" yoki "no" so'zini kiriting.`);    
+        // await ctx.replyWithHTML(`⚠️ Jo'natmoqchi bo'lgan textingiz shu ko'rinishga ega. Barcha userlarga jo'natish uchun ushbu textni qayta yuboring:`);    
+        isSendSmsTest = true
+    }   
+    if (ctx.message.text == 'yes' && ctx.session.statusAdmin == 'gettext' && ctx.session.lang && ctx.session.route != 'research' && chatId == 383213241) {
+        ctx.session.statusAdmin = ''
+        await ctx.replyWithHTML(`Quyidagi ko'rinishda jo'natildi: \n\n`);    
+        await ctx.replyWithHTML(ctx.session.textforuser);  
+        // sendMessage(383213241, '7499671537:AAGi8ILE5ywAEIZ_uSLrFBlfPNuF9WRDbdw', ctx.session.textforuser);
+    }    
+    if (ctx.message.text == 'no' && ctx.session.statusAdmin == 'gettext' && ctx.session.lang && ctx.session.route != 'research' && chatId == 383213241) {
+        ctx.session.statusAdmin = ''
+        await ctx.replyWithHTML(`Bekor qilindi.`);    
+        // await ctx.replyWithHTML(`Quyidagi raqamni kiriting: ${ date.getMinutes()}`);    
+    }    
+    // if (+ctx.message.text == date.getMinutes() && ctx.session.route != 'research' && chatId == 5104139343) {
+    //     sendMessages(usersJson);
+    // }
 });
-
-// 5104139343
-
-// 383213241
 
 module.exports = { bot }
 
