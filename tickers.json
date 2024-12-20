@@ -1578,18 +1578,6 @@
         "source": "www.sharlife.my"
     },
     {
-        "id": 224,
-        "ticker": "ARB",
-        "project_name": "(Arbitrum)",
-        "shariah_status": "HALAL"
-    },
-    {
-        "id": 225,
-        "ticker": "OP",
-        "project_name": "(Optimism)",
-        "shariah_status": "HALAL"
-    },
-    {
         "id": 226,
         "ticker": "CVC",
         "project_name": "(Civic)",
@@ -2053,12 +2041,6 @@
         "shariah_status": "HALAL"
     },
     {
-        "id": 294,
-        "ticker": "ALGO",
-        "project_name": "(Algorand)",
-        "shariah_status": "HALAL"
-    },
-    {
         "id": 295,
         "ticker": "KEY",
         "project_name": "(SelfKey)",
@@ -2329,12 +2311,6 @@
         "id": 333,
         "ticker": "PHA",
         "project_name": "(Phala Network)",
-        "shariah_status": "HALAL"
-    },
-    {
-        "id": 334,
-        "ticker": "ID",
-        "project_name": "(Space ID)",
         "shariah_status": "HALAL"
     },
     {
@@ -3632,5 +3608,457 @@
         "project_name": "(Trump)",
         "shariah_status": "Sharlife: HARAM🔴 \nCryptoIslam: HARAM🔴",
         "source": "@hukmcrypto_bot"
+    },
+    {
+        "id": 521,
+        "ticker": "SWELL",
+        "project_name": "(Swell Network)",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 522,
+        "ticker": "NS",
+        "project_name": "(SuiNS)",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 523,
+        "ticker": "SOUTH",
+        "project_name": "(DeepSouth AI)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 524,
+        "ticker": "PAI",
+        "project_name": "(ParallelAI)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 525,
+        "ticker": "XION",
+        "project_name": "(Xion)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 526,
+        "ticker": "HIPPO",
+        "project_name": "(sudeng)",
+        "description": "",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 527,
+        "ticker": "ACX",
+        "project_name": "(Across Protocol)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 528,
+        "ticker": "ORCA",
+        "project_name": "(Orca)",
+        "description": "",
+        "shariah_status": "HARAM",
+        "source": ""
+    },
+    {
+        "id": 529,
+        "ticker": "BGSC",
+        "project_name": "(BugsCoin)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 530,
+        "ticker": "FLT",
+        "project_name": "(Fluence)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 531,
+        "ticker": "ME",
+        "project_name": "(Magic Eden)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "Crypoislam.t.me"
+    },
+    {
+        "id": 532,
+        "ticker": "MOVE",
+        "project_name": "(Movement)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 533,
+        "ticker": "DIMO",
+        "project_name": "(Dimo)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 534,
+        "ticker": "OBORTECH",
+        "project_name": "(OBORTECH)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 535,
+        "ticker": "DOGS",
+        "project_name": "(DOGS)",
+        "description": "We have concluded that meme coins without utility are not permissible from the perspective of Shariah",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my, crypoislam.t.me"
+    },
+    {
+        "id": 536,
+        "ticker": "NEUTON",
+        "project_name": "(NEUTON)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "Crypoislam.t.me"
+    },
+    {
+        "id": 537,
+        "ticker": "KIP",
+        "project_name": "(KIP Protocol)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 538,
+        "ticker": "MOODENG",
+        "project_name": "(Moo deng)",
+        "description": "We have concluded that meme coins without utility are not permissible from the perspective of Shariah",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my, crypoislam.t.me"
+    },
+    {
+        "id": 539,
+        "ticker": "SLERF",
+        "project_name": "(Slerf)",
+        "description": "We have concluded that meme coins without utility are not permissible from the perspective of Shariah",
+        "shariah_status": "HARAM",
+        "source": "Crypoislam.t.me"
+    },
+    {
+        "id": 540,
+        "ticker": "CAT",
+        "project_name": "(Simon's Cat)",
+        "description": "We have concluded that meme coins without utility are not permissible from the perspective of Shariah.",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 541,
+        "ticker": "PROPC",
+        "project_name": "(Propchain)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 542,
+        "ticker": "AGENT",
+        "project_name": "(Agents AI)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "Crypoislam.t.me"
+    },
+    {
+        "id": 543,
+        "ticker": "RLUSD",
+        "project_name": "(Ripple USD)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.ne"
+    },
+    {
+        "id": 544,
+        "ticker": "VIRTUAL",
+        "project_name": "(Virtuals Protocol)",
+        "description": "",
+        "shariah_status": "CryptoIslam: HALAL🟢 \nSharlife: HARAM🔴",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 545,
+        "ticker": "TROY",
+        "project_name": "(TROY)",
+        "description": "",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my, crypoislam.t.me"
+    },
+    {
+        "id": 546,
+        "ticker": "ENA",
+        "project_name": "(Ethena Labs)",
+        "description": "",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my, crypoislam.t.me"
+    },
+    {
+        "id": 547,
+        "ticker": "BIGTIME",
+        "project_name": "(Big Time)",
+        "description": "There are several questionable aspects regarding Big Time. The Showdown Tournament rewards system lacks clarity, raising concerns about the potential inclusion of gambling elements, though this remains uncertain. Additionally, the Mystery Boxes sold in their marketplace contain elements of gharar (excessive uncertainty) and gambling, which are problematic from a Shariah perspective.",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 548,
+        "ticker": "NXRA",
+        "project_name": "(Nexera)",
+        "description": "As of now, the projects run by Nexera appear to be in accordance with Shariah principles.",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 549,
+        "ticker": "NEIRO",
+        "project_name": "(First Neiro On Ethereum)",
+        "description": "The 2nd Shariah Committee Meeting held at Sharlifes office on March 29, 2024, concluded that meme coins without a specific use case raise concerns regarding their Shariah compliance. These coins often lack clear utility or tangible benefits, making it questionable whether they meet the criteria for Shariah compliance, as they do not contribute to mutually beneficial exchanges. Furthermore, meme coins are frequently associated with harmful practices such as pump and dump schemes, which can negatively impact investors' wealth. As a result, meme coins without a defined use case have been deemed impermissible.",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 550,
+        "ticker": "M87",
+        "project_name": "(Messier)",
+        "description": "As of now, the projects run by Messier appear to be in accordance with Shariah principles.",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 551,
+        "ticker": "BOND",
+        "project_name": "(BarnBridge)",
+        "description": "It is a crypto currency of the Barn Bridge platform, was founded in 2019. The BarnBridge protocol was launched in September 2020 to create tradable currencies, as well as extending the functionality of decentralized finance to make it more flexible and efficient. Barn Bridge brings traditional risk management and fixed income tools to the decentralized finance market. Its main focus is to segment the digital currency risk so that market participants, depending on their risk profile, can invest in different products or currencies. The BOND token is the system governance token, it enables its holders to vote on platform updates. The BOND token is the system governance token, it enables its holders to vote on platform updates.",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc, www.sarafscreening.com"
+    },
+    {
+        "id": 552,
+        "ticker": "BEAMX",
+        "project_name": "(BEAM)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "www.sarafscreening.com, crypoislam.t.me"
+    },
+    {
+        "id": 553,
+        "ticker": "MAGIC",
+        "project_name": "(Treasure)",
+        "description": "The MAGIC token may involve non-Shariah-compliant elements within its projects, such as certain games and tournament rewards. Therefore, we advise users to avoid engaging with the token.",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.sharlife.my "
+    },
+    {
+        "id": 554,
+        "ticker": "USUAL",
+        "project_name": "(Usual)",
+        "description": "عملة حوكمة لمشروع غير مباح",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 555,
+        "ticker": "HYPE",
+        "project_name": "(Hyperliquid)",
+        "description": "",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 556,
+        "ticker": "PIRATE",
+        "project_name": "(Pirate Nation)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 557,
+        "ticker": "S",
+        "project_name": "(Sonic)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 558,
+        "ticker": "FTON",
+        "project_name": "(Fanton)",
+        "description": "جائزة الفائز في بطولة اللعبة من رسوم المشاركين و هذا قمار",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 559,
+        "ticker": "VANA",
+        "project_name": "(Vana)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 560,
+        "ticker": "MARSH",
+        "project_name": "(UnMarshal)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 561,
+        "ticker": "ML",
+        "project_name": "(MintLayer)",
+        "description": "As of now, the projects provided by Mintlayer (ML) appear to be in accordance with Shariah principles.",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 562,
+        "ticker": "F",
+        "project_name": "(SynFutures)",
+        "description": "",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 563,
+        "ticker": "SIMMI",
+        "project_name": "(Simmi Token)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 564,
+        "ticker": "AZERO",
+        "project_name": "(Aleph Zero)",
+        "description": "Aleph Zero (AZERO) is a privacy-focused Proof-of-Stake (PoS) layer-one blockchain designed for enterprises. It was built using the Substrate stack, an open-source technology suite that enables projects to develop custom blockchains. AZERO aims to solve the speed, scalability, verification time, and security issues faced by current blockchains. AZERO selects a fixed committee of validators every fifteen minutes, meaning 96 committees are chosen every 24 hours. These committees reward network participants based on their contributions. Staking rewards for validators and candidates are proportional to the accumulated amount. However, candidates receive their rewards after deducting validator fees. Use cases of the network include the Internet of Things (IoT), smart contracts, supply chain management, virtual game assets, decentralized name system (DNS), global wallet and decentralized exchange, asset digitization, notary signing, transparent access to public documents, automatic tax payments, database, and automatic payment agreements.",
+        "shariah_status": "HALAL🟢",
+        "source": "www.cryptohalal.cc, www.sharlife.my"
+    },
+    {
+        "id": 565,
+        "ticker": "BTTC",
+        "project_name": "(BTT/Bittorent Coin)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 566,
+        "ticker": "LDO",
+        "project_name": "(Lido DAO)",
+        "description": "",
+        "shariah_status": "HARAM",
+        "source": "www.cryptohalal.cc, sharlife.my, crypoislam.t.me"
+    },
+    {
+        "id": 567,
+        "ticker": "MYRO",
+        "project_name": "(Myro)",
+        "description": "",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 568,
+        "ticker": "DNX",
+        "project_name": "(Dynex)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 569,
+        "ticker": "TIME",
+        "project_name": "(Chrono.tech)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "cryptohalal.cc"
+    },
+    {
+        "id": 570,
+        "ticker": "DMTR",
+        "project_name": "(Dimitra)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 571,
+        "ticker": "XNA",
+        "project_name": "(Neurai)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 572,
+        "ticker": "VAI",
+        "project_name": "(VAIOT)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 573,
+        "ticker": "ARC",
+        "project_name": "(Arc)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 574,
+        "ticker": "ARB",
+        "project_name": "(Arbitrum)",
+        "description": "Optimism and Arbitrum are Ethereum Layer 2 scaling solutions that aim to improve transaction speed and reduce costs while maintaining Ethereum's security. Arbitrum: Also uses Optimistic Rollups but focuses on developer ease and compatibility with Ethereum. It allows for faster and cheaper transactions by offloading computation and storage.",
+        "shariah_status": "HALAL",
+        "source": "cryptohalal.cc, sharlife.my, crypoislam.t.me"
+    },
+    {
+        "id": 575,
+        "ticker": "OP",
+        "project_name": "(Optimism)",
+        "description": "Optimism and Arbitrum are Ethereum Layer 2 scaling solutions that aim to improve transaction speed and reduce costs while maintaining Ethereum's security. Optimism: Utilizes Optimistic Rollups, bundling multiple transactions into one batch and processing them off-chain to increase efficiency. It assumes transactions are valid unless challenged.",
+        "shariah_status": "HALAL",
+        "source": "cryptohalal.cc, sharlife.my, crypoislam.t.me"
+    },
+    {
+        "id": 576,
+        "ticker": "ID",
+        "project_name": "(Space ID)",
+        "description": "Space ID is a Web3 project that focuses on decentralized domain name services. It allows users to create and manage unique blockchain-based identities and domain names, simplifying interaction across decentralized applications (dApps), wallets, and blockchains.",
+        "shariah_status": "HALAL",
+        "source": "cryptohalal.cc, sharlife.my, crypoislam.t.me"
+    },
+    {
+        "id": 577,
+        "ticker": "ALGO",
+        "project_name": "(Algorand)",
+        "description": "Algorand is a blockchain platform designed to offer high performance, scalability, security, and decentralization. It uses a unique Pure Proof-of-Stake (PPoS) consensus mechanism, where validators are chosen randomly based on the amount of ALGO tokens they hold.",
+        "shariah_status": "HALAL",
+        "source": "cryptohalal.cc, sharlife.my, crypoislam.t.me"
     }
 ]
