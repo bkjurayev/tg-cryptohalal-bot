@@ -982,16 +982,53 @@ bot.on('text', async (ctx) => {
         await ctx.replyWithHTML('Barcha foydalanuvchilarga habar yuborildi!');    
     }    
 
-    console.log(ctx.session.statusAdmin);
+    // Функция для отправки количество пользователей
+    async function sendUsersCount(botToken, user) {
+        const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
+        const payload = {
+            chat_id: 383213241,
+            parse_mode: "html",
+            text: user,
+        };
+
+        while (true) {
+            try {
+                await axios.post(url, payload);
+                break; // Выход из цикла, если запрос успешен
+            } catch (error) {
+                if (error.response && error.response.status === 429) {
+                    console.warn('Превышен лимит запросов. Ожидание перед повторной попыткой.');
+                    await new Promise(resolve => setTimeout(resolve, 5000)); // Ожидание 5 секунд
+                } else {
+                    console.error('Ошибка при отправке сообщения:', error);
+                    break; // Выход из цикла при других ошибках
+                }
+            }
+        }
+    }
+    async function getUsers(usersJson) {
+        const botToken = '7499671537:AAGi8ILE5ywAEIZ_uSLrFBlfPNuF9WRDbdw';
+        for (const user of usersJson) {
+
+            // отправит количество пользователя
+            await sendUsersCount(botToken, user);
+            await new Promise(resolve => setTimeout(resolve, 1500)); // Задержка 1 секунда между запросами
+
+        }
+
+        await ctx.replyWithHTML('Barcha foydalanuvchilarga habar yuborildi!');    
+    }    
+    if (ctx.message.text === 'getusers') {
+        getUsers(usersJson)
+    }
+    
 
     if (!ctx.session.lang && ctx.session.route != 'research' && chatId == 383213241 && ctx.session.statusAdmin == undefined) {
         await ctx.replyWithHTML(`Avval tilni tanlang`);    
-        
     }
     if (ctx.message.text == 'send' && ctx.session.lang && ctx.session.route != 'research' && chatId == 383213241 && ctx.session.statusAdmin == undefined) {
         ctx.session.statusAdmin = 'send'
         await ctx.replyWithHTML(`Textni kiriting:`);    
-        
     } else if (ctx.session.lang && ctx.session.route != 'research' && chatId == 383213241 && ctx.session.statusAdmin == 'send' && ctx.message.text != 'yes' && ctx.message.text != 'no') {
         ctx.session.statusAdmin = 'gettext'
         ctx.session.textforuser = ctx.message.text 
