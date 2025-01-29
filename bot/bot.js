@@ -859,12 +859,12 @@ bot.on('text', async (ctx) => {
     }
 
     // Функция для отправки сообщения с задержкой и обработкой ошибок
-    async function sendMessage(user, botToken, message) {
+    async function sendMessage(user, botToken) {
         const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
         const payload = {
             chat_id: user.chatId,
             parse_mode: "html",
-            text: message,
+            text: ctx.session.textforuser,
         };
 
         while (true) {
@@ -884,109 +884,32 @@ bot.on('text', async (ctx) => {
         }
     }
     // Функция для отправки сообщений с задержкой между запросами
-    async function sendMessages(usersJson, messages) {
+    async function sendMessagesUz(usersJson) {
         const botToken = '7499671537:AAGi8ILE5ywAEIZ_uSLrFBlfPNuF9WRDbdw';
         for (const user of usersJson) {
             if (user.language == 'uz') {
-                const messages1 = {
-                    'uz': `السلام عليكم ورحمة الله وبركاته 
-                            \nBizning bot sizga foyda keltirayotganidan va uni siz kriptotangalarni shar'iy hukmini tekshirish uchun ishlatayotganiningizdan hursadmiz. Alhamdulillah, bizning bot 3 oydan ko'proq ishlab kelmoqda va foydalanuvchilar soni 1000dan oshdi. 
-                            \nBiz botni bir-necha marotaba yangiladik va kriptovalyutalarni shar'iy hukmini o'rganish uchun va umumiy tanishish uchun kerakli bo'lgan barcha materiallarni qo'shib kelmoqdamiz. 
-                            \nBot ba'zi vaqtda javob yozmay qo'ysa /start tugmasini bosib yuboring yoki botni o'chirib, qaytadan ishga tushiring
-                        `,
-                    'ru': `السلام عليكم ورحمة الله وبركاته 
-                            \nМы рады, что наш бот приносит вам пользу, и вы продолжаете использовать его для проверки шариатского статуса криптомонет. Альхамдулиллях, наш бот работает уже более трёх месяцев, и количество пользователей превысило 1000 человек.
-                            \nМы несколько раз обновляли нашего бота и продолжаем добавлять все необходимые материалы для изучения шариатского статуса криптовалют, а также для общего изучения. 
-                            \nЕсли бот перестаёт отвечать на ваши запросы, отправьте команду /start или перезапустите бота. Это восстановит его работу.
-                        `,
-                    'en': ``,
-                    'sa': ``
-                }[user.language]
-                const messages2 = {
-                    'uz': ` \nBiz shuningdek ixtilof mavzusida savollar olmoqdamiz — bir kriptovalyuta bo'yicha ulamolar ikki xil hukm chiqargan bo'lsalar, qaysi tarafga ergashishimiz kerak; umuman ushbu turdagi tokenlar bilan savdo qilmaslikmi yoki bir tarafni tanlashimiz kerakmi. 
-                            \nBiz bu masalada biroq chuqurlashdik, lekin biz bir tarafni fatvo berishda xatoga yo'l qo'yishi mumkin deb ayta olmaymiz. Bu juda churu mavzu. Bot manbalarida bir ma'muriyat Xalqaro Islomiy akademiya fiqhi (UNA) usulida kriptovalyutalarni tekshirsa, boshqasi esa AAOIFI standartlariga rioya qilgan holda kriptovalyutalarni tekshiruvdan o'tkazadi. 
-                            \nAgar siz oldin bir tarafni fatvosiga roiya qilgan bo'lsangiz va siz uchun ushbu ma'muriyat yaqinroq bo'lsa ushbu tarafda qolishingiz mumkin. Misol uchun, Rossiya, Qozoqiston va boshqa MDH davlatlarida AAOIFI fatvolari qo'llanilsa, arab davlatlarida esa Saud. Arabistoni, Aljir, Marokko, Tunisda ko'proq Xalqaro Islomiy Akademiya fiqhi (UNA) standarti/fatvolari tarqalgan 
-                            \nSharlife doktori va mutahassislari AAOIFI'ga yaqinroq bo'lsa, CryptoHalal - UNA'ga yaqinroq hisoblanadi. 
-                            \nBiz botga yangi kriptovalyuta shar'iy hukmini qo'shishdan oldin barcha manbani tekshirib chiqamiz, va orada birida shubhalik, keyingisida halol bo'lgan loyihalar bo'yicha so'raymiz va ular ma'lum bir standartga ko'ra ushbu fatvoni berishgan bo'lsa biz fatvo asoslari bilan chiqaramiz. Balki kelajakda bir kriptovalyuta avvaliga halol keyin harom bo'lishi mumkin - biz botdagi ma'lumotlarni o'zgartirishga harakat qilamiz, lekin aytganimizdek bir ma'muriyatda halol bo'lib, keyinroq ikkinchisida harom deb chiqsa biz quyidagi turdagi kriptovalyutalarni hukmini o'zgartirmasligimiz mumkin: 
-                            \nUshbu ruyxatga birja tokenlari, o'yin tokenlari va ko'chirilgan tokenlar (ya'ni Wrapped BTC va shunga o'xshash). Ushbu turdagi kriptovalyutalar asosiy muammoasi sarmoya kiritishda investorlar uchun risk tug'dirishi mumkin, yana token orqasidagi jamoa tajribasiz bo'lishi sabab token shubhalik deb tan olinishi mumkin. Qolgan kriptovalyutalarda esa biz eng yangi fatvolarni e'tiborga olamiz, sababi kriptovalyuta dunyosida o'zgarishlar juda tez bo'lib turadi va bu loyiha tokenining shar'iy hukmi o'zgarishiga sabab bo'lishi mumkin.
-                            \nUmid qilamizki, sizlarning savollaringizga to'g'ri javob bera oldik. 
-                            \nAlloh bilguvchiroqdir. 
-                            \n© Checking Cryptocurrency (@Hukmcrypto_bot)
-                        `,
-                    'ru': ` 
-                            \nМы также получаем вопросы относительно ихтиляфа — ситуации, когда существуют два разных мнения по поводу одной криптовалюты, и какую позицию выбрать: вообще не торговать монетами, по которым есть ихтиляф, или же выбрать одну сторону. 
-                            \nМы провели тщательное исследование по этой теме и не можем однозначно сказать, что одна из сторон допускает ошибки. Это очень глубокая тема. В нашей базе один комитет проверяет криптовалюты по стандартам Международной Исламской академии фикха (UNA), а другой комитет соблюдает стандарты AAOIFI. 
-                            \nЕсли вы раньше придерживались фетв одной из сторон и это ближе вам по убеждениям, оставайтесь на этой стороне. Например, в России, Казахстане и других странах больше всего применяют фетвы AAOIFI. В арабских странах, таких как Саудовская Аравия, Алжир, Марокко, Тунис, больше распространены стандарты Международной Исламской академии фикха (UNA). 
-                            \nДоктора и специалисты Sharlife ближе к AAOIFI, а CryptoHalal — к UNA. 
-                            \nПеред добавлением шариатского статуса монеты мы проверяем все доступные ресурсы и уточняем, насколько некоторые сомнительные услуги проекта могут повлиять на общий хукм монеты. Если они ссылаются на стандарты вышеупомянутых организаций, мы добавляем шариатский статус этой монеты. Возможно, в будущем одна из организаций признает монету "недозволенной", и тогда мы либо изменим её шариатский статус, либо оставим его без изменений, если это связано с причинами, описанными ниже. 
-                            \nК таким категориям монет относятся биржевые токены, игровые токены и завёрнутые токены, такие как Wrapped BTC и другие. Эти категории монет связаны с инвестиционными рисками (например, команда проекта может быть недоверенной или не иметь достаточного опыта, что может быть сомнительным с точки зрения Sharlife, в то время как другой комитет может не учитывать данную точку зрения). Мы также учитываем более новые фетвы по монетам, поскольку за 1-2 года проекты и услуги монет могут измениться, что может повлиять на их шариатский статус. 
-                            \nНадеюсь, я правильно ответил на ваши вопросы об ихтиляфе.
-                            \nА Аллах знает лучше.
-                            \n© Checking Cryptocurrency (@Hukmcrypto_bot)
-                        `,
-                    'en': ``,
-                    'sa': ``
-                }[user.language]
-
-                await sendMessage(user, botToken, messages1);
-                await sendMessage(user, botToken, messages2);
-                await new Promise(resolve => setTimeout(resolve, 1500)); // Задержка 1 секунда между запросами
-            }
-            if (user.language == 'ru') {
-                const messages1 = {
-                    'uz': `السلام عليكم ورحمة الله وبركاته 
-                            \nBizning bot sizga foyda keltirayotganidan va uni siz kriptotangalarni shar'iy hukmini tekshirish uchun ishlatayotganiningizdan hursadmiz. Alhamdulillah, bizning bot 3 oydan ko'proq ishlab kelmoqda va foydalanuvchilar soni 1000dan oshdi. 
-                            \nBiz botni bir-necha marotaba yangiladik va kriptovalyutalarni shar'iy hukmini o'rganish uchun va umumiy tanishish uchun kerakli bo'lgan barcha materiallarni qo'shib kelmoqdamiz. 
-                            \nBot ba'zi vaqtda javob yozmay qo'ysa /start tugmasini bosib yuboring yoki botni o'chirib, qaytadan ishga tushiring
-                        `,
-                    'ru': `السلام عليكم ورحمة الله وبركاته 
-                            \nМы рады, что наш бот приносит вам пользу, и вы продолжаете использовать его для проверки шариатского статуса криптомонет. Альхамдулиллях, наш бот работает уже более трёх месяцев, и количество пользователей превысило 1000 человек.
-                            \nМы несколько раз обновляли нашего бота и продолжаем добавлять все необходимые материалы для изучения шариатского статуса криптовалют, а также для общего изучения. 
-                            \nЕсли бот перестаёт отвечать на ваши запросы, отправьте команду /start или перезапустите бота. Это восстановит его работу.
-                        `,
-                    'en': ``,
-                    'sa': ``
-                }[user.language]
-                const messages2 = {
-                    'uz': ` \nBiz shuningdek ixtilof mavzusida savollar olmoqdamiz — bir kriptovalyuta bo'yicha ulamolar ikki xil hukm chiqargan bo'lsalar, qaysi tarafga ergashishimiz kerak; umuman ushbu turdagi tokenlar bilan savdo qilmaslikmi yoki bir tarafni tanlashimiz kerakmi. 
-                            \nBiz bu masalada biroq chuqurlashdik, lekin biz bir tarafni fatvo berishda xatoga yo'l qo'yishi mumkin deb ayta olmaymiz. Bu juda churu mavzu. Bot manbalarida bir ma'muriyat Xalqaro Islomiy akademiya fiqhi (UNA) usulida kriptovalyutalarni tekshirsa, boshqasi esa AAOIFI standartlariga rioya qilgan holda kriptovalyutalarni tekshiruvdan o'tkazadi. 
-                            \nAgar siz oldin bir tarafni fatvosiga roiya qilgan bo'lsangiz va siz uchun ushbu ma'muriyat yaqinroq bo'lsa ushbu tarafda qolishingiz mumkin. Misol uchun, Rossiya, Qozoqiston va boshqa MDH davlatlarida AAOIFI fatvolari qo'llanilsa, arab davlatlarida esa Saud. Arabistoni, Aljir, Marokko, Tunisda ko'proq Xalqaro Islomiy Akademiya fiqhi (UNA) standarti/fatvolari tarqalgan 
-                            \nSharlife doktori va mutahassislari AAOIFI'ga yaqinroq bo'lsa, CryptoHalal - UNA'ga yaqinroq hisoblanadi. 
-                            \nBiz botga yangi kriptovalyuta shar'iy hukmini qo'shishdan oldin barcha manbani tekshirib chiqamiz, va orada birida shubhalik, keyingisida halol bo'lgan loyihalar bo'yicha so'raymiz va ular ma'lum bir standartga ko'ra ushbu fatvoni berishgan bo'lsa biz fatvo asoslari bilan chiqaramiz. Balki kelajakda bir kriptovalyuta avvaliga halol keyin harom bo'lishi mumkin - biz botdagi ma'lumotlarni o'zgartirishga harakat qilamiz, lekin aytganimizdek bir ma'muriyatda halol bo'lib, keyinroq ikkinchisida harom deb chiqsa biz quyidagi turdagi kriptovalyutalarni hukmini o'zgartirmasligimiz mumkin: 
-                            \nUshbu ruyxatga birja tokenlari, o'yin tokenlari va ko'chirilgan tokenlar (ya'ni Wrapped BTC va shunga o'xshash). Ushbu turdagi kriptovalyutalar asosiy muammoasi sarmoya kiritishda investorlar uchun risk tug'dirishi mumkin, yana token orqasidagi jamoa tajribasiz bo'lishi sabab token shubhalik deb tan olinishi mumkin. Qolgan kriptovalyutalarda esa biz eng yangi fatvolarni e'tiborga olamiz, sababi kriptovalyuta dunyosida o'zgarishlar juda tez bo'lib turadi va bu loyiha tokenining shar'iy hukmi o'zgarishiga sabab bo'lishi mumkin.
-                            \nUmid qilamizki, sizlarning savollaringizga to'g'ri javob bera oldik. 
-                            \nAlloh bilguvchiroqdir. 
-                            \n© Checking Cryptocurrency (@Hukmcrypto_bot)
-                        `,
-                    'ru': ` 
-                            \nМы также получаем вопросы относительно ихтиляфа — ситуации, когда существуют два разных мнения по поводу одной криптовалюты, и какую позицию выбрать: вообще не торговать монетами, по которым есть ихтиляф, или же выбрать одну сторону. 
-                            \nМы провели тщательное исследование по этой теме и не можем однозначно сказать, что одна из сторон допускает ошибки. Это очень глубокая тема. В нашей базе один комитет проверяет криптовалюты по стандартам Международной Исламской академии фикха (UNA), а другой комитет соблюдает стандарты AAOIFI. 
-                            \nЕсли вы раньше придерживались фетв одной из сторон и это ближе вам по убеждениям, оставайтесь на этой стороне. Например, в России, Казахстане и других странах больше всего применяют фетвы AAOIFI. В арабских странах, таких как Саудовская Аравия, Алжир, Марокко, Тунис, больше распространены стандарты Международной Исламской академии фикха (UNA). 
-                            \nДоктора и специалисты Sharlife ближе к AAOIFI, а CryptoHalal — к UNA. 
-                            \nПеред добавлением шариатского статуса монеты мы проверяем все доступные ресурсы и уточняем, насколько некоторые сомнительные услуги проекта могут повлиять на общий хукм монеты. Если они ссылаются на стандарты вышеупомянутых организаций, мы добавляем шариатский статус этой монеты. Возможно, в будущем одна из организаций признает монету "недозволенной", и тогда мы либо изменим её шариатский статус, либо оставим его без изменений, если это связано с причинами, описанными ниже. 
-                            \nК таким категориям монет относятся биржевые токены, игровые токены и завёрнутые токены, такие как Wrapped BTC и другие. Эти категории монет связаны с инвестиционными рисками (например, команда проекта может быть недоверенной или не иметь достаточного опыта, что может быть сомнительным с точки зрения Sharlife, в то время как другой комитет может не учитывать данную точку зрения). Мы также учитываем более новые фетвы по монетам, поскольку за 1-2 года проекты и услуги монет могут измениться, что может повлиять на их шариатский статус. 
-                            \nНадеюсь, я правильно ответил на ваши вопросы об ихтиляфе.
-                            \nА Аллах знает лучше.
-                            \n© Checking Cryptocurrency (@Hukmcrypto_bot)
-                        `,
-                    'en': ``,
-                    'sa': ``
-                }[user.language]
-
-                await sendMessage(user, botToken, messages1);
-                await sendMessage(user, botToken, messages2);
+                await sendMessage(user, botToken);
                 await new Promise(resolve => setTimeout(resolve, 1500)); // Задержка 1 секунда между запросами
             }
         }
-
         await ctx.replyWithHTML('Barcha foydalanuvchilarga habar yuborildi!');    
+    }    
+    async function sendMessagesRu(usersJson) {
+        const botToken = '7499671537:AAGi8ILE5ywAEIZ_uSLrFBlfPNuF9WRDbdw';
+        for (const user of usersJson) {
+            if (user.language == 'ru') {
+                await sendMessage(user, botToken);
+                await new Promise(resolve => setTimeout(resolve, 1500)); // Задержка 1 секунда между запросами
+            }
+        }
+        await ctx.replyWithHTML('Сообщение отправлено всем пользователям!');    
     }    
 
     // Функция для отправки количество пользователей
     async function sendUsersCount(botToken, user) {
         const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
         const payload = {
-            chat_id: 383213241,
+            chat_id: 5104139343,
             parse_mode: "html",
             text: user,
         };
@@ -1018,36 +941,53 @@ bot.on('text', async (ctx) => {
 
         await ctx.replyWithHTML('Barcha foydalanuvchilarga habar yuborildi!');    
     }    
-    if (ctx.message.text === 'getusers') {
-        getUsers(usersJson)
-    }
+    // if (ctx.message.text === 'getusers') {
+    //     getUsers(usersJson)
+    // }
     
 
-    if (!ctx.session.lang && ctx.session.route != 'research' && chatId == 383213241 && ctx.session.statusAdmin == undefined) {
+    if (!ctx.session.lang && ctx.session.route != 'research' && chatId == 5104139343 && ctx.session.statusAdmin == undefined) {
         await ctx.replyWithHTML(`Avval tilni tanlang`);    
     }
-    if (ctx.message.text == 'send' && ctx.session.lang && ctx.session.route != 'research' && chatId == 383213241 && ctx.session.statusAdmin == undefined) {
-        ctx.session.statusAdmin = 'send'
+    if (ctx.message.text == 'senduz' && ctx.session.lang && ctx.session.route != 'research' && chatId == 5104139343 && ctx.session.statusAdmin == undefined) {
+        ctx.session.statusAdmin = 'senduz'
         await ctx.replyWithHTML(`Textni kiriting:`);    
-    } else if (ctx.session.lang && ctx.session.route != 'research' && chatId == 383213241 && ctx.session.statusAdmin == 'send' && ctx.message.text != 'yes' && ctx.message.text != 'no') {
-        ctx.session.statusAdmin = 'gettext'
+    } else if (ctx.session.lang && ctx.session.route != 'research' && chatId == 5104139343 && ctx.session.statusAdmin == 'senduz' && ctx.message.text != 'yes' && ctx.message.text != 'no') {
+        ctx.session.statusAdmin = 'gettextuz'
         ctx.session.textforuser = ctx.message.text 
         await ctx.replyWithHTML(`Text quyidagi ko'rinishga ega:`);    
         await ctx.replyWithHTML(`${ctx.message.text}`);    
-        await ctx.replyWithHTML(`Tasdiqlash uchun "yes" yoki "no" so'zini kiriting.`);    
-        // await ctx.replyWithHTML(`⚠️ Jo'natmoqchi bo'lgan textingiz shu ko'rinishga ega. Barcha userlarga jo'natish uchun ushbu textni qayta yuboring:`);    
+        await ctx.replyWithHTML(`Tasdiqlash uchun "yes" yoki "no" so'zini kiriting`);    
         isSendSmsTest = true
     }   
-    if (ctx.message.text == 'yes' && ctx.session.statusAdmin == 'gettext' && ctx.session.lang && ctx.session.route != 'research' && chatId == 383213241) {
+    if (ctx.message.text == 'sendru' && ctx.session.lang && ctx.session.route != 'research' && chatId == 5104139343 && ctx.session.statusAdmin == undefined) {
+        ctx.session.statusAdmin = 'sendru'
+        await ctx.replyWithHTML(`Введите текст:`);    
+    } else if (ctx.session.lang && ctx.session.route != 'research' && chatId == 5104139343 && ctx.session.statusAdmin == 'sendru' && ctx.message.text != 'yes' && ctx.message.text != 'no') {
+        ctx.session.statusAdmin = 'gettextru'
+        ctx.session.textforuser = ctx.message.text 
+        await ctx.replyWithHTML(`Текст выглядит так:`);    
+        await ctx.replyWithHTML(`${ctx.message.text}`);    
+        await ctx.replyWithHTML(`Введите «yes» или «no» для подтверждения`);    
+        isSendSmsTest = true
+    }   
+
+    if (ctx.message.text == 'yes' && ctx.session.statusAdmin.includes('gettext') && ctx.session.lang && ctx.session.route != 'research' && chatId == 5104139343) {
+        if (ctx.session.statusAdmin == 'gettextuz') {
+            await ctx.replyWithHTML(`Quyidagi ko'rinishda jo'natildi: \n\n`);    
+            await ctx.replyWithHTML(ctx.session.textforuser);  
+            sendMessagesUz(usersJson)
+        }
+        if (ctx.session.statusAdmin == 'gettextru') {
+            await ctx.replyWithHTML(`Отправлено как показано ниже: \n\n`);    
+            await ctx.replyWithHTML(ctx.session.textforuser);  
+            sendMessagesRu(usersJson)
+        }
         ctx.session.statusAdmin = ''
-        await ctx.replyWithHTML(`Quyidagi ko'rinishda jo'natildi: \n\n`);    
-        await ctx.replyWithHTML(ctx.session.textforuser);  
-        // sendMessage(383213241, '7499671537:AAGi8ILE5ywAEIZ_uSLrFBlfPNuF9WRDbdw', ctx.session.textforuser);
     }    
-    if (ctx.message.text == 'no' && ctx.session.statusAdmin == 'gettext' && ctx.session.lang && ctx.session.route != 'research' && chatId == 383213241) {
+    if (ctx.message.text == 'no' && ctx.session.statusAdmin.includes('gettext') && ctx.session.lang && ctx.session.route != 'research' && chatId == 5104139343) {
         ctx.session.statusAdmin = ''
         await ctx.replyWithHTML(`Bekor qilindi.`);    
-        // await ctx.replyWithHTML(`Quyidagi raqamni kiriting: ${ date.getMinutes()}`);    
     }    
     // if (+ctx.message.text == date.getMinutes() && ctx.session.route != 'research' && chatId == 5104139343) {
     //     sendMessages(usersJson);
