@@ -4060,5 +4060,205 @@
         "description": "Algorand is a blockchain platform designed to offer high performance, scalability, security, and decentralization. It uses a unique Pure Proof-of-Stake (PPoS) consensus mechanism, where validators are chosen randomly based on the amount of ALGO tokens they hold.",
         "shariah_status": "HALAL",
         "source": "cryptohalal.cc, sharlife.my, crypoislam.t.me"
+    },
+    {
+        "id": 578,
+        "ticker": "PENGU",
+        "project_name": "(Pudgy Penguins)",
+        "description": "Memecoin",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 579,
+        "ticker": "PAXE",
+        "project_name": "(Paxe)",
+        "description": "",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 580,
+        "ticker": "SKY",
+        "project_name": "(Sky)",
+        "description": "",
+        "shariah_status": "HARAM",
+        "source": ""
+    },
+    {
+        "id": 581,
+        "ticker": "BROCCOLI",
+        "project_name": "(Broccoli)",
+        "description": "• Meme coin",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 582,
+        "ticker": "USDS",
+        "project_name": "(Usds)",
+        "description": "",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 583,
+        "ticker": "IP",
+        "project_name": "(Story Protocol)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 584,
+        "ticker": "HEI",
+        "project_name": "(Heima)",
+        "description": "• Provides a mix of permissible and impermissible services",
+        "shariah_status": "QUESTIONABLE",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 585,
+        "ticker": "CAM",
+        "project_name": "(Camino Network)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 586,
+        "ticker": "B3",
+        "project_name": "(B3 [Base])",
+        "description": "• Integrating gaming experience with decentralized finance (DeFi) tools, Yield farming, Liquidity provision, Staking",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 587,
+        "ticker": "BUZZ",
+        "project_name": "(Hive AI)",
+        "description": "• Lending & Borrowing, yield farming, staking",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 588,
+        "ticker": "AVL",
+        "project_name": "(Avalon Labs)",
+        "description": "Lending & Borrowing, Derivatives",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 589,
+        "ticker": "ANLOG",
+        "project_name": "(Analog)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 590,
+        "ticker": "KOMA",
+        "project_name": "(Koma Inu)",
+        "description": "",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 591,
+        "ticker": "LAYER",
+        "project_name": "(Solayer)",
+        "description": "",
+        "shariah_status": "QUESTIONABLE",
+        "source": "crypoislam.t.ne"
+    },
+    {
+        "id": 592,
+        "ticker": "BERA",
+        "project_name": "(Berachain)",
+        "description": "• It offers protocols based on decentralized finance mechanisms including lending and yield farming such as BeEX, Bend, and Honey...",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 593,
+        "ticker": "XCN",
+        "project_name": "(Onyxcoin)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 594,
+        "ticker": "AVAXAI",
+        "project_name": "(Avalanche AI Agents)",
+        "description": "Buy Tax, Sell Tax",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 595,
+        "ticker": "WCT",
+        "project_name": "(WalletConnect Token)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 596,
+        "ticker": "DBR",
+        "project_name": "(DeBridge)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 597,
+        "ticker": "MOR",
+        "project_name": "(Morpheus)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, crypoislam.t.me"
+    },
+    {
+        "id": 598,
+        "ticker": "ELAND",
+        "project_name": "Etherland",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, crypoislam.t.me"
+    },
+    {
+        "id": 599,
+        "ticker": "XYM",
+        "project_name": "(Symbol)",
+        "description": "",
+        "shariah_status": "Halal",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 600,
+        "ticker": "ALCH",
+        "project_name": "(Alchemist AI)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 601,
+        "ticker": "BID",
+        "project_name": "(CreatorBid)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 602,
+        "ticker": "FARTCOIN",
+        "project_name": "(Fartcoin)",
+        "description": "",
+        "shariah_status": "Haram",
+        "source": "crypoislam.t.me"
     }
 ]
