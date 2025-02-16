@@ -327,7 +327,7 @@
         "project_name": "",
         "source": ""
     },
-    { 
+    {
         "id": 41,
         "name": "ICE",
         "status": true,
@@ -3758,7 +3758,7 @@
         "id": 470,
         "name": "BTCUP",
         "status": false,
-        "describe": "UP/DOWN currencies are usually backed by up to 4x leverage, so trading these coins is HARAM!🔴",
+        "describe": "UP/DOWN currencies are usually backed by up to 4x leverage, so trading these coins is HARAM!",
         "project_name": "(Bitcoin-UP)",
         "source": "www.sharlife.my"
     },
@@ -3766,7 +3766,7 @@
         "id": 471,
         "name": "BTCDOWN",
         "status": false,
-        "describe": "UP/DOWN currencies are usually backed by up to 4x leverage, so trading these coins is HARAM!🔴",
+        "describe": "UP/DOWN currencies are usually backed by up to 4x leverage, so trading these coins is HARAM!",
         "project_name": "(Bitcoin-DOWN)",
         "source": "www.sharlife.my"
     },
@@ -3774,7 +3774,7 @@
         "id": 472,
         "name": "ETHUP",
         "status": false,
-        "describe": "UP/DOWN currencies are usually backed by up to 4x leverage, so trading these coins is HARAM!🔴",
+        "describe": "UP/DOWN currencies are usually backed by up to 4x leverage, so trading these coins is HARAM!",
         "project_name": "(Ethereum-UP)",
         "source": "www.sharlife.my"
     },
@@ -3806,5 +3806,230 @@
         "status": false,
         "describe": "Valkyrie Bitcoin Fund is to be found has an exposure to futures contracts, cash, and bonds, hence do not meet the Shariah compliance criteria due to it asset composition. Valkyrie Bitcoin Fund is considered not in line with Shariah principles due to the involvement in the allocation of assets on futures contracts. Firstly, futures contracts involve a high degree of uncertainty (gharar) regarding the future price of the asset, which contradicts the Islamic principle of transparency and clarity in transactions. Secondly, futures contracts are often used for speculative purposes, where the primary intention is to profit from price fluctuations rather than actual ownership of the underlying asset. Islam strongly discourages such gambling-like behavior and excessive risk-taking in speculation. Lastly, in many futures contracts, the buyer does not intend to take actual delivery of the asset, leading to transactions based on something that does not physically exist at the time of the contract. This lack of underlying asset ownership is also at odds with Shariah principles. Collectively, these factors make futures contracts problematic and generally prohibited within the framework of Islamic finance.','project_name': '(Valkyrie Bitcoin Fund)','source': 'https: //sharlife.my/'",
         "source": "www.sharlife.my"
+    },
+    {
+        "id": 477,
+        "name": "PENGU",
+        "project_name": "(Pudgy Penguins)",
+        "describe": "Memecoin",
+        "status": false,
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 478,
+        "name": "PAXE",
+        "project_name": "(Paxe)",
+        "describe": "",
+        "status": false,
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 479,
+        "name": "SKY",
+        "project_name": "(Sky)",
+        "describe": "",
+        "status": false,
+        "shariah_status": "HARAM",
+        "source": ""
+    },
+    {
+        "id": 480,
+        "name": "BROCCOLI",
+        "project_name": "(Broccoli)",
+        "describe": "• Meme coin",
+        "status": false,
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 481,
+        "name": "USDS",
+        "project_name": "(Usds)",
+        "describe": "",
+        "status": false,
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 482,
+        "name": "IP",
+        "project_name": "(Story Protocol)",
+        "describe": "",
+        "status": true,
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 483,
+        "name": "HEI",
+        "project_name": "(Heima)",
+        "describe": "• Provides a mix of permissible and impermissible services",
+        "status": null,
+        "shariah_status": "QUESTIONABLE",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 484,
+        "name": "CAM",
+        "project_name": "(Camino Network)",
+        "describe": "",
+        "status": true,
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 485,
+        "name": "B3",
+        "project_name": "(B3 [Base])",
+        "describe": "• Integrating gaming experience with decentralized finance (DeFi) tools, Yield farming, Liquidity provision, Staking",
+        "status": false,
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 486,
+        "name": "BUZZ",
+        "project_name": "(Hive AI)",
+        "describe": "• Lending & Borrowing, yield farming, staking",
+        "status": false,
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 487,
+        "name": "AVL",
+        "project_name": "(Avalon Labs)",
+        "describe": "Lending & Borrowing, Derivatives",
+        "status": false,
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 488,
+        "name": "ANLOG",
+        "project_name": "(Analog)",
+        "describe": "",
+        "status": true,
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 489,
+        "name": "KOMA",
+        "project_name": "(Koma Inu)",
+        "describe": "",
+        "status": false,
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 490,
+        "name": "LAYER",
+        "project_name": "(Solayer)",
+        "describe": "",
+        "status": null,
+        "shariah_status": "QUESTIONABLE",
+        "source": "crypoislam.t.ne"
+    },
+    {
+        "id": 491,
+        "name": "BERA",
+        "project_name": "(Berachain)",
+        "describe": "• It offers protocols based on decentralized finance mechanisms including lending and yield farming such as BeEX, Bend, and Honey...",
+        "status": false,
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 492,
+        "name": "XCN",
+        "project_name": "(Onyxcoin)",
+        "describe": "",
+        "status": true,
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 493,
+        "name": "AVAXAI",
+        "project_name": "(Avalanche AI Agents)",
+        "describe": "Buy Tax, Sell Tax",
+        "status": false,
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 494,
+        "name": "WCT",
+        "project_name": "(WalletConnect Token)",
+        "describe": "",
+        "status": true,
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 495,
+        "name": "DBR",
+        "project_name": "(DeBridge)",
+        "describe": "",
+        "status": true,
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 496,
+        "name": "MOR",
+        "project_name": "(Morpheus)",
+        "describe": "",
+        "status": true,
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, crypoislam.t.me"
+    },
+    {
+        "id": 497,
+        "name": "ELAND",
+        "project_name": "Etherland",
+        "describe": "",
+        "status": true,
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, crypoislam.t.me"
+    },
+    {
+        "id": 498,
+        "name": "XYM",
+        "project_name": "(Symbol)",
+        "describe": "",
+        "status": true,
+        "shariah_status": "Halal",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 499,
+        "name": "ALCH",
+        "project_name": "(Alchemist AI)",
+        "describe": "",
+        "status": true,
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 500,
+        "name": "BID",
+        "project_name": "(CreatorBid)",
+        "describe": "",
+        "status": true,
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 501,
+        "name": "FARTCOIN",
+        "project_name": "(Fartcoin)",
+        "describe": "",
+        "status": false,
+        "shariah_status": "Haram",
+        "source": "crypoislam.t.me"
     }
 ]
