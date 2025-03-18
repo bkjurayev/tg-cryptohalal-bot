@@ -4167,7 +4167,7 @@
         "ticker": "ARKM",
         "project_name": "(Arkham)",
         "description": "Provides a mix of permissible and impermissible services",
-        "shariah_status": "null",
+        "shariah_status": "QUESTIONABLE",
         "source": "crypoislam.t.me"
     },
     {
@@ -4175,7 +4175,7 @@
         "ticker": "BFC",
         "project_name": "(Bifrost)",
         "description": "",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "crypoislam.t.me"
     },
     {
@@ -4183,7 +4183,7 @@
         "ticker": "TRC",
         "project_name": "(Terrace)",
         "description": "Provides a mix of permissible and impermissible services",
-        "shariah_status": "null",
+        "shariah_status": "QUESTIONABLE",
         "source": "crypoislam.t.me"
     },
     {
@@ -4191,7 +4191,7 @@
         "ticker": "LNQ",
         "project_name": "(LinqAI)",
         "description": "Provides a mix of permissible and impermissible services",
-        "shariah_status": "null",
+        "shariah_status": "QUESTIONABLE",
         "source": "crypoislam.t.me"
     },
     {
@@ -4199,7 +4199,7 @@
         "ticker": "ARC",
         "project_name": "(AI Rig Complex)",
         "description": "",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "crypoislam.t.me"
     },
     {
@@ -4207,7 +4207,7 @@
         "ticker": "IMX",
         "project_name": "(Immutable)",
         "description": "",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "www.sharlife.my, crypoislam.t.me"
     },
     {
@@ -4215,21 +4215,25 @@
         "ticker": "ELX",
         "project_name": "(Elixir)",
         "description": "Liquidity Provision, yield farming",
-        "shariah_status": "false",
+        
+        "shariah_status": "HARAM"
+        ,
         "source": "crypoislam.t.me"
     },
     {
         "id": 610,
         "ticker": "HMSTR",
         "project_name": "(Hamster Kombat)",
-        "description": "• MEME COIN • It relies mainly on Telegram promotion campaigns and airdrop mechanisms without a clear roadmap or technical details that support a full-fledged project in the long term.","shariah_status": "false","source": "crypoislam.t.me"
+        "description": "• MEME COIN • It relies mainly on Telegram promotion campaigns and airdrop mechanisms without a clear roadmap or technical details that support a full-fledged project in the long term.",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
     },
     {
         "id": 611,
         "ticker": "SNAI",
         "project_name": "(SwarmNode.ai)",
         "description": "",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "crypoislam.t.me"
     },
     {
@@ -4237,7 +4241,7 @@
         "ticker": "JOBSEEK",
         "project_name": "(JobSeek AI)",
         "description": "",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "crypoislam.t.me"
     },
     {
@@ -4245,7 +4249,7 @@
         "ticker": "AQT",
         "project_name": "(Alpha Quark Token)",
         "description": "Lending & Borrowing",
-        "shariah_status": "false",
+        "shariah_status": "HARAM",
         "source": "crypoislam.t.me"
     },
     {
@@ -4253,7 +4257,7 @@
         "ticker": "OPEN",
         "project_name": "(Open Custody Protocol)",
         "description": "",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "crypoislam.t.me"
     },
     {
@@ -4261,21 +4265,21 @@
         "ticker": "SHELL",
         "project_name": "(MyShell)",
         "description": "MyShell is a decentralized platform that empowers users to create, share, and monetize AI agents within a community-driven ecosystem. It aims to democratize access to artificial intelligence by allowing individuals, regardless of their coding expertise, to develop AI applications through a user-friendly, no-code interface. ",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "crypoislam.t.me"
     },
     {
         "id": 616,
         "ticker": "RED",
         "project_name": "(RedStone)",
-        "description": "• RedStone is currently used practically and exclusively in prohibited DeFi services, such as decentralized lending, restaking, derivatives, and others. The judgment may change if it expands into other sectors.","shariah_status": "false","source": "crypoislam.t.me"
+        "description": "• RedStone is currently used practically and exclusively in prohibited DeFi services, such as decentralized lending, restaking, derivatives, and others. The judgment may change if it expands into other sectors.","shariah_status": "HARAM","source": "crypoislam.t.me"
     },
     {
         "id": 617,
         "ticker": "BLD",
         "project_name": "(Agoric)",
         "description": "",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "crypoislam.t.me"
     },
     {
@@ -4283,7 +4287,7 @@
         "ticker": "UQC",
         "project_name": "(Uquid Coin)",
         "description": "",
-        "shariah_status": "null",
+        "shariah_status": "QUESTIONABLE",
         "source": "crypoislam.t.me"
     },
     {
@@ -4291,7 +4295,7 @@
         "ticker": "GRS",
         "project_name": "(Groestlcoin)",
         "description": "",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "crypoislam.t.me"
     },
     {
@@ -4299,7 +4303,7 @@
         "ticker": "KAITO",
         "project_name": "(Kaito)",
         "description": "Kaito is an innovative AI-powered platform designed to streamline information flow within the cryptocurrency and Web3 sectors. It addresses the challenge of fragmented data by aggregating and analyzing content from diverse sources, including social media, governance forums, research papers, and more. This consolidation enables users to access actionable insights efficiently, enhancing decision-making processes.",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "crypoislam.t.me"
     },
     {
@@ -4307,7 +4311,7 @@
         "ticker": "GROK3",
         "project_name": "(Grok 3)",
         "description": "MEME COIN",
-        "shariah_status": "false",
+        "shariah_status": "HARAM",
         "source": "crypoislam.t.me"
     },
     {
@@ -4315,7 +4319,7 @@
         "ticker": "PIN",
         "project_name": "(PinLink)",
         "description": "Buy Tax, Sell Tax",
-        "shariah_status": "false",
+        "shariah_status": "HARAM",
         "source": "crypoislam.t.me"
     },
     {
@@ -4323,7 +4327,7 @@
         "ticker": "RUNE",
         "project_name": "(Thorchain)",
         "description": "",
-        "shariah_status": "false",
+        "shariah_status": "HARAM",
         "source": "crypoislam.t.me"
     },
     {
@@ -4331,7 +4335,7 @@
         "ticker": "CELO",
         "project_name": "(Celo)",
         "description": "Celo is a mobile-first blockchain platform designed to make decentralized financial (DeFi) tools and services accessible to anyone with a smartphone, aiming to foster global financial inclusion. ",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "cryptohalal.cc, sharlife.my, crypoislam.t.me"
     },
     {
@@ -4339,7 +4343,7 @@
         "ticker": "LTC",
         "project_name": "(Litecoin)",
         "description": "Litecoin (LTC) is one of the earliest and most well-established cryptocurrencies, launched in 2011 by former Google engineer Charlie Lee. It was designed as a 'lighter' alternative to Bitcoin, offering faster transactions and lower fees while maintaining similar security principles.",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "cryptohalal.cc, sharlife.my, crypoislam.t.me"
     },
     {
@@ -4347,7 +4351,7 @@
         "ticker": "BCH",
         "project_name": "(Bitcoin Cash)",
         "description": "Bitcoin Cash (BCH) is a decentralized cryptocurrency that emerged from a hard fork of Bitcoin in August 2017. The primary motivation behind its creation was to increase the block size limit, enabling the network to process more transactions per second and reduce fees, thereby enhancing its utility as a medium of exchange. ",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "cryptohalal.cc, sharlife.my, crypoislam.t.me"
     },
     {
@@ -4355,7 +4359,7 @@
         "ticker": "DGB",
         "project_name": "(DigiByte)",
         "description": "DigiByte (DGB): A Secure and Decentralized Blockchain DigiByte (DGB) is an open-source cryptocurrency and blockchain platform that was launched in January 2014. It focuses on speed, security, and decentralization, aiming to improve upon the limitations of other cryptocurrencies like Bitcoin.",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "cryptohalal.cc, crypoislam.t.me"
     },
     {
@@ -4363,7 +4367,7 @@
         "ticker": "TWT",
         "project_name": "(Trust Wallet Token)",
         "description": "Trust Wallet Token (TWT) is the native utility token of Trust Wallet, a non-custodial cryptocurrency wallet that enables users to securely store, manage, and exchange a wide range of digital assets. Launched in 2017, Trust Wallet supports over 10 million assets across more than 100 blockchains, including Bitcoin, Ethereum, Solana, and Cosmos. ",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "cryptohalal.cc, sharlife.my, crypoislam.t.me"
     },
     {
@@ -4371,7 +4375,7 @@
         "ticker": "QTUM",
         "project_name": "(Qtum)",
         "description": "Qtum is a decentralized blockchain platform that merges the security of Bitcoin's UTXO (Unspent Transaction Output) model with the flexibility of Ethereum's smart contract functionality. Launched in 2017, Qtum aims to provide a scalable and efficient platform for decentralized applications (dApps) and enterprise solutions. ",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "cryptohalal.cc, sharlife.my, crypoislam.t.me"
     },
     {
@@ -4379,7 +4383,7 @@
         "ticker": "PYTH",
         "project_name": "(Pyth Network)",
         "description": "Pyth Network is a decentralized blockchain oracle designed to deliver real-time, high-quality financial data to decentralized applications (dApps) and decentralized finance (DeFi) protocols. Its mission is to bridge the gap between traditional financial markets and blockchain ecosystems by providing accurate and timely market information. ",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "sharlife.my, crypoislam.t.me"
     },
     {
@@ -4387,7 +4391,7 @@
         "ticker": "PAXG",
         "project_name": "(PAX Gold)",
         "description": "PAX Gold (PAXG) is a digital asset backed by physical gold, offering investors a way to own gold bars through blockchain technology. Each PAXG token is pegged to one troy ounce of gold stored in vaults certified by the London Bullion Market Association (LBMA). (paxos.com) Key Features of PAX Gold: Easy Gold Ownership: PAXG allows investors to own gold without needing to physically store gold bars, simplifying the process of purchasing, selling, and transferring gold assets. (paxos.com) Regulated and Secure Structure: Paxos Trust Company, regulated by the New York Department of Financial Services, ensures that the physical gold backing PAXG is securely stored in trusted vaults. (paxos.com) Liquidity and Accessibility: PAXG can be easily traded on cryptocurrency exchanges, providing liquidity and accessibility for investors globally. (paxos.com)",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "cryptohalal.cc, crypoislam.t.me"
     },
     {
@@ -4395,7 +4399,7 @@
         "ticker": "XEC",
         "project_name": "(eCash)",
         "description": "eCash (XEC) is a cryptocurrency designed for fast, secure, and scalable transactions on the internet. It was created as a result of the rebranding of Bitcoin Cash ABC (BCHA) in July 2021, after a development team led by Amaury Séchet split from the Bitcoin Cash (BCH) blockchain. (coinmarketcap.com)",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "cryptohalal.cc, sharlife.my, crypoislam.t.me"
     },
     {
@@ -4403,7 +4407,7 @@
         "ticker": "XEM",
         "project_name": "(NEM)",
         "description": "",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "crypoislam.t.me"
     },
     {
@@ -4411,7 +4415,7 @@
         "ticker": "ENA",
         "project_name": "(Ethena Labs)",
         "description": "Ethena Labs is the creator of USDe, a synthetic dollar protocol built on Ethereum. USDe aims to provide a stable and scalable form of money within the crypto-native space, independent of traditional banking systems. ENA is Ethena's native utility token, serving governance functions that allow holders to vote on protocol decisions. ",
-        "shariah_status": "false",
+        "shariah_status": "HARAM",
         "source": "sharlife.my, crypoislam.t.me"
     },
     {
@@ -4419,7 +4423,7 @@
         "ticker": "ETHFI",
         "project_name": "(Ether.fi)",
         "description": "EtherFi is a decentralized finance (DeFi) platform focused on providing Ethereum staking services. It enables users to stake their Ether (ETH) and participate in the network's consensus mechanism, earning rewards in return. ETHFI is the native token of the EtherFi platform, used to facilitate staking operations and governance activities. Key Features of ETHFI: Staking Services: ETHFI allows users to stake their Ether, contributing to the security and decentralization of the Ethereum network while earning staking rewards. Platform Governance: Holders of ETHFI tokens can participate in governance decisions, influencing the future direction and features of the EtherFi platform.",
-        "shariah_status": "false",
+        "shariah_status": "HARAM",
         "source": "sharlife.my, crypoislam.t.me"
     },
     {
@@ -4427,7 +4431,7 @@
         "ticker": "AEVO",
         "project_name": "(Aevo)",
         "description": "Aevo is a decentralized derivatives trading platform offering perpetual contracts for various cryptocurrencies. It provides users with advanced trading features, including high leverage and a wide range of trading pairs. AEVO is the native token of the Aevo platform, used for governance, staking, and accessing premium features. Key Features of AEVO: Derivatives Trading: Aevo enables users to trade perpetual contracts with competitive fees and efficient execution, catering to both novice and professional traders. Staking and Rewards: AEVO token holders can stake their tokens to earn rewards and participate in the platform's growth.",
-        "shariah_status": "false",
+        "shariah_status": "HARAM",
         "source": "crypoislam.t.me, sharlife.my"
     },
     {
@@ -4435,7 +4439,7 @@
         "ticker": "PLUME",
         "project_name": "(Plume)",
         "description": "Plume (PLUME) is a public Layer 1 blockchain platform designed to integrate real-world assets (RWAs) into the blockchain space. It supports a variety of investments, including art and green energy projects, offering fast transactions and low fees. (cryptorank.io)",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "crypoislam.t.me"
     },
     {
@@ -4443,7 +4447,7 @@
         "ticker": "BIO",
         "project_name": "(BIO Protocol)",
         "description": "Bio Protocol (BIO) is a decentralized platform designed to accelerate biotech research through collective funding and tokenization of projects and intellectual property in the biotech field. It allows patients, scientists, and professionals in biotechnology to collaboratively invest in decentralized science (DeSci) initiatives. (cryptoslate.com)",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "sharlife.my, crypoislam.t.me"
     },
     {
@@ -4451,7 +4455,7 @@
         "ticker": "SONIC",
         "project_name": "(Sonic SVM)",
         "description": "",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "crypoislam.t.me"
     },
     {
@@ -4459,7 +4463,7 @@
         "ticker": "WLFI",
         "project_name": "(World Liberty Financial)",
         "description": "• The project is centered around lending and liquidity pools within the framework of decentralized finance (DeFi) applications, operated through a decentralized governance system managed by users. The use of the project's token (WLFI) is exclusively limited to protocol governance and decision-making.",
-        "shariah_status": "false",
+        "shariah_status": "HARAM",
         "source": "crypoislam.t.me"
     },
     {
@@ -4467,7 +4471,7 @@
         "ticker": "TRUMP",
         "project_name": "(Trump)",
         "description": "MEME COIN",
-        "shariah_status": "false",
+        "shariah_status": "HARAM",
         "source": "crypoislam.t.me"
     },
     {
@@ -4475,7 +4479,7 @@
         "ticker": "MELANIA",
         "project_name": "(Melania)",
         "description": "MEME COIN",
-        "shariah_status": "false",
+        "shariah_status": "HARAM",
         "source": "crypoislam.t.me"
     },
     {
@@ -4483,7 +4487,7 @@
         "ticker": "SWARMS",
         "project_name": "(Swarms)",
         "description": "",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "crypoislam.t.me"
     },
     {
@@ -4491,7 +4495,7 @@
         "ticker": "D",
         "project_name": "(DAR Open Network)",
         "description": "",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "crypoislam.t.me"
     },
     {
@@ -4499,7 +4503,7 @@
         "ticker": "VINE",
         "project_name": "(Vine)",
         "description": "MEME COIN",
-        "shariah_status": "false",
+        "shariah_status": "HARAM",
         "source": "crypoislam.t.me"
     },
     {
@@ -4507,7 +4511,7 @@
         "ticker": "ACS",
         "project_name": "(Access Protocol)",
         "description": "",
-        "shariah_status": "false",
+        "shariah_status": "HARAM",
         "source": "crypoislam.t.me"
     },
     {
@@ -4515,7 +4519,7 @@
         "ticker": "GPS",
         "project_name": "(GoPlus Security)",
         "description": "GoPlus Security (GPS) is a decentralized security platform designed to enhance the safety of Web3 applications and users across various blockchain networks. It offers AI-driven security solutions and an Automated Verification System (AVS) to assess and mitigate risks in real-time.",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "crypoislam.t.me"
     },
     {
@@ -4523,7 +4527,7 @@
         "ticker": "XCN",
         "project_name": "(OnyxCoin)",
         "description": "",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "crypoislam.t.me"
     },
     {
@@ -4531,7 +4535,7 @@
         "ticker": "TST",
         "project_name": "(Test)",
         "description": "MEME COIN",
-        "shariah_status": "false",
+        "shariah_status": "HARAM",
         "source": "crypoislam.t.me"
     },
     {
@@ -4539,7 +4543,7 @@
         "ticker": "FLOCK",
         "project_name": "(Flock.io)",
         "description": "Flock.io (FLOCK) is a decentralized platform leveraging blockchain technology to transform the development, training, and deployment of artificial intelligence (AI) models through federated learning and decentralized frameworks. (flock.io)",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "sharlife.my"
     },
     {
@@ -4547,7 +4551,7 @@
         "ticker": "ZEN",
         "project_name": "(Horizen)",
         "description": "Horizen (ZEN) is a decentralized platform focused on privacy, using blockchain technology to ensure the privacy of transactions and communications. It was created as a fork of ZClassic, which in turn is a fork of ZCash, a well-known cryptocurrency emphasizing privacy. (binance.com)",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "cryptohalal.cc, sharlife.my crypoislam.t.me"
     },
     {
@@ -4555,7 +4559,7 @@
         "ticker": "ZEC",
         "project_name": "(zCach)",
         "description": "Zcash (ZEC) is a cryptocurrency that emphasizes privacy and transparency, allowing users to choose between transparent and shielded transactions. It operates on a blockchain similar to Bitcoin's, with a fixed supply of 21 million coins.",
-        "shariah_status": "true",
+        "shariah_status": "HALAL",
         "source": "cryptohalal.cc, sharlife.my,  crypoislam.t.me"
     }
 ]
