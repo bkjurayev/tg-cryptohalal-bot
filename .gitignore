@@ -1,4 +1,4 @@
 /node_modules
 /template
 .idea
-# users.json
+users.json
