@@ -4215,9 +4215,7 @@
         "ticker": "ELX",
         "project_name": "(Elixir)",
         "description": "Liquidity Provision, yield farming",
-        
-        "shariah_status": "HARAM"
-        ,
+        "shariah_status": "HARAM",
         "source": "crypoislam.t.me"
     },
     {
@@ -4272,7 +4270,9 @@
         "id": 616,
         "ticker": "RED",
         "project_name": "(RedStone)",
-        "description": "• RedStone is currently used practically and exclusively in prohibited DeFi services, such as decentralized lending, restaking, derivatives, and others. The judgment may change if it expands into other sectors.","shariah_status": "HARAM","source": "crypoislam.t.me"
+        "description": "• RedStone is currently used practically and exclusively in prohibited DeFi services, such as decentralized lending, restaking, derivatives, and others. The judgment may change if it expands into other sectors.",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
     },
     {
         "id": 617,
@@ -4561,5 +4561,245 @@
         "description": "Zcash (ZEC) is a cryptocurrency that emphasizes privacy and transparency, allowing users to choose between transparent and shielded transactions. It operates on a blockchain similar to Bitcoin's, with a fixed supply of 21 million coins.",
         "shariah_status": "HALAL",
         "source": "cryptohalal.cc, sharlife.my,  crypoislam.t.me"
+    },
+    {
+        "id": 653,
+        "ticker": "S",
+        "project_name": "(Sonic)",
+        "description": "Sonic is a high-performance Layer-1 blockchain compatible with the Ethereum Virtual Machine (EVM), designed to support decentralized finance (DeFi) and Web3 innovations. It boasts a transaction throughput of up to 400,000 transactions per second (TPS) with instant finality, making it one of the fastest blockchain platforms. (soniclabs.com) The native token of the Sonic network, S, serves multiple functions: paying transaction fees, staking, running validators, and participating in network governance. Holders of Fantom (FTM) tokens can swap them for S tokens at a 1: 1 ratio. (blog.soniclabs.com)",
+        "shariah_status": "HALAL",
+        "source": "sharlife.my, crypoislam.t.me"
+    },
+    {
+        "id": 654,
+        "ticker": "ACT",
+        "project_name": "(Act I : The AI Prophecy)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 655,
+        "ticker": "AIXBT",
+        "project_name": "(aixbt)",
+        "description": "AiXBT is an AI-powered crypto market agent on X (Twitter), launched in late 2024. It tracks over 400 influencers to detect trends, shares insights in real time, and interacts with users. The AIXBT token gives access to its advanced analytics platform, the AiXBT Terminal. Utility: Token holders (600k+) can access deep market data. (tokeninsight.com)",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, crypoislam.t.me"
+    },
+    {
+        "id": 656,
+        "ticker": "EYWA",
+        "project_name": "(EYWA)",
+        "description": "Yield farming/farming",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 657,
+        "ticker": "INIT",
+        "project_name": "(Initia)",
+        "description": "Technically, the project relies on an advanced architecture that enables the creation of rollup networks and the development of decentralized applications. However, the project's operational depth is based on a yield farming mechanism by providing liquidity on the InitiaDEX platform, where depositors receive INIT-X LP tokens that are later used for staking. This type of return-given in exchange for liquidity deposits-is usurious interest, which is prohibited. المشروع من الناحية التقنية يعتمد على بنية متطورة تتيح إنشاء شبكات Rollup وتطوير التطبيقات اللامركزية. ومع ذلك، فإن العمق التشغيلي للمشروع يرتكز على آلية زراعة الغلة الفارمينج من خلال توفير السيولة على منصة InitiaDEX. حيث يحصل المودعون على رموز INIT-X LP تستخدم لاحقا في الستيكينغ. وهذا النوع من العوائد - التي تمنح مقابل إيداع السيولة - هي فوائد ربوية محرمة ..",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 658,
+        "ticker": "FHE",
+        "project_name": "(Mind Network)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 659,
+        "ticker": "PAWS",
+        "project_name": "(Paws)",
+        "description": "",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my, crypoislam.t.me"
+    },
+    {
+        "id": 660,
+        "ticker": "KERNEL",
+        "project_name": "(KernelDAO)",
+        "description": "The KernelDAO project is based on financial activities that are prohibited in Islamic law, such as liquid restaking, yield farming involving usury (riba), and interest-based lending on decentralized finance (DeFi) platforms. . مشروع KernelDAO يقوم على أنشطة مالية محرمة شرعًا. مثل إعادة التخزين السائل. والزراعة الربوية للعوائد. والإقراض بالفائدة في منصات التمويل اللامركزي (DeFi)",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 661,
+        "ticker": "PROMPT",
+        "project_name": "(Wayfinder)",
+        "description": "Wayfinder is a crypto project that uses AI agents called 'Shells' to automate blockchain tasks like asset transfers, NFT minting, and smart contract management. The native token $PROMPT is used for activation, staking, governance, and paying network fees. Utility: $PROMPT enables tasks, rewards staking, and governance. (cache.wayfinder.ai/) ",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 662,
+        "ticker": "MLK",
+        "project_name": "(Mil.k)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 663,
+        "ticker": "ASI",
+        "project_name": "(Sender)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 664,
+        "ticker": "STO",
+        "project_name": "(StakeStone)",
+        "description": "StakeStone (STO) is a decentralized platform offering liquid staking for ETH (STONE) and BTC (SBTC). It allows users to stake tokens while retaining liquidity and earning rewards. STONE & SBTC: Liquid staking derivatives for ETH and BTC. STO: Governance token for protocol decisions and rewards.",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 665,
+        "ticker": "WAL",
+        "project_name": "(Walrus)",
+        "description": "Walrus Protocol (WAL) is a decentralized data storage platform built on the Sui blockchain. It provides scalable storage solutions for large datasets, including media and blockchain history. Key Features: Programmable storage, Delegated Proof-of-Stake (DPoS), and data redundancy through chunking.",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 666,
+        "ticker": "PVS",
+        "project_name": "(Paraverse)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 667,
+        "ticker": "PX",
+        "project_name": "(Not Pixel)",
+        "description": "The currency in its current state, which is what it was even before listing, is more inclined towards promotion and community building rather than providing real practical value outside of the scope of interaction within Telegram, and this applies to most Telegram bot currencies. . العملة في وضعها الحالي و هو ما كانت عليه حتى قبل الادراج ، تميل أكثر إلى الترويج وبناء المجتمع بدلا من تقديم قيمة عملية حقيقية خارج نطاق التفاعل داخل Telegram و هذا ينطبق على اغلب عملات بوتات التلجرام",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 668,
+        "ticker": "FLAI",
+        "project_name": "(Flare AI)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 669,
+        "ticker": "PARTI",
+        "project_name": "(Particle Network)",
+        "description": "Particle Network (PARTI) is a Layer-1 blockchain built on the Cosmos SDK, enabling users to interact with multiple blockchains via a single account. It eliminates the need for bridging, multiple gas tokens, or wallet switching. Key Features: Universal accounts, $PARTI as the universal gas token, and cross-chain liquidity.",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, crypoislam.t.me"
+    },
+    {
+        "id": 670,
+        "ticker": "NIL",
+        "project_name": "(Nillion)",
+        "description": "Nillion (NIL) is a decentralized network enabling secure data storage and computation, particularly for sensitive information. It utilizes 'blind computation,' allowing data processing without decryption, enhancing privacy and security. Key Features: Secure data processing, privacy-preserving Al, and decentralized identity management. Token Utility: NIL tokens are used for transaction fees, staking, and governance within the network (nillion.com)",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 671,
+        "ticker": "BR",
+        "project_name": "(Bedrock)",
+        "description": "Bedrock (BR) is a multi-asset liquid restaking protocol designed to maximize yield while preserving liquidity across various assets, including BTC, ETH, and DePIN. Key Features: Liquid Restaking: Supports assets like BTC and ETH, allowing users to earn enhanced yields while maintaining liquidity. brBTC: A Liquid Restaking Token (LRT) that enables Bitcoin holders to participate in DeFi opportunities. Governance: BR token holders can stake their tokens to earn rewards and participate in protocol governance.(bedrock.technology/)",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 672,
+        "ticker": "FORM",
+        "project_name": "(Four)",
+        "description": "إطلاق وتداول عملات الميم . توفير خدمات تمويل لا مركزية محرمة مثل الإقراض والاقتراض و غیره لا مانع من نشر رابط القناة و لكن لا تنشر صورة البطاقة فقد يتغير حكم اي عملة في أي وقت هذه الأحكام هي مجهود شخصي من خلال البحث في الموقع الرسمي لكل عملة ومصادر أخرى والله أعلم سابقا Launching and trading meme coins Providing prohibited decentralized finance services such as lending, borrowing, and more",
+        "shariah_status": "HARAM",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 673,
+        "ticker": "ROAM",
+        "project_name": "(Roam)",
+        "description": "",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
+    },
+    {
+        "id": 674,
+        "ticker": "TAO",
+        "project_name": "(Bittensor)",
+        "description": "Bittensor is a decentralized, blockchain-based protocol that incentivizes and rewards machine learning models. It allows developers to contribute their AI models to a global network and earn the native token TAO for providing valuable information or computation. Instead of keeping AI training and inference centralized (like with Google or OpenAI), Bittensor distributes it across a network of nodes. These nodes evaluate each other's outputs and vote on the quality. The better the performance, the higher the reward. Key Features: Decentralized AI Network: Anyone can join, contribute models, or run validators. Token Incentives: The TAO token is used to reward valuable AI services. Open Participation: Promotes innovation and competition in AI. Use Cases: NLP, image generation, model sharing, decentralized AI marketplaces, and more.",
+        "shariah_status": "HALAL",
+        "source": "www.sharlife.my, crypoislam.t.me"
+    },
+    {
+        "id": 675,
+        "ticker": "COTI",
+        "project_name": "(Coti)",
+        "description": "Location: Tel Aviv, Israel Founder: Shahaf Bar-Geffen Established: 2017 Activity: COTI is a financial technology (fintech) company that develops digital payment platforms and its own cryptocurrency token known as COTI, enabling private transactions across DeFi applications and creating privacy-focused DApps.This technology utilizes a cryptographic protocol called 'Garbled Circuits' to ensure privacy and confidentiality in transactions. Notably, it was selected by the Bank of Israel to participate in its Central Bank Digital Currency (CBDC) initiative alongside PayPal and Fireblocks. Sheikh Dr. Ajil Jassim Al-Nashmi, former Shariah Committee member of Kuwait Finance House Malaysia, stated that it's obligatory to boycott companies supporting Zionist entities. Additionally, purchasing from these companies signifies acknowledging their atrocities. Thus, supporting Zionist entities is prohibited in Islam.",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 676,
+        "ticker": "ORBS",
+        "project_name": "(Orbs)",
+        "description": "Location: Tel Aviv, Israel Founders: Daniel Peled, Tal Kol, and Netta Korin Established: 2017 Activity: Orbs provides public blockchain infrastructure designed for scalability, low fees, and ease of use. It supports a complete blockchain stack for mass-use applications, offering decentralized solutions tailored for enterprises and large-scale consumer needs Sheikh Dr. Ajil Jassim Al-Nashmi, former Shariah Committee member of Kuwait Finance House Malaysia, stated that it's obligatory to boycott companies supporting Zionist entities. Additionally, purchasing from these companies signifies acknowledging their atrocities. Thus, supporting Zionist entities is prohibited in Islam.",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 677,
+        "ticker": "LAVA",
+        "project_name": "(Lava Network)",
+        "description": "Location: Tel Aviv, Israel Founders: Yair Cleper and Gil Binder Established: 2023 Activity: Lava coordinates traffic from AI agents, apps, and wallets across blockchains. Its protocol focuses on RPC (Remote Procedure Call) requests—essential for basic blockchain interactions like sending transactions or checking wallet balances. Lava aggregates data providers to optimize RPC traffic based on speed and reliability. Chains like NEAR, Starknet, Filecoin, and Axelar already pay LAVA stakers over $1 million annually for reliable services. Sheikh Dr. Ajil Jassim Al-Nashmi, former Shariah Committee member of Kuwait Finance House Malaysia, stated that it's obligatory to boycott companies supporting Zionist entities. Additionally, purchasing from these companies signifies acknowledging their atrocities. Thus, supporting Zionist entities is prohibited in Islam.",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 678,
+        "ticker": "BNT",
+        "project_name": "(Bancor)",
+        "description": "Location: Tel Aviv, Israel Founders: Eyal Hertzog, Guy Benartzi, and Galia Benartzi Established: 2017 Activity: Bancor is a pioneer in decentralized finance (DeFi), focusing on enhancing liquidity and trading efficiency across the cryptocurrency ecosystem. It introduced an automated market maker (AMM) protocol that facilitates seamless token exchanges without traditional order books, reducing slippage and ensuring continuous liquidity for various tokens. Sheikh Dr. Ajil Jassim Al-Nashmi, former Shariah Committee member of Kuwait Finance House Malaysia, stated that it's obligatory to boycott companies supporting Zionist entities. Additionally, purchasing from these companies signifies acknowledging their atrocities. Thus, supporting Zionist entities is prohibited in Islam.",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 679,
+        "ticker": "NTRN",
+        "project_name": "(Neutron)",
+        "description": "Neutron is a cross-chain smart contract platform built with the Cosmos SDK and powered by CosmWasm. It enables developers to create decentralized applications (dApps) that can interact across more than 50 blockchains in the Cosmos ecosystem using the IBC protocol (Inter-Blockchain Communication).",
+        "shariah_status": "HARAM",
+        "source": "www.sharlife.my, crypoislam.t.me"
+    },
+    {
+        "id": 680,
+        "ticker": "JUP",
+        "project_name": "(Jupiter)",
+        "description": "Sharlife: HALAL CryptoIslam: HARAM",
+        "shariah_status": "",
+        "source": ""
+    },
+    {
+        "id": 681,
+        "ticker": "HYPER",
+        "project_name": "(Hyperlane)",
+        "description": "Hyperlane is a platform for developers building the interchain universe, offering an on-chain API for secure communication between blockchains. It operates in a permissionless, modular world, allowing anyone to connect any chain, supporting various virtual machines and providing customizable security options for interchain applications.",
+        "shariah_status": "QUESTIONABLE",
+        "source": "www.sharlife.my"
+    },
+    {
+        "id": 682,
+        "ticker": "BMT",
+        "project_name": "(Bubblemaps)",
+        "description": "Bubblemaps is an innovative crypto analytics project that visualizes complex blockchain data using interactive “bubble maps.” It helps users understand token distributions, wallet connections, and suspicious on-chain activity through an intuitive visual interface.",
+        "shariah_status": "HALAL",
+        "source": "crypoislam.t.me"
     }
 ]
