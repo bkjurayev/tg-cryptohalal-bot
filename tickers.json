@@ -869,13 +869,6 @@
         "source": "www.cryptohalal.cc"
     },
     {
-        "id": 123,
-        "ticker": "TAO",
-        "project_name": "(Bittensor)",
-        "shariah_status": "HALAL",
-        "source": "www.sharlife.my"
-    },
-    {
         "id": 124,
         "ticker": "RNDR",
         "project_name": "(Render Token)",
@@ -1614,13 +1607,6 @@
         "source": "www.sharlife.my"
     },
     {
-        "id": 235,
-        "ticker": "JUP",
-        "project_name": "(Jupiter)",
-        "shariah_status": "Sharlife: HALAL🟢 \nCryptoIslam: QUESTIONABLE🟠",
-        "source": "@hukmcrypto_bot"
-    },
-    {
         "id": 240,
         "ticker": "ZIL",
         "project_name": "(Zilliqa)",
@@ -1736,13 +1722,6 @@
         "project_name": "(Axelar)",
         "shariah_status": "HALAL",
         "source": "CryptoIslam "
-    },
-    {
-        "id": 257,
-        "ticker": "LAVA",
-        "project_name": "(Lava Network)",
-        "shariah_status": "HALAL",
-        "source": "www.sharlife.my"
     },
     {
         "id": 258,
@@ -2075,13 +2054,6 @@
         "source": "CryptoIslam"
     },
     {
-        "id": 307,
-        "ticker": "COTI",
-        "project_name": "(Coti)",
-        "shariah_status": "HARAM",
-        "source": "www.cryptohalal.cc"
-    },
-    {
         "id": 308,
         "ticker": "BIT",
         "project_name": "(BitDAO)",
@@ -2377,12 +2349,6 @@
         "shariah_status": "HALAL"
     },
     {
-        "id": 353,
-        "ticker": "NTRN",
-        "project_name": "(Neutron)",
-        "shariah_status": "QUESTIONABLE"
-    },
-    {
         "id": 354,
         "ticker": "UTK",
         "project_name": "(xMoney)",
@@ -2540,13 +2506,6 @@
         "project_name": "(Radworks\/Radicle)",
         "shariah_status": "HALAL",
         "source": "www.cryptohalal.cc"
-    },
-    {
-        "id": 380,
-        "ticker": "BNT",
-        "project_name": "(Bancor)",
-        "shariah_status": "HARAM",
-        "source": "CryptoIslam"
     },
     {
         "id": 381,
@@ -2892,13 +2851,6 @@
         "project_name": "(Open Campus)",
         "shariah_status": "HALAL",
         "source": "www.cryptohalal.cc"
-    },
-    {
-        "id": 430,
-        "ticker": "ORBS",
-        "project_name": "(Orbs)",
-        "shariah_status": "HARAM",
-        "source": "www.cryptohalal.cc, www.sharlife.my"
     },
     {
         "id": 431,
@@ -3790,14 +3742,6 @@
         "id": 556,
         "ticker": "PIRATE",
         "project_name": "(Pirate Nation)",
-        "description": "",
-        "shariah_status": "HALAL",
-        "source": "www.sharlife.my"
-    },
-    {
-        "id": 557,
-        "ticker": "S",
-        "project_name": "(Sonic)",
         "description": "",
         "shariah_status": "HALAL",
         "source": "www.sharlife.my"
@@ -4791,7 +4735,7 @@
         "ticker": "HYPER",
         "project_name": "(Hyperlane)",
         "description": "Hyperlane is a platform for developers building the interchain universe, offering an on-chain API for secure communication between blockchains. It operates in a permissionless, modular world, allowing anyone to connect any chain, supporting various virtual machines and providing customizable security options for interchain applications.",
-        "shariah_status": "QUESTIONABLE",
+        "shariah_status": "HALAL",
         "source": "www.sharlife.my"
     },
     {
