@@ -2,3 +2,4 @@
 /template
 .idea
 users.json
+.env
