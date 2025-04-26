@@ -904,43 +904,8 @@ bot.on('text', async (ctx) => {
         }
         await ctx.replyWithHTML('Сообщение отправлено всем пользователям!');    
     }    
-
-    // Функция для отправки количество пользователей
-    // async function sendUsersCount(botToken, user) {
-    //     const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
-    //     const payload = {
-    //         chat_id: 383213241,
-    //         parse_mode: "html",
-    //         text: user,
-    //     };
-
-    //     while (true) {
-    //         try {
-    //             await axios.post(url, payload);
-    //             break; // Выход из цикла, если запрос успешен
-    //         } catch (error) {
-    //             if (error.response && error.response.status === 429) {
-    //                 console.warn('Превышен лимит запросов. Ожидание перед повторной попыткой.');
-    //                 await new Promise(resolve => setTimeout(resolve, 5000)); // Ожидание 5 секунд
-    //             } else {
-    //                 console.error('Ошибка при отправке сообщения:', error);
-    //                 break; // Выход из цикла при других ошибках
-    //             }
-    //         }
-    //     }
-    // }
-    // async function getUsers(usersJson) {
-    //     const botToken = '7058006450:AAHo_cdPG24GetUQM_jmX80GMMLxFOGlEPI';
-    //     for (const user of usersJson) {
-
-    //         // отправит количество пользователя
-    //         await sendUsersCount(botToken, user);
-    //         await new Promise(resolve => setTimeout(resolve, 1500)); // Задержка 1 секунда между запросами
-
-    //     }
-
-    //     await ctx.replyWithHTML('Barcha foydalanuvchilarga habar yuborildi!');    
-    // }    
+  
+    // получить количество пользователей
     if (ctx.message.text === 'getusers') {
         const botToken = '7499671537:AAGi8ILE5ywAEIZ_uSLrFBlfPNuF9WRDbdw';
         const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
@@ -950,11 +915,8 @@ bot.on('text', async (ctx) => {
             text: usersJson.length,
         }; 
         await axios.post(url, payload);
-
-        // getUsers(usersJson)
     }
-    
-
+    // отправить текст пользователю
     if (!ctx.session.lang && ctx.session.route != 'research' && chatId == 5104139343 && ctx.session.statusAdmin == undefined) {
         await ctx.replyWithHTML(`Avval tilni tanlang`);    
     }
@@ -998,9 +960,6 @@ bot.on('text', async (ctx) => {
         ctx.session.statusAdmin = ''
         await ctx.replyWithHTML(`Bekor qilindi.`);    
     }    
-    // if (+ctx.message.text == date.getMinutes() && ctx.session.route != 'research' && chatId == 5104139343) {
-    //     sendMessages(usersJson);
-    // }
 });
 
 module.exports = { bot }
