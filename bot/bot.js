@@ -295,61 +295,6 @@ async function articlesMessageBuilder(ctx) {
     } catch (error) {
         console.log('Error while slecting', error);
     }
-
-    // const bigtexts = {
-    //     'uz': "Арбитраж савдоси шаръий ҳукмига боғлиқ мақолани қўйидаги линк орқали ўқиб чиқинг: \nhttps://telegra.ph/Arbitrage-savdosining-shariy-hukmi-07-29",
-    //     'ru': "Статья - о дозволенности арбитража криптовалют: \nhttps://telegra.ph/Article-on-the-halal-of-arbitrage-07-29",
-    //     'en': "Check out the Sharlife article dedicated to the topic of arbitrage: \nhttps://sharlife.my/article/content/is-arbitrage-trading-halal ",
-    //     'sa': "اطلع على مقال شارلايف المخصص لموضوع التحكيم: \nhttps://sharlife.my/article/content/is-arbitrage-trading-halal ",
-    // }
-    // const bigtexts2 = {
-    //     'uz': "'Крипто-лойиҳалар орасидаги ҳамкорлик лойиҳанинг шубҳали бўлишига сабаб бўладими' номлик мақолани ўқиб чиқинг: \nhttps://telegra.ph/ArticleSharlifemyuz-09-03",
-    //     'ru': "Ознакомьтесь со статьей о влиянии партнерств между криптопроектами на их соответствие халяльности: \nhttps://telegra.ph/ArticleSharlifemy-09-03",
-    //     'en': "Read the article about the impact of partnerships between crypto projects on their compliance with halal principles: \nhttps://sharlife.my/article/content/How_Halal_and_Haram_Crypto_Partnerships_Affect_Shariah_Compliance",
-    //     'sa': "Read the article about the impact of partnerships between crypto projects on their compliance with halal principles: \nhttps://sharlife.my/article/content/How_Halal_and_Haram_Crypto_Partnerships_Affect_Shariah_Compliance",
-    // }
-    // const bigtexts3 = {
-    //     'uz': "'Нима учун фьючерс ва маржа савдолари ҳаром ҳисобланади' номли мақолани қўйидаги линк орқали ўқиб чиқишингиз мумкин: \nhttps://telegra.ph/Article2Sharlifemyuz-09-03",
-    //     'ru': "Почему маржинальная торговля и торговля с использованием кредитного плеча считаются харам? \nhttps://telegra.ph/Article2sharlifemy-09-03",
-    //     'en': "Why is Leverage and Margin Trading Considered Haram? \nhttps://sharlife.my/article/content/why-is-leverage-and-margin-trading-considered-haram",
-    //     'sa': "Why is Leverage and Margin Trading Considered Haram? \nhttps://sharlife.my/article/content/why-is-leverage-and-margin-trading-considered-haram",
-    // }
-    // const bigtexts4 = {
-    //     'uz': "Мем-токенларни Сотиб Олишдан Эҳтиёт бўлинг \nhttps://telegra.ph/Avoid-Buying-Meme-Coins---SharLifemy-09-03",
-    //     'ru': "Избегайте Покупки Мем-монет \nhttp://www.telegra.ph/Hukm-mem-koinov-Sharlife-07-08",
-    //     'en': "Avoid Buying Meme Coins \nhttps://sharlife.my/article/content/avoid-buying-meme-coins",
-    //     'sa': "Avoid Buying Meme Coins \nhttps://sharlife.my/article/content/avoid-buying-meme-coins",
-    // }
-    // const bigtexts5 = {
-    //     'uz': "Криптовалюта аирдропи ҳалолми? \nhttps://telegra.ph/Is-Cryptocurrency-Airdrop-Halal-08-09",
-    //     'ru': "Является ли раздача криптовалюты халяльной? (Аирдропы) \nhttps://telegra.ph/Is-Cryptocurrency-Airdrop-Halal-07-29",
-    //     'en': "Is Cryptocurrency Airdrop Halal? \nhttps://sharlife.my/article/content/is-cryptocurrency-airdrop-halal",
-    //     'sa': "Is Cryptocurrency Airdrop Halal? \nhttps://sharlife.my/article/content/is-cryptocurrency-airdrop-halal",
-    // }
-    // const bigtext = bigtexts[lang];
-    // const bigtext2 = bigtexts2[lang];
-    // const bigtext3 = bigtexts3[lang];
-    // const bigtext4 = bigtexts4[lang];
-    // const bigtext5 = bigtexts5[lang];
-
-    // // Define the inline keyboard markup based on the language
-    // const buttonLabels = {
-    //     'uz': '🔙 Orqaga',
-    //     'ru': '🔙 Назад',
-    //     'en': '🔙 Back',
-    //     'sa': '🔙 خلف',
-    // };
-    // const buttonText = buttonLabels[lang];
-
-    // try {
-    //     await ctx.replyWithHTML(bigtext)
-    //     await ctx.replyWithHTML(bigtext2)
-    //     await ctx.replyWithHTML(bigtext3)
-    //     await ctx.replyWithHTML(bigtext4)
-    //     await ctx.replyWithHTML(bigtext5)
-    // } catch (error) {
-    //     console.log('Error while showing article', error);
-    // }
 }
 // Секшин по академии
 bot.action('arbitraj', async (ctx) => {
@@ -860,7 +805,7 @@ bot.on('text', async (ctx) => {
 
     // Функция для отправки сообщения с задержкой и обработкой ошибок
     async function sendMessage(user, botToken) {
-        const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
+        const url = `https://api.telegram.org/bot${process.env.TOKEN}/sendMessage`;
         const payload = {
             chat_id: user.chatId,
             parse_mode: "html",
@@ -885,7 +830,6 @@ bot.on('text', async (ctx) => {
     }
     // Функция для отправки сообщений с задержкой между запросами
     async function sendMessagesUz(usersJson) {
-        const botToken = '7499671537:AAGi8ILE5ywAEIZ_uSLrFBlfPNuF9WRDbdw';
         for (const user of usersJson) {
             if (user.language == 'uz') {
                 await sendMessage(user, botToken);
@@ -895,7 +839,6 @@ bot.on('text', async (ctx) => {
         await ctx.replyWithHTML('Barcha foydalanuvchilarga habar yuborildi!');    
     }    
     async function sendMessagesRu(usersJson) {
-        const botToken = '7499671537:AAGi8ILE5ywAEIZ_uSLrFBlfPNuF9WRDbdw';
         for (const user of usersJson) {
             if (user.language == 'ru') {
                 await sendMessage(user, botToken);
@@ -907,23 +850,22 @@ bot.on('text', async (ctx) => {
   
     // получить количество пользователей
     if (ctx.message.text === 'getusers') {
-        const botToken = '7499671537:AAGi8ILE5ywAEIZ_uSLrFBlfPNuF9WRDbdw';
-        const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
+        const url = `https://api.telegram.org/bot${process.env.TOKEN}/sendMessage`;
         const payload = {
-            chat_id: 5104139343,
+            chat_id: process.env.ADMIN_ID,
             parse_mode: "html",
             text: usersJson.length,
         }; 
         await axios.post(url, payload);
     }
     // отправить текст пользователю
-    if (!ctx.session.lang && ctx.session.route != 'research' && chatId == 5104139343 && ctx.session.statusAdmin == undefined) {
+    if (!ctx.session.lang && ctx.session.route != 'research' && chatId == process.env.ADMIN_ID && ctx.session.statusAdmin == undefined) {
         await ctx.replyWithHTML(`Avval tilni tanlang`);    
     }
-    if (ctx.message.text == 'senduz' && ctx.session.lang && ctx.session.route != 'research' && chatId == 5104139343 && ctx.session.statusAdmin == undefined) {
+    if (ctx.message.text == 'senduz' && ctx.session.lang && ctx.session.route != 'research' && chatId == process.env.ADMIN_ID && ctx.session.statusAdmin == undefined) {
         ctx.session.statusAdmin = 'senduz'
         await ctx.replyWithHTML(`Textni kiriting:`);    
-    } else if (ctx.session.lang && ctx.session.route != 'research' && chatId == 5104139343 && ctx.session.statusAdmin == 'senduz' && ctx.message.text != 'yes' && ctx.message.text != 'no') {
+    } else if (ctx.session.lang && ctx.session.route != 'research' && chatId == process.env.ADMIN_ID && ctx.session.statusAdmin == 'senduz' && ctx.message.text != 'yes' && ctx.message.text != 'no') {
         ctx.session.statusAdmin = 'gettextuz'
         ctx.session.textforuser = ctx.message.text 
         await ctx.replyWithHTML(`Text quyidagi ko'rinishga ega:`);    
@@ -931,10 +873,10 @@ bot.on('text', async (ctx) => {
         await ctx.replyWithHTML(`Tasdiqlash uchun "yes" yoki "no" so'zini kiriting`);    
         isSendSmsTest = true
     }   
-    if (ctx.message.text == 'sendru' && ctx.session.lang && ctx.session.route != 'research' && chatId == 5104139343 && ctx.session.statusAdmin == undefined) {
+    if (ctx.message.text == 'sendru' && ctx.session.lang && ctx.session.route != 'research' && chatId == process.env.ADMIN_ID && ctx.session.statusAdmin == undefined) {
         ctx.session.statusAdmin = 'sendru'
         await ctx.replyWithHTML(`Введите текст:`);    
-    } else if (ctx.session.lang && ctx.session.route != 'research' && chatId == 5104139343 && ctx.session.statusAdmin == 'sendru' && ctx.message.text != 'yes' && ctx.message.text != 'no') {
+    } else if (ctx.session.lang && ctx.session.route != 'research' && chatId == process.env.ADMIN_ID && ctx.session.statusAdmin == 'sendru' && ctx.message.text != 'yes' && ctx.message.text != 'no') {
         ctx.session.statusAdmin = 'gettextru'
         ctx.session.textforuser = ctx.message.text 
         await ctx.replyWithHTML(`Текст выглядит так:`);    
@@ -943,7 +885,7 @@ bot.on('text', async (ctx) => {
         isSendSmsTest = true
     }   
 
-    if (ctx.message.text == 'yes' && ctx.session.statusAdmin.includes('gettext') && ctx.session.lang && ctx.session.route != 'research' && chatId == 5104139343) {
+    if (ctx.message.text == 'yes' && ctx.session.statusAdmin.includes('gettext') && ctx.session.lang && ctx.session.route != 'research' && chatId == process.env.ADMIN_ID) {
         if (ctx.session.statusAdmin == 'gettextuz') {
             await ctx.replyWithHTML(`Quyidagi ko'rinishda jo'natildi: \n\n`);    
             await ctx.replyWithHTML(ctx.session.textforuser);  
@@ -956,7 +898,7 @@ bot.on('text', async (ctx) => {
         }
         ctx.session.statusAdmin = ''
     }    
-    if (ctx.message.text == 'no' && ctx.session.statusAdmin.includes('gettext') && ctx.session.lang && ctx.session.route != 'research' && chatId == 5104139343) {
+    if (ctx.message.text == 'no' && ctx.session.statusAdmin.includes('gettext') && ctx.session.lang && ctx.session.route != 'research' && chatId == process.env.ADMIN_ID) {
         ctx.session.statusAdmin = ''
         await ctx.replyWithHTML(`Bekor qilindi.`);    
     }    
